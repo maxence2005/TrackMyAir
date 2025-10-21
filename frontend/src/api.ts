@@ -88,8 +88,6 @@ export const getAllAirlines = () =>
 export const compareAirlinesNetworks = (id1: number, id2: number) =>
   axios.get(`${API_URL}/airlines/compare/${id1}/${id2}`);
 
-export const getAirlineRouteCounts = () =>
-  axios.get<{ airline: string; count: number }[]>(`${API_URL}/airlines/counts`);
 
 export const getTopAirlinesByCoverage = () =>
   axios.get<{ airline: string; coverage: number }[]>(`${API_URL}/airlines/top-coverage`);

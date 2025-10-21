@@ -58,14 +58,14 @@ export class ExploreService {
   }
 
   // 4. Mettre à jour une compagnie
-  static async updateAirlineName(airline_id: number, newName: string) {
+  static async updateAirlineName(airline_id: number, name: string) {
     const session = driver.session();
     try {
       const result = await session.run(
         `MATCH (al:Airline {airline_id: $airline_id})
-         SET al.name = $newName
+         SET al.name = $name
          RETURN al`,
-        { airline_id, newName }
+        { airline_id, name }
       );
       return result.records[0]?.get('al')?.properties || null;
     } finally {

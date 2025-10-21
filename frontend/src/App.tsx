@@ -27,7 +27,6 @@ import {
   Airline,
   Route,
   compareAirlinesNetworks,
-  getAirlineRouteCounts,
   getRoutesByAirline
 } from './api';
 import './styles.css';

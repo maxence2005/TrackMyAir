@@ -2,7 +2,7 @@ import driver from '../config/neo4j';
 
 export class HubService {
 
-  // 1️⃣ Identifier les hubs (degré)
+  // Identifier les hubs (degré)
   static async getTopDegreeHubs(limit = 20) {
     const session = driver.session();
     try {
@@ -57,7 +57,7 @@ export class HubService {
     }
   }
 
-  // 2️⃣ Centralité de proximité (closeness)
+  // Centralité de proximité (closeness)
   static async getClosenessCentrality(limit = 20) {
     const session = driver.session();
     const graphName = 'airlineGraphCloseness';
@@ -104,7 +104,7 @@ export class HubService {
     }
   }
 
-  // 3️⃣ Centralité d'intermédiarité (betweenness)
+  // Centralité d'intermédiarité (betweenness)
   static async getBetweennessCentrality(limit = 20) {
     const session = driver.session();
     const graphName = 'airlineGraphBetweenness';
@@ -151,7 +151,7 @@ export class HubService {
     }
   }
 
-  // 4️⃣ Détection des communautés (Louvain)
+  // Détection des communautés (Louvain)
   static async getLouvainCommunities(limit = 20) {
     const session = driver.session();
     const graphName = 'airlineGraphLouvain';

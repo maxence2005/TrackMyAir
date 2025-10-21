@@ -2,7 +2,7 @@ import driver from '../config/neo4j';
 
 export class RouteService {
 
-  // 6️⃣ Routes depuis un aéroport (avec coordonnées)
+  //  Routes depuis un aéroport (avec coordonnées)
   static async getRoutesFromAirport(airport_id: number) {
     const session = driver.session();
     try {
@@ -41,7 +41,7 @@ export class RouteService {
     }
   }
 
-  // 7️⃣ Escales moyennes
+  // Escales moyennes
   static async getAverageStops() {
     const session = driver.session();
     try {
@@ -52,18 +52,24 @@ export class RouteService {
     }
   }
 
-  // 8️⃣ Chemin le plus court (escales) → format front identique à ton exemple
+   // Chemin le plus court (escales) → multi-étapes
   static async getShortestPathStops(start_id: number, end_id: number) {
     const session = driver.session();
     try {
       const result = await session.run(
         `
-        MATCH (start:Airport {airport_id: $start_id})-[:HAS_ROUTE]->(r:Route)<-[:HAS_ROUTE]-(end:Airport {airport_id: $end_id})
-        RETURN start.name AS from, start.latitude AS fromLatitude, start.longitude AS fromLongitude,
-              end.name AS to, end.latitude AS toLatitude, end.longitude AS toLongitude,
-              r.distance AS distance, r.stops AS stops
-        ORDER BY r.stops ASC
+        MATCH p = (start:Airport {airport_id: $start_id})-[:HAS_ROUTE*1..4]-(end:Airport {airport_id: $end_id})
+        WITH p, start, end, length(p) AS stops
+        ORDER BY stops ASC
         LIMIT 1
+        RETURN
+          start.name AS from,
+          start.latitude AS fromLatitude,
+          start.longitude AS fromLongitude,
+          end.name AS to,
+          end.latitude AS toLatitude,
+          end.longitude AS toLongitude,
+          stops
         `,
         { start_id, end_id }
       );
@@ -75,7 +81,6 @@ export class RouteService {
         to: r.get('to'),
         toLatitude: r.get('toLatitude'),
         toLongitude: r.get('toLongitude'),
-        distance: r.get('distance'),
         stops: r.get('stops')
       }));
     } finally {
@@ -83,19 +88,24 @@ export class RouteService {
     }
   }
 
-
-  // 9️⃣ Chemin le plus long (escales) → format front identique à ton exemple
+  // Chemin le plus long (escales) → multi-étapes
   static async getLongestPathStops(start_id: number, end_id: number) {
     const session = driver.session();
     try {
       const result = await session.run(
         `
-        MATCH (start:Airport {airport_id: $start_id})-[:HAS_ROUTE]->(r:Route)<-[:HAS_ROUTE]-(end:Airport {airport_id: $end_id})
-        RETURN start.name AS from, start.latitude AS fromLatitude, start.longitude AS fromLongitude,
-              end.name AS to, end.latitude AS toLatitude, end.longitude AS toLongitude,
-              r.distance AS distance, r.stops AS stops
-        ORDER BY r.stops DESC
+        MATCH p = (start:Airport {airport_id: $start_id})-[:HAS_ROUTE*1..4]-(end:Airport {airport_id: $end_id})
+        WITH p, start, end, length(p) AS stops
+        ORDER BY stops DESC
         LIMIT 1
+        RETURN
+          start.name AS from,
+          start.latitude AS fromLatitude,
+          start.longitude AS fromLongitude,
+          end.name AS to,
+          end.latitude AS toLatitude,
+          end.longitude AS toLongitude,
+          stops
         `,
         { start_id, end_id }
       );
@@ -107,7 +117,6 @@ export class RouteService {
         to: r.get('to'),
         toLatitude: r.get('toLatitude'),
         toLongitude: r.get('toLongitude'),
-        distance: r.get('distance'),
         stops: r.get('stops')
       }));
     } finally {
@@ -115,19 +124,25 @@ export class RouteService {
     }
   }
 
-
-  // 🔟 Chemin le plus court (distance totale) → coordonnées incluses
+  // Chemin le plus court (distance totale) → multi-étapes
   static async getShortestPathDistance(start_id: number, end_id: number) {
     const session = driver.session();
     try {
       const result = await session.run(
         `
-        MATCH (start:Airport {airport_id: $start_id})-[:HAS_ROUTE]->(r:Route)<-[:HAS_ROUTE]-(end:Airport {airport_id: $end_id})
-        RETURN start.name AS from, start.latitude AS fromLatitude, start.longitude AS fromLongitude,
-              end.name AS to, end.latitude AS toLatitude, end.longitude AS toLongitude,
-              r.distance AS distance, r.stops AS stops
-        ORDER BY r.distance ASC
+        MATCH p = (start:Airport {airport_id: $start_id})-[:HAS_ROUTE*1..4]-(end:Airport {airport_id: $end_id})
+        WITH p, start, end, reduce(totalDistance = 0, r IN relationships(p) | totalDistance + r.distance) AS distance
+        ORDER BY distance ASC
         LIMIT 1
+        RETURN
+          start.name AS from,
+          start.latitude AS fromLatitude,
+          start.longitude AS fromLongitude,
+          end.name AS to,
+          end.latitude AS toLatitude,
+          end.longitude AS toLongitude,
+          distance,
+          length(p) AS stops
         `,
         { start_id, end_id }
       );
@@ -147,18 +162,25 @@ export class RouteService {
     }
   }
 
-  // 1️⃣1️⃣ Chemin le plus long (distance) → coordonnées incluses
+  // Chemin le plus long (distance totale) → multi-étapes
   static async getLongestPathDistance(start_id: number, end_id: number) {
     const session = driver.session();
     try {
       const result = await session.run(
         `
-        MATCH (start:Airport {airport_id: $start_id})-[:HAS_ROUTE]->(r:Route)<-[:HAS_ROUTE]-(end:Airport {airport_id: $end_id})
-        RETURN start.name AS from, start.latitude AS fromLatitude, start.longitude AS fromLongitude,
-              end.name AS to, end.latitude AS toLatitude, end.longitude AS toLongitude,
-              r.distance AS distance, r.stops AS stops
-        ORDER BY r.distance DESC
+        MATCH p = (start:Airport {airport_id: $start_id})-[:HAS_ROUTE*1..4]-(end:Airport {airport_id: $end_id})
+        WITH p, start, end, reduce(totalDistance = 0, r IN relationships(p) | totalDistance + r.distance) AS distance
+        ORDER BY distance DESC
         LIMIT 1
+        RETURN
+          start.name AS from,
+          start.latitude AS fromLatitude,
+          start.longitude AS fromLongitude,
+          end.name AS to,
+          end.latitude AS toLatitude,
+          end.longitude AS toLongitude,
+          distance,
+          length(p) AS stops
         `,
         { start_id, end_id }
       );
@@ -178,7 +200,8 @@ export class RouteService {
     }
   }
 
-  // 1️⃣2️⃣ Supprimer les aéroports isolés
+
+  // Supprimer les aéroports isolés
   static async deleteIsolatedAirports() {
     const session = driver.session();
     try {

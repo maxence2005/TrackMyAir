@@ -36,8 +36,8 @@ export class ExploreController {
 
   static async updateAirline(req: Request, res: Response) {
     try {
-      const { airline_id, newName } = req.body;
-      const updated = await ExploreService.updateAirlineName(airline_id, newName);
+      const { airline_id, name } = req.body;
+      const updated = await ExploreService.updateAirlineName(airline_id, name);
       if (!updated) return res.status(404).json({ message: 'Compagnie non trouvée' });
       res.json(updated);
     } catch (err) {
