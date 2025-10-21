@@ -1,0 +1,6162 @@
+airline_id,name
+1,Private flight
+2,135 Airways
+3,1Time Airline
+4,2 Sqn No 1 Elementary Flying Training School
+5,213 Flight Unit
+6,223 Flight Unit State Airline
+7,224th Flight Unit
+8,247 Jet Ltd
+9,3D Aviation
+10,40-Mile Air
+11,4D Air
+12,611897 Alberta Limited
+13,Ansett Australia
+14,Abacus International
+15,Abelag Aviation
+16,Army Air Corps
+17,Aero Aviation Centre Ltd.
+18,Aero Servicios Ejecutivos Internacionales
+19,Aero Biniza
+20,Aero Albatros
+21,Aigle Azur
+22,Aloha Airlines
+23,Alaska Island Air
+24,American Airlines
+25,Aviation Management Corporation
+26,Atlantis Airlines (USA)
+27,Aerovista Airlines
+28,Asiana Airlines
+29,Askari Aviation
+30,Australia Asia Airlines
+31,Astro Air International
+32,Afriqiyah Airways
+33,Afrinat International Airlines
+34,Afric'air Express
+35,Allegiant Air
+36,Angus Aviation
+37,Artem-Avia
+38,African Business and Transportations
+39,Aban Air
+40,Aerial Oy
+41,Abakan-Avia
+42,ABSA - Aerolinhas Brasileiras
+43,Abaet
+44,Alberta Citylink
+45,APSA Colombia
+46,Aerovias Bueno
+47,Aerocenter
+48,Antrak Air
+49,Airborne Express
+50,ABX Air
+51,ATA Brasil
+52,Avcard Services
+53,Academy Airlines
+54,Aero Comondu
+55,Astral Aviation
+56,Air Cess
+57,Air Aurora
+58,Air Cargo Transportation System
+59,Air Charter Service
+60,Aero Asia International
+61,Air Charters
+62,Air Togo
+63,Air Somalia
+64,Atlas Cargo Lines
+65,Airservices Australia
+66,Advance Leasing Company
+67,Aztec Worldwide Airlines
+68,Air Tindi
+69,Antonov Airlines
+70,Air Atlantic Dominicana
+71,Advanced Air Co.
+72,Ada Air
+73,Aerea Flying Training Organization
+74,Audeli Air
+75,Abicar
+76,ADC Airlines
+77,Aero Dynamics
+78,Aerolineas Dominicanas
+79,Aerodienst GmbH
+80,Aerodiplomatic
+81,Aerodyne
+82,Avion Taxi
+83,Adria Airways
+84,Aviones de Sonora
+85,Air Dorval
+86,Airdeal Oy
+87,Advance Air Charters
+88,Air Andaman
+89,Anderson Aviation
+90,Air Europa
+91,Air Southwest Ltd.
+92,Air Special
+93,Aero Benin
+94,Aerocesar
+95,Aerotrans Airlines
+96,Aegean Airlines
+97,Aerofumigaciones Sam
+98,Aeroexpreso Interamericano
+99,Air Express
+100,Aerocon
+101,Aero Madrid
+102,Aeroenlaces Nacionales
+103,Aeroservicios Ejecutivos Del Occidente
+104,Aerotec
+105,Air Atlantique
+106,Air Europe
+107,Air Alma
+108,Air Express
+109,Alaska Central Express
+110,ACES Colombia
+111,Aeronautical Radio of Thailand
+112,Astraeus
+113,Aeroventas
+114,Aerosvit Airlines
+115,Airway Express
+116,Air Italy
+117,Aerial Transit Company
+118,Alfa Air
+119,American Falcon
+120,Alliance Airlines
+121,Air Universal
+122,Auvia Air
+123,African West Air
+124,Airfast Indonesia
+125,Ariana Afghan Airlines
+126,Air Fecteau
+127,Africaone
+128,Alliance
+129,Africa Air Links
+130,Aeroflot Russian Airlines
+131,Aero Empresa Mexicana
+132,Air Bosna
+133,Air Bravo
+134,Air Brasd'or
+135,Air 500
+136,Alba Servizi Aerotrasporti
+137,Air France
+138,Air Partner
+139,Air Caledonie International
+140,Air Caledonia
+141,Air Guam
+142,Air Gabon
+143,Air Data
+144,Air Afrique Vacancies
+145,Air Cargo America
+146,Air Salone
+147,Air-Angol
+148,Air Nigeria
+149,Air Cargo Carriers
+150,Air Samarkand
+151,Air Senegal International
+152,Air Sandy
+153,Air Namibia
+154,Air Intersalonika
+155,Air Anatolia
+156,Air Saigon
+157,Afrique Regional Airways
+158,Airfreight Express
+159,Africa Chartered Services
+160,Africa Freight Services
+161,Aeronaves Del Centro
+162,Air Service Gabon
+163,Arab Agricultural Aviation Company
+164,Atlantic Gulf Airlines
+165,Aerolitoral
+166,Algoma Airways
+167,Altagna
+168,Angola Air Charter
+169,Angola Air Charter
+170,AERFI Group
+171,Aerogala
+172,Amadeus Global Travel Distribution
+173,Angara Airlines
+174,Air Glaciers
+175,Aero Gambia
+176,Aviogenex
+177,Atlantic Coast Airlines
+178,Aero Barloz
+179,Aeroper
+180,Atlas Blue
+181,Aero Banobras
+182,Aero Flight Service
+183,Agrolet-Mci
+184,Air Alpha Greenland
+185,Azal Avia Cargo
+186,Airport Helicopter Basel
+187,Aeroservices Corporate
+188,Aspen Helicopters
+189,Aerochago Airlines
+190,Airplanes Holdings
+191,Air Hong Kong
+192,Aerochiapas
+193,Air Adriatic
+194,Air Viggi San Raffaele
+195,ABC Air Hungary
+196,Aeromist-Kharkiv
+197,Azerbaijan Airlines
+198,Avies
+199,Airbus Industrie
+200,Alpine Air Chile
+201,Air Integra
+202,ABC Aerolineas
+203,African Airlines International Limited
+204,African International Airways
+205,Alpine Air Express
+206,Alicante Internacional Airlines
+207,Aba Air
+208,Airblue
+209,Airmark Aviation
+210,Airlift International
+211,Airest
+212,Air Baffin
+213,Air Bandama
+214,Air Berlin
+215,Air Brousse
+216,Air Contractors
+217,Air Illinois
+218,Air India Limited
+219,Air Inter Gabon
+220,Air Bourbon
+221,Air Atlanta Icelandic
+222,Air Inuit
+223,Air Sureste
+224,Air Srpska
+225,Air Tahiti Nui
+226,Airvias S/A Linhas Aereas
+227,Aero Services Executive
+228,Atlantic Island Airways
+229,Aircruising Australia
+230,Aircrew Check and Training Australia
+231,Arkia Israel Airlines
+232,A J Services
+233,Aero JBR
+234,Aero Jet Express
+235,Avia Consult Flugbetriebs
+236,Ameristar Jet Charter
+237,A2 Jet Leasing
+238,Allied Air
+239,Air Jamaica
+240,Air One
+241,Air Sahara
+242,Air Malta
+243,Aeroejecutivo
+244,Aero Jets Corporativos
+245,Aeroejecutivos Colombia
+246,Amerijet International
+247,Air Jetsul
+248,ANA & JP Express
+249,Alpha Jet International
+250,Air Japan
+251,Ajet
+252,Air Korea Co. Ltd.
+253,Air Livonia
+254,Air BC
+255,Air Fret Senegal
+256,Air Jamahiriya Company
+257,Aktjubavia
+258,Arca Aerovias Colombianas Ltda.
+259,Anikay Air Company
+260,Akhal
+261,Aeromilenio
+262,Aklak Air
+263,Air Kiribati
+264,Alkan Air
+265,Angkor Airways
+266,Air Nippon Network Co. Ltd.
+267,AK Navigator LLC
+268,Aero Albatros
+269,Albion Aviation
+270,Aeroalas Colombia
+271,Allied Command Europe (Mobile Force)
+272,Aerotaxis Albatros
+273,American Flyers
+274,Aero Coach Aviation
+275,Atlantic Southeast Airlines
+276,ACM Air Charter
+277,Air Logistics
+278,Aerovallarta
+279,Air ALM
+280,Air Lincoln
+281,America West Airlines
+282,Air Wisconsin
+283,Aerotransporte de Carga Union
+284,Aero Taxis Cessna
+285,Arizona Express Airlines
+286,Tatarstan Airlines
+287,Allegheny Commuter Airlines
+288,Alpliner AG
+289,Altair Aviation (1986)
+290,Air Luxor STP
+291,Alas de Venezuela
+292,Alas Nacionales
+293,Alyeska Air Service
+294,Alta Flights (Charters) Ltd.
+295,Air Sunshine
+296,ATMA
+297,Aerolineas Medellin
+298,Ameriflight
+299,Air Libert
+300,Air Lithuania
+301,Air Minas Linhas A
+302,Alan Mann Helicopters Ltd.
+303,Air Maldives
+304,Aviation Amos
+305,Amerer Air
+306,Air Malawi
+307,Aeroputul International Marculesti
+308,Air Montenegro
+309,Air Montreal (Air Holdings Inc.)
+310,Aero Transporte S.A. (ATSA)
+311,Aeromedicare Ltd.
+312,Air Sicilia
+313,Air Specialties Corporation
+314,Air Muskoka
+315,ATA Airlines
+316,Air Macau
+317,AMC Airlines
+318,Air Midwest
+319,Air Seychelles
+320,Air Sofia
+321,AeroMéxico
+322,Air Ambar
+323,Amiya Airline
+324,All Nippon Airways
+325,Air Navigation And Trading Co. Ltd.
+326,Anglo Cargo
+327,Air Nostrum
+328,Air Niugini
+329,Air Arabia
+330,Air Canada
+331,Airport Bratsk
+332,Air Wings
+333,Air Baltic
+334,Alajnihah for Air Transport
+335,Air Atlantic (Nig) Limited
+336,Air Nippon
+337,Antares Airtransport
+338,Airnorth
+339,Aerol
+340,Andes Lineas Aereas
+341,Air North Charter - Canada
+342,Air Nevada
+343,AOM French Airlines
+344,Aviacion Del Noroeste
+345,Air New Zealand
+346,Avia Jaynar
+347,Aero Servicios Empresariales
+348,Alcon Servicios Aereos
+349,AVCOM
+350,Aero Vodochody
+351,Air One Executive
+352,Atair Pty Ltd.
+353,Aero VIP
+354,Aeromundo Ejecutivo
+355,Aerolinea Muri
+356,Astoria
+357,Aero Rent JSC
+358,Aeronord-Grup
+359,Aeroatlantico Colombia
+360,Angkor Airlines
+361,Aero Entreprise
+362,As
+363,Aeropiloto
+364,Aeroenlaces Nacionales
+365,Aerovis Airlines
+366,Avjet International (FZE)
+367,Aerovista Gulf Express
+368,Air Vegas
+369,Almaver
+370,Afro International Ent. Limited
+371,Alitalia Express
+372,Asia Overnight Express
+373,Air Tractor
+374,Aero Vision
+375,Aerotaxi Del Valle
+376,Air Park Aviation Ltd.
+377,Airpac Airlines
+378,Aeroservicios Monterrey
+379,Amapola Flyg AB
+380,Air People International
+381,Alpha Aviation
+382,ASA Pesada
+383,Air Print
+384,Atlantic Airlines
+385,Aerotransporte Petrolero
+386,Aero Flight
+387,ACM Aviation
+388,Aircompany Barcol
+389,All Charter Limited
+390,Appalachian Flying Service
+391,Airpac
+392,Aeropro
+393,Aerolineas Pacifico Atlantico
+394,Aspen Aviation
+395,Aeropuma
+396,Air Plan International
+397,Arrow Air
+398,Apex Air Cargo
+399,APA Internacional
+400,Aeroatlas
+401,Aquila Air Ltd.
+402,Air Queensland
+403,Aluminum Company Of America
+404,Aviones de Renta de Quintana Roo
+405,AirQuarius Aviation
+406,Aerodyne Charter Company
+407,Arik Air
+408,Avia Air N.V.
+409,Air Routing International Corp.
+410,Aerocondor
+411,Aires
+412,Aerolineas Argentinas
+413,Arrowhead Airways
+414,Aero Vics
+415,Aerojet de Costa Rica
+416,Antillana De Navegacion Aerea
+417,Aeroservicios De San Luis
+418,Aerosuper
+419,Aero Link Air Services S.L.
+420,Airlec - Air Aquitaine Transport
+421,Aeromarket Express
+422,Arrow Aviation Ltd.
+423,RPA-Aviataxi Ltd.
+424,Air Klaipeda
+425,Armstrong Air
+426,Air Armenia
+427,Aeromet Servicios
+428,Aerotal Aerolineas Territoriales de Colombia Ltda
+429,Aravco Ltd.
+430,Aria
+431,Air Xpress
+432,Airline Alania
+433,Air Tchad
+434,Aerloineas de Techuacan
+435,Aerotransportes Huitzilin
+436,Aero Transportes Del Humaya
+437,Argosy Airways
+438,Air Resorts
+439,Alaska Airlines
+440,Air-Spray 1967 Ltd.
+441,Air Star Corporation
+442,Air Sinai
+443,Airstars
+444,Air Schefferville
+445,African Star Airways (PTY) Ltd.
+446,Aerosun International
+447,Air Satellite
+448,Awesome Flight Services (PTY) Ltd.
+449,Air and Sea Transport
+450,Aero Slovakia
+451,Airsprint
+452,Atlantic Southeast Airlines
+453,All Star Airlines
+454,Air Class
+455,Aerlineas Del Oeste
+456,Aviones Are
+457,Air Nepal International
+458,Air Napier
+459,Air Taxi & Cargo
+460,Arrow Panama
+461,Astravia-Bissau Air Transports Ltd.
+462,Astrakhan Airlines
+463,Air Transport Association
+464,Atlantair Ltd.
+465,Air Tanzania
+466,Aerotours Dominicana
+467,Atlantis Transportation Services
+468,Aerotrans Airline
+469,Air Charter World
+470,Air Burkina
+471,Air Travel Corp.
+472,Aero-Tropics Air Services
+473,Air Traffic GmbH
+474,AeroTACA
+475,Aerocentral
+476,Airlines Of Tasmania
+477,Air Saint Pierre
+478,Air Transport International
+479,ASTRAL Colombia - Aerotransportes Especiales Ltda.
+480,Air Transport Schiphol
+481,Aeroferinco
+482,Aero Taxis Y Servicios Alfe
+483,Avialesookhrana
+484,Africair Service
+485,Atlas Airlines
+486,Air Transport Service
+487,Aer Turas
+488,Atlant Aerobatics Ltd.
+489,Avanti Air
+490,Aero Trades (Western) Ltd.
+491,Austrian Airlines
+492,Air Southwest
+493,Augsburg Airways
+494,Air Corporate
+495,Aviastar-Tu
+496,AirBridge Cargo
+497,ATUR
+498,ATESA Aerotaxis Ecuatorianos
+499,Austin Express
+500,Audi Air
+501,Augusta Air Luftfahrtunternehmen
+502,Abu Dhabi Amiri Flight
+503,Aeroflot-Nord
+504,Air Atlantic Uruguay
+505,Aviones Unidos
+506,Avia Business Group
+507,Aero Servicios Expecializados
+508,Aurigny Air Services
+509,Aus-Air
+510,Austral Lineas Aereas
+511,Aurora Aviation
+512,Air Uganda International Ltd.
+513,Aerolineas Uruguayas
+514,Australian Airlines
+515,Avianca - Aerovias Nacionales de Colombia
+516,Aviation Beaufort
+517,Alamo Aviacion
+518,Aviair Aviation Ltd.
+519,Air Falcon
+520,AV8 Helicopters
+521,Avia Traffic Company
+522,AV8 Helicopters
+523,Aviacion Ejecutiva Mexicana
+524,Air Vanuatu
+525,Aviation at Work
+526,Avcorp Registrations
+527,Alfa Aerospace
+528,Atlantic Airfreight Aviation
+529,Aerolift Company
+530,Aviation Services
+531,Active Aero Charter
+532,Avialsa T-35
+533,Asia Avia Airlines
+534,Avia Sud A
+535,Airvantage Incorporated
+536,Aviator Airways
+537,Aviapaslauga
+538,ASL
+539,Air Yugoslavia
+540,Airlink Zambia
+541,Agence Nationale des Aerodromes et de la Meteorologie
+542,Airbus Transport International
+543,Air Bangladesh
+544,Aviodetachment-28
+545,Aero BG
+546,Aerotaxis De La Bahia
+547,Air Mediterranee
+548,Aviaservice
+549,Aerolineas De El Salvador
+550,Swaziland Airlink
+551,Air Moorea
+552,Aerovaradero
+553,Air Valencia
+554,Airways International
+555,Airwork
+556,Australian Wetleasing
+557,Air Niamey
+558,Awood Air Ltd.
+559,Arctic Wings And Rotors Ltd.
+560,Auo Airclub AIST-M
+561,Arab Wings
+562,Air West
+563,Aeroline GmbH
+564,Airwave Transport
+565,Air Wales
+566,Aeroway
+567,Air Caraïbes
+568,AirWest
+569,Air India Express
+570,Air Express
+571,Asian Express Airlines
+572,Aeromexhaga
+573,Aeron International Airlines
+574,African Express Airways
+575,Air Exel
+576,AirAsia
+577,Alexandair
+578,Aeromax
+579,Action Airlines (Action Air Charter)
+580,Alberni Airways
+581,Aerolineas Bonanza
+582,Aerobona
+583,Aboitiz Air
+584,Axel Rent
+585,Altus Airlines
+586,Aviaxess
+587,Avioimpex A.D.p.o.
+588,Axis Airways
+589,Aladia Airlines
+590,Aykavia Aircompany
+591,Airman
+592,Atlantic Airlines
+593,Awsaj Aviation Services
+594,Ayeet Aviation & Tourism
+595,Atlant-Soyuz Airlines
+596,Alitalia
+597,Azamat
+598,Arcus-Air Logistic
+599,Air Zermatt AG
+600,Azalhelikopter
+601,Africa One
+602,Aerocozumel
+603,Amaszonas
+604,Arizona Pacific Airways
+605,Aviacon Zitotrans Air Company
+606,Azimut
+607,Azov Avia Airlines
+608,Air Zimbabwe
+609,Aero Jomacha
+610,Air Memphis
+611,Air Memphis
+612,Air Marrakech Service
+613,Air Max Africa
+614,Arizona Airways
+615,Azza Transport
+616,Air Continental Inc
+617,Antanik-Air
+618,Air Newark
+619,Aircraft Support and Services
+620,Aerobanana
+621,Amako Airlines
+622,Aserca Airlines
+623,Afrique CArgo Service Senegal
+624,Angoservice
+625,Angel Airlines
+626,Angel Flight America
+627,Air Atonabee
+628,Aero Nova
+629,Amira Air
+630,Aero Express Intercontinental
+631,Advance Aviation Services
+632,Air Libya Tibesti
+633,Aerovic
+634,Airventure
+635,Aero Servicios
+636,Airvallee
+637,Aeromover
+638,Aerovias Ejecutivas
+639,Aero Servicio Pity
+640,Aero Copter
+641,Rossiya-Russian Airlines
+642,Air Pal
+643,Air Pullmantur
+644,Aviaexpress
+645,Aviones Para Servirle
+646,Avio Sluzba
+647,Air Scorpio
+648,Air Spirit
+649,Alatau Airlines
+650,Aviateca
+651,Aroostook Aviation
+652,Aeropycsa
+653,Association of Private Pilots of Kazakhstan
+654,The Amiri Flight
+655,Aero Services
+656,Ababeel Aviation
+657,Air Bashkortostan
+658,Ambulance Air Africa
+659,American Eagle Airlines
+660,Aeropuelche
+661,Aeroput
+662,Azzurra Air
+663,Airshop
+664,African Transport Trading and Investment Company
+665,AD Aviation
+666,Aero Costa Taxi Aereo
+667,Aerovitro
+668,Aerotaxi Villa Rica
+669,Aerovega
+670,Aerovilla
+671,Aerolineas Villaverde
+672,Aero Air
+673,Aero Ejecutivos
+674,Aero Industries Inc
+675,Aero Servicios Vanguardia
+676,Aero Taxi Los Valles
+677,Aero Vilamoura
+678,Aero Virel
+679,Aeronautical Radio Inc
+680,Aerovuelox
+681,Aeronaves TSM
+682,Air Ivoire
+683,Air Botswana
+684,Air-Rep
+685,Air Excel
+686,Air Evans
+687,Air Sorel
+688,Air Net Private Charter
+689,Air Executive Charter
+690,Air Foyle
+691,Air Midwest
+692,Air Tahiti
+693,Air Urga
+694,Air Vardar
+695,Air VIA
+696,Air Walser
+697,Aircompany Rosavia
+698,Aircraft Performance Group
+699,Airwaves Airlink
+700,Airways Corporation of New Zealand
+701,Airways
+702,Airwings oy
+703,Airkenya
+704,Air-Lift Associates
+705,Airtrans Ltd
+706,ARP 410 Airlines
+707,Auckland Regional Rescue Helicopter Trust
+708,Aurora Airlines
+709,Austro Aereo
+710,Aviation Partners
+711,Avialift Vladivostok
+712,Aviacion Comercial de America
+713,Aviast Air
+714,Aviation North
+715,Africa West
+716,Avient Air Zambia
+717,Aviazur
+718,Aviaprad
+719,Avirex
+720,Aviaexpress Aircompany
+721,AMR Services Corporation
+722,Airline Operations Services
+723,Airlines 400
+724,ATRAN Cargo Airlines
+725,Ameravia
+726,Angkor Air
+727,AVB-2004 Ltd
+728,ASECNA
+729,AT and T Aviation Division
+730,Avalair
+731,Averitt Air Charter
+732,Avensa
+733,Avolar Aerolineas
+734,Avstar Aviation
+735,AVESCA
+736,Aviaprom Enterprises
+737,Avia Trans Air Transport
+738,Aviostart AS
+739,Aviacao Transportes Aereos e Cargas
+740,Assistance Aeroportuaire de L'Aeroport de Paris
+741,American Flight Service Systems
+742,AASANA
+743,Australian air Express
+744,AMS Group
+745,Air Caraibes Atlantique
+746,Air China Cargo
+747,Aerovias Caribe
+748,Aerotaxi del Cabo
+749,Air Columbus
+750,Aero Cabo
+751,Air China
+752,Aerocardal
+753,Aero Condor Peru
+754,Aerotrans
+755,Airline Skol
+756,Aerofan
+757,ACEF
+758,Africa One
+759,Aero Calafia
+760,Air Cargo Belize
+761,Aero Clube Do Algarve
+762,Air Great Wall
+763,Aircompany Chaika
+764,Air Charter Services
+765,Air Charter Professionals
+766,Asia Continental Airlines
+767,Arctic Circle Air Service
+768,Aviation Charter Services
+769,Aerovias Castillo
+770,Aero Club De Portugal
+771,Air Care Alliance
+772,Aero Continente Dominicana
+773,Air Toronto
+774,Aquila Air
+775,Air Consul
+776,Allcanada Express
+777,ATS Private Company
+778,Air Corridor
+779,Air Central
+780,Air Cruzal
+781,Aerotransportes Corporativos
+782,Air Creebec
+783,Aero Charter and Transport
+784,Air Tenglong
+785,Aerlineas Centauro
+786,Aerocuahonte
+787,Air Chathams
+788,Air Marshall Islands
+789,Australian Customs Service
+790,Air One Cityliner
+791,Air Transport
+792,Access Air
+793,Aerocheyenne
+794,Air Algerie
+795,Aerovias DAP
+796,Air Alpha
+797,Air Niagara Express
+798,Aviation Defense Service
+799,Air Service Groningen
+800,Adam Air
+801,Astar Air Cargo
+802,Archer Aviation
+803,Aeromedica
+804,Aerodin
+805,Antinea Airlines
+806,Air Djibouti
+807,Air Dolomiti
+808,Aero Modelo
+809,Aerolineas Del Sur
+810,Aerodinamica de Monterrey
+811,Aeroservicios Dinamicos
+812,Aerotaxis Dosmil
+813,Aerodespachos De El Salvador
+814,Aeroynamics Malaga
+815,Aerodynamics Incorporated
+816,Aeroflot-Don
+817,Air Madrid
+818,Airways Flight Training
+819,Aeronaves Del Noreste
+820,Addis Air Cargo Services
+821,Aero Algarve
+822,Aex Air
+823,Aero Davinci International
+824,Aero Dynamics
+825,Aeroservicios Ecuatorianos
+826,Aero-Pyrenees
+827,Air Transport
+828,Aero Airlines
+829,Aero Ejecutivo De Baja California
+830,Air City
+831,Aero Ejecutivos RCG
+832,Aeronautica Castellana
+833,Aerolineas Comerciales
+834,Aerolineas Nacionales Del Ecuador
+835,Air Este
+836,Air Mana
+837,Aer Lingus
+838,Aeroservicios Ejecutivos Corporativos
+839,Alpi Eagles
+840,Arrendoora y Transportadora Aerea
+841,Eliossola
+842,Shenzhen Donghai Airlines
+843,Aeronaves Del Noroeste
+844,Airailes
+845,Aero Ermes
+846,Aero Transportes Empresariales
+847,Epps Air Service
+848,Aero Empresarial
+849,Air S
+850,Avianergo
+851,Aero Servicios Regiomontanos
+852,Aerosec
+853,Aeromaan
+854,Aerosaba
+855,Avitat
+856,Aerolineas Ejecutivas Del Sureste
+857,Aeronautica Le Esperanza
+858,ATTICO
+859,Aero Siete
+860,Air Atlanta Europe
+861,Air Evex
+862,Aeronautical Academy of Europe
+863,Air Exchange
+864,Atlantic Helicopters
+865,Argentine Air Force
+866,Air Fiji
+867,AF-Air International
+868,Aviation Data Systems
+869,Air Carriers
+870,Aerofrisco
+871,Alfa 4
+872,African Airlines
+873,African Medical and Research Foundation
+874,Aero Freight
+875,Aerosafin
+876,Air Finland
+877,Aerodata Flight Inspection
+878,Airfix Aviation
+879,Air Pacific
+880,Air Falcon
+881,Atlantic Airways
+882,Air Florida
+883,Air Fret De Mauritanie
+884,Avio Nord
+885,Aeroflota Del Noroeste
+886,Aero Fenix
+887,Ford Motor Company
+888,African Company Airlines
+889,Afrijet Airlines
+890,Afrika Aviation Handlers
+891,Afrique Chart'air
+892,Aerofreight Airlines
+893,Aereos Limited
+894,Air Affaires Tchad
+895,ABC Bedarsflug
+896,Air Iceland
+897,Air Philippines
+898,Aerogaucho
+899,Aero Business Charter
+900,Atlantic Airlines
+901,Aeronor
+902,Aerogem Cargo
+903,Aerovias del Golfo
+904,Aeronautica
+905,Air Georgian
+906,Aviance
+907,Air Ghana
+908,African International Transport
+909,Air Guinee Express
+910,Africa Airlines
+911,Air Gemini
+912,Aero Charter
+913,Aguilas Mayas Internacional
+914,Aerotaxis Guamuchil
+915,Aeroservicios Gama
+916,Amber Air
+917,Alberta Government
+918,Air Scotland
+919,Air Georgia
+920,Air Cargo Center
+921,Air Greenland
+922,Allegro
+923,Agroar - Trabalhos Aereos
+924,Aircompany Grodno
+925,Airlift Alaska
+926,Agrocentr-Avia
+927,Altin Havayolu Tasimaciligi Turizm Ve Ticaret
+928,Atlas Air
+929,Aerotaxi Grupo Tampico
+930,Aerotaxis de Aguascalientes
+931,Air Guyane
+932,Air Victoria Georgia
+933,Air D'Ayiti
+934,Air Comores International
+935,Air Taxi
+936,Aerohein
+937,Atlantic Air Lift
+938,Atlantic Airlines de Honduras
+939,Aviacion Ejecutiva De Hildago
+940,Air Haiti
+941,Al Rais Cargo
+942,Air-Invest
+943,Air Tahoma
+944,Air Nova
+945,Aero Homex
+946,Almiron Aviation
+947,Avinor
+948,Airlink Airways
+949,Air Horizon
+950,AC Insat-Aero
+951,Air Inter Cameroun
+952,Air Lift
+953,Aero Survey
+954,Aero Airline
+955,Airtime Charters
+956,Aerotaxis Cimarron
+957,Aero International
+958,Aeroingenieria
+959,Aeroservicios Intergrados de Norte
+960,Airpull Aviation
+961,Arvand Airlines
+962,Atlas Aviation Group
+963,Aram Airline
+964,Aria Tour
+965,Aerotaxi
+966,Avita-Servicos Aereos
+967,Aero Citro
+968,Air Executive
+969,Aviainvest
+970,Air Bagan
+971,Aerojal
+972,Airlink
+973,Ambjek Air Services
+974,Avfinity
+975,Alexandair
+976,Air Jamaica Express
+977,Air Swift Aviation
+978,Aerojobeni
+979,Atyrau Air Ways
+980,Aerosmith Aviation
+981,Arrendamiento de Aviones Jets
+982,Aero Juarez
+983,Air Canada Jazz
+984,Asia Aero Survey and Consulting Engineers
+985,Air Kirovograd
+986,Air Mach
+987,Air Kufra
+988,Arkhabay
+989,Aero Charter Krifka
+990,Air Kraft Mir
+991,Air Concorde
+992,Alexandria Airlines
+993,Afit
+994,Air South
+995,Atlasjet
+996,Air Mali International
+997,Aerokaluz
+998,Air Koryo
+999,Araiavia
+1000,AeroSucre
+1001,Air Kokshetau
+1002,Air Kissari
+1003,Aeronavigaciya
+1004,Alliance Avia
+1005,Av Atlantic
+1006,Air Astana
+1007,Aerovias De Lagos
+1008,Albanian Airlines
+1009,Albisa
+1010,Albatros Airways
+1011,Aerolineas Aereas Ejecutivas De Durango
+1012,Aerologic
+1013,Al-Donas Airlines
+1014,Aero Lider
+1015,Aleem
+1016,Aerolineas Ejecutivas
+1017,Air Alfa
+1018,Aero Control Air
+1019,Aerolaguna
+1020,Al Ahram Aviation
+1021,Alidaunia
+1022,Al-Dawood Air
+1023,American Aviation
+1024,Airlink Solutions
+1025,Air Solutions
+1026,Alliance Air
+1027,Aerolima
+1028,Alamia Air
+1029,Air Plus Argentina
+1030,Almaty Aviation
+1031,Aerolineas Mexicanas J S
+1032,Air Almaty
+1033,Air Almaty ZK
+1034,Aerolane
+1035,Airlink
+1036,Aerolineas Internacionales
+1037,Alok Air
+1038,Air Saint Louis
+1039,Alpine Aviation
+1040,Air Alps Aviation
+1041,Alrosa-Avia
+1042,Al Rida Airways
+1043,Aurela
+1044,Aerobusinessservice
+1045,Alsair
+1046,Aerotaxis Latinoamericanos
+1047,Alninati Aeronautics
+1048,Atlantis European Airways
+1049,Aliven
+1050,Aviavilsa
+1051,Air Luxor GB
+1052,Air Luxor
+1053,Apatas Air
+1054,Air Ban
+1055,Air Lazur
+1056,Aerodromo De La Mancha
+1057,Air Mauritius
+1058,Avag Air
+1059,Air Manas
+1060,Airjet Exploracao Aerea De Carga
+1061,Aeriantur-M
+1062,Air Mercia
+1063,Air Medical
+1064,Aerolineas Marcos
+1065,Atlantic Aero and Mid-Atlantic Freight
+1066,Air Madagascar
+1067,Aerosud Charter
+1068,Air Meridan
+1069,Aero McFly
+1070,Asia Pacific Airlines
+1071,Aeromagar
+1072,Aero Premier De Mexico
+1073,Air Moldova
+1074,Amal Airlines
+1075,Air Mali
+1076,Air Madeleine
+1077,Aermarche
+1078,Air Alsie
+1079,Aviation Company Meridian
+1080,AMP Incorporated
+1081,Airmax
+1082,Aerolineas Amanecer
+1083,Aero Mongolia
+1084,Air Monarch Cargo
+1085,Aeropublicitaria De Angola
+1086,Aerolineas De Morelia
+1087,Air Plus Comet
+1088,Aeromexpress
+1089,Air ITM
+1090,Aeromorelos
+1091,Aerocharter
+1092,Abas
+1093,Air Mauritanie
+1094,Air Cairo
+1095,Air Sport
+1096,Aeromas
+1097,Aerol
+1098,Aero-Kamov
+1099,Aerotaxis Metropolitanos
+1100,Aeromet Linea Aerea
+1101,Air Metack
+1102,Air Montegomery
+1103,Aerotaxi Mexicano
+1104,Aero Yaqui Mayo
+1105,AVC Airlines
+1106,Aerovias Montes Azules
+1107,Aeroland Airways
+1109,Astair
+1110,Albarka Air
+1111,ACA-Ancargo Air Sociedade de Transporte de Carga Lda
+1112,Aero Servicios de Nuevo Laredo
+1113,Angoavia
+1114,Aeroni
+1115,Aeroejecutiva Nieto
+1116,Aero Contractors
+1117,Aerokuzbass
+1118,Atlantic Airlines
+1119,Atlantic Richfield Company
+1120,Aerolineas Sosa
+1121,Aero Norte
+1122,Air Inter Ivoire
+1123,Aeroservicios De Nuevo Leon
+1124,Avial NV Aviation Company
+1125,Airwing
+1126,Air Next
+1127,Arkhangelsk 2 Aviation Division
+1128,Aerogisa
+1129,Aerolineas Olve
+1130,Aeromega
+1131,Air One Nine
+1132,Air Ontario
+1133,Aerocorp
+1134,Action Air
+1135,Aerosan
+1136,Aviapartner Limited Company
+1137,Aliparma
+1138,Air Parabet
+1139,Air Burundi
+1140,Aeropostal Cargo de Mexico
+1141,Air Pack Express
+1142,Air Palace
+1143,Aeropelican Air Services
+1144,Aerolineas Chihuahua
+1145,Air Cargo Express International
+1146,Al Farana Airline
+1147,Ave.com
+1148,Air South West
+1149,Aeroservicios California Pacifico
+1150,AST Pakistan Airways
+1151,Aero Personal
+1152,Aero Servicios Platinum
+1153,Apoyo Aereo
+1154,Aerotransportes Privados
+1155,Atlantic Coast Jet
+1156,Air Paradise International
+1157,Aeroservicio Sipse
+1158,Aeroservicios Corporativos De San Luis
+1159,Aerotransportes Privados
+1160,Aereo Taxi Paraza
+1161,Air Class Lineas Aereas
+1162,Aviation Consultancy Office
+1163,Aero Taxi
+1164,Aero Taxi Aviation
+1165,Aviation Quebec Labrador
+1166,African Safari Airways
+1167,Aero Quimmco
+1168,Alada
+1169,Aerotur-Air
+1170,Air Center Helicopters
+1171,Aur Rum Benin
+1172,Aeroserivios Del Bajio
+1173,Airbus France
+1174,Air Roberval
+1175,Arubaexel
+1176,Air Charters Eelde
+1177,Aerocer
+1178,Aeroflot-Cargo
+1179,Air Mobility Command
+1180,Air Cassai
+1181,Aero Renta De Coahuila
+1182,Aerocorp
+1183,Aerolineas Regionales
+1184,Atlantic S.L.
+1185,Air Service Center
+1186,Adygeya Airlines
+1187,Air Ada
+1188,Aer Arann
+1189,Aero-Rent
+1190,Australian Maritime Safety Authority
+1191,Air Austral
+1192,Aero-Rey
+1193,Aero Africa
+1194,Aerotransportes Rafilher
+1195,Argo
+1196,Airbourne School of Flying
+1197,Air Archipels
+1198,Aviation Ministry of the Interior of the Russian Federation
+1199,Aeris Gestion
+1200,Asian Spirit
+1201,Aeroservicios Jet
+1202,Air Afrique
+1203,Airlinair
+1204,Air Nelson
+1205,Air Leone
+1206,Aero Lanka
+1207,Air Alize
+1208,Air Amder
+1209,Armenian Airlines
+1210,Armenian International Airways
+1211,Arm-Aero
+1212,Air Max
+1213,Air Salone
+1214,Aeronem Air Cargo
+1215,Air Cargo Masters
+1216,Armavia
+1217,Aeroeste
+1218,Aero Gen
+1219,Avior Airlines
+1220,Aeroel Airways
+1221,Aeromar
+1222,Aeroitalia
+1223,Aerodan
+1224,AeroRep
+1225,Aerolineas Del Pacifico
+1226,Aero Roca
+1227,Aerotransportes Internacionales De Torreon
+1228,Acvila Air-Romanian Carrier
+1229,Aerolineas Ejecutivas Tarascas
+1230,Aero-Service
+1231,Aerosur
+1232,Aeronorte
+1233,Artis
+1234,Arhabaev Tourism Airlines
+1235,Air Turquoise
+1236,Aerotucan
+1237,Air Anastasia
+1238,Air Rum
+1239,ACT Havayollari
+1240,Air VIP
+1241,Aircompany Veteran
+1242,Alliance Express Rwanda
+1243,Arrow Ecuador Arrowec
+1244,Aerogroup 98 Limited
+1245,Aeroxtra
+1246,Express Air Charter
+1247,Air Whitsunday
+1248,Aero Zambia
+1249,Aero Zano
+1250,Anoka Air Charter
+1251,Aerosaab
+1252,Associated Aviation
+1253,American Jet International
+1254,Air Santo Domingo
+1255,Aero Sudpacifico
+1256,Aero Servicios Ejecutivas Del Pacifico
+1257,Aero California
+1258,A-Safar Air Services
+1259,Aerosegovia
+1260,Airshare Holdings
+1261,Aerosiyusa
+1262,Aero Silza
+1263,Air San Juan
+1264,Aero-North Aviation Services
+1265,Aero Sami
+1266,Avient Aviation
+1267,Aerolineas Sol
+1268,Air Soleil
+1269,Aero Soga
+1270,Airspeed Aviation
+1271,Air Service
+1272,Aeroservicios Ejecutivos Del Pacifico
+1273,Asian Aerospace Service
+1274,Airworld
+1275,Alsaqer Aviation
+1276,Air Safaris and Services
+1277,Aero Servicio Corporativo
+1278,Air Sultan
+1279,Aero 1 Pro-Jet
+1280,Airquarius Air Charter
+1281,Aeropac
+1282,Air St. Thomas
+1283,Aerolineas Del Sureste
+1284,Aerial Surveys (1980) Limited
+1285,Air Slovakia
+1286,Adler Aviation
+1287,Aircompany Yakutia
+1288,Aerosud Aviation
+1289,Aeroservicios de La Costa
+1290,Aeromar
+1291,Aerotrebol
+1292,Aero Taxi de Los Cabos
+1293,Air Turks and Caicos
+1294,Aerotranscolombina de Carga
+1295,Air Cargo Express
+1296,Atlas Helicopters
+1297,Air Today
+1298,Aero Servicios Azteca
+1299,Arkefly
+1300,Antair
+1301,Atlantique Air Assistance
+1302,Aero Taxi Autlan
+1303,Aero Util
+1304,Aero Toluca Internactional
+1305,Aero Taxi del Centro de Mexico
+1306,Aerotropical
+1307,Air Tomisko
+1308,Airlines PNG
+1309,Aero Tanala
+1310,Aero Tropical
+1311,Air Cal
+1312,Air Horizon
+1313,Aero Taxi del Potosi
+1314,Aeroturquesa
+1315,Airmark Aviation
+1316,AirTran Airways
+1317,Air Transat
+1318,airtransse
+1319,Aerolineas Turisticas del Caribe
+1320,Avcenter
+1321,Air Tungaru
+1322,Avialeasing Aviation Company
+1323,Aerotaxis del Noroeste
+1324,Aerotaxis Alfe
+1325,Aereotaxis
+1326,Tyrolean Airways
+1327,Aero Tomza
+1328,Air Zambezi
+1329,Afra Airlines
+1330,Aerostar Airlines
+1331,Air Division of the Eastern Kazakhstan Region
+1332,Aero-Charter Ukraine
+1333,Air LA
+1334,Air Ukraine
+1335,Air Umbria
+1336,Atuneros Unidos de California
+1337,Aeroclub Flaps
+1338,Aerolineas Galapagos (Aerogal)
+1339,Air Castle Corporation / Global Airways
+1340,Alrosa Mirny Air Enterprise
+1341,Bearing Supplies Limited
+1342,Balkan Agro Aviation
+1343,Bahrain Air BSC (Closed)
+1344,BAC Leasing Limited
+1345,BAE Systems
+1346,Belgian Air Force
+1347,Baker Aviation
+1348,Blackhawk Airways
+1349,Britannia Airways
+1350,Business Air Services
+1351,British Antarctic Survey
+1352,Bradly Air (Charter) Services
+1353,Bissau Airlines
+1354,Bay Aviation Ltd
+1355,British Airways
+1356,Best Aero Handling Ltd
+1357,Bayon Airlines
+1358,Bannert Air
+1359,Biman Bangladesh Airlines
+1360,Bluebird Cargo
+1361,Beibars CJSC
+1362,Bravo Airlines
+1363,Blue Bird Aviation
+1364,BACH Flugbetriebsges
+1365,Blue Islands
+1366,British Caribbean Airways
+1367,British Charter
+1368,BCT Aviation
+1369,Business Aviation Center
+1370,Blue Dart Aviation
+1371,B&H Airlines
+1372,Bissau Discovery Flying Club
+1373,Belgian Army
+1374,Badr Airlines
+1375,Best Aviation Ltd
+1376,Belgorod Aviation Enterprise
+1377,Bar Harbor Airlines
+1378,Balear Express
+1379,Bel Air Helicopters
+1380,Berkut Air
+1381,BETA - Brazilian Express Transportes Aereos
+1382,Basler Flight Service
+1383,Bear Flight
+1384,Buffalo Airways
+1385,Bombardier
+1386,Burkina Airlines
+1387,Business Flight Sweden
+1388,Bahrain Defence Force
+1389,BH Air
+1390,British Gulf International
+1391,British Gulf International-Fez
+1392,Benin Golf Air
+1393,Bugulma Air Enterprise
+1394,Budget Air Bangladesh
+1395,Bergen Air Transport
+1396,Buddha Air
+1397,Balkh Airlines
+1398,Bristow Helicopters
+1399,Bristow Helicopters Nigeria
+1400,Bhoja Airlines
+1401,Belair Airlines
+1402,Bighorn Airways
+1403,Bahamasair
+1404,Bright Air
+1405,Bringer Air Cargo Taxi Aereo
+1406,Balkan Bulgarian Airlines
+1407,BA Connect
+1408,Bosphorus European Airways
+1409,Binair
+1410,Big Island Air
+1411,British International Helicopters
+1412,Billund Air Center
+1413,Boise Interagency Fire Center
+1414,Bird Leasing
+1415,Bizjet Ltd
+1416,Baja Air
+1417,Baltic Jet Aircompany
+1418,Business Jet Solutions
+1419,Bankair
+1420,BF-Lento OY
+1421,Barken International
+1422,Bangkok Airways
+1423,Bukovyna
+1424,Blue Bird Aviation
+1425,Bellesavia
+1426,Blue Line
+1427,Blue1
+1428,Belgavia
+1429,Blue Horizon Travel Club
+1430,Blue Jet
+1431,Baltic Airlines
+1432,Blue Airways
+1433,Bali International Air Service
+1434,Bearskin Lake Air Service
+1435,Baltic Aviation
+1436,Bellview Airlines
+1437,bmi
+1438,British Medical Charter
+1439,Briggs Marine Environmental Services
+1440,Bristow Masayu Helicopters
+1441,bmibaby
+1442,Bemidji Airlines
+1443,Bismillah Airlines
+1444,Bowman Aviation
+1445,British Midland Regional
+1446,BMW
+1447,Banco de Mexico
+1448,Bond Offshore Helicopters
+1449,Benina Air
+1450,BN Group Limited
+1451,Blue Nile Ethiopia Trading
+1452,Bonair Aviation
+1453,Bancstar - Valley National Corporation
+1454,Bentiu Air Transport
+1455,Benane Aviation Corporation
+1456,British North West Airlines
+1457,Boniair
+1458,Bond Air Services
+1459,Boeing
+1460,Bordaire
+1461,Bookajet Limited
+1462,Bouraq Indonesia Airlines
+1463,Blue Panorama Airlines
+1464,Berkhut ZK
+1465,Bundepolizei-Fliegertruppe
+1466,Budapest Aircraft Services/Manx2
+1467,Bonus Aviation
+1468,British Petroleum Exploration
+1469,BRA-Transportes Aereos
+1470,Brock Air Services
+1471,Breeze Ltd
+1472,Bering Air
+1473,Briansk State Air Enterprise
+1474,Branson Airlines
+1475,BASE Regional Airlines
+1476,Brazilian Air Force
+1477,British Regional Airlines
+1478,Belavia Belarusian Airlines
+1479,Bravo Air Congo
+1480,Bright Aviation Services
+1481,Braniff International Airways
+1482,Buffalo Express Airlines
+1483,Burundayavia
+1484,Bistair - Fez
+1485,Blue Star Airlines
+1486,Brasair Transportes Aereos
+1487,Blue Swann Aviation
+1488,Blue Sky Aviation
+1489,Bissau Aero Transporte
+1490,Best Air
+1491,Blue Sky Airways
+1492,Big Sky Airlines
+1493,BAL Bashkirian Airlines
+1494,Baltijas Helicopters
+1495,Baltyka
+1496,Baltia Air Lines
+1497,Botir-Avia
+1498,Business Express
+1499,BT-Slavuta
+1500,Metro Batavia
+1501,Bulgarian Air Charter
+1502,Blue Airlines
+1503,Buryat Airlines Aircompany
+1504,Buzz Stansted
+1505,Buffalo Airways
+1506,Bulgarian Aeronautical Centre
+1507,Baron Aviation Services
+1508,Berjaya Air
+1509,Bellview Airlines
+1510,Blue Wings
+1511,Blue Wing Airlines
+1512,BWA (2002) Ltd
+1513,Bahrain Executive Air Services
+1514,Bar XH Air
+1515,Brussels International Airlines
+1516,BAX Global
+1517,Redding Aero Enterprises
+1518,Berry Aviation
+1519,Bylina Joint-Stock Company
+1520,Berytos Airlines
+1521,Bayu Indonesia Air
+1522,Bizair Fluggesellschaft
+1523,Brit Air
+1524,Butane Buzzard Aviation Corporation
+1525,Business Flight Salzburg
+1526,BKS Air (Rivaflecha)
+1527,Bristol Flying Centre
+1528,Barnes Olsen Aeroleasing
+1529,Baltimore Air Transport
+1530,Boston-Maine Airways
+1531,Brussels Airlines
+1532,Baltimore Airways
+1533,Bond Aviation
+1534,Brazilian Army Aviation
+1535,Business Express Delivery
+1536,Bel Limited
+1537,Bangkok Aviation Center
+1538,Benair
+1539,Binter Canarias
+1540,Bonyad Airlines
+1541,Burundaiavia
+1542,Blue Air
+1543,British Mediterranean Airways
+1544,Belle Air
+1545,Blom Geomatics
+1546,Benin Littoral Airways
+1547,Bombardier Business Jet Solutions
+1548,Bulgaria Air
+1549,Brazilian Navy Aviation
+1550,Barents AirLink
+1551,Belgian Navy
+1552,Bakoji Airlines Services
+1553,Benders Air
+1554,Balmoral Central Contracts
+1555,BGB Air
+1556,Butte Aviation
+1557,Bond Air Services
+1558,Business Airfreight
+1559,BAC Express Airlines
+1560,Boscombe Down DERA (Formation)
+1561,Business Jet Sweden
+1562,British Airways Shuttle
+1563,British Sky Broadcasting
+1564,Bell Helicopter Textron
+1565,Buzzaway Limited
+1566,Biz Jet Charter
+1567,Blue Chip Jet
+1568,BAE Systems
+1569,BAE Systems
+1570,Baseops International
+1571,Bureau Veritas
+1572,British Airways
+1573,Boskovic Air Charters Limited
+1574,C Air Jet Airlines
+1575,C N Air
+1576,C and M Aviation
+1577,C&M Airways
+1578,C.S.P.
+1579,CABI
+1580,CAI
+1581,CAL Cargo Air Lines
+1582,CAM Air Management
+1583,CATA L
+1584,CCF Manager Airline
+1585,CEDTA (Compania Ecuatoriana De Transportes Aereos)
+1586,CHC Denmark
+1587,CHC Helicopters
+1588,CHC Airways
+1589,CHC Helikopter Service
+1590,CI-Tours
+1591,CKC Services
+1592,CM Stair
+1593,CNET
+1594,COAPA AIR
+1595,COMAV
+1596,CRI Helicopters Mexico
+1597,CSA Air
+1598,CSE Aviation
+1599,CTK Network Aviation
+1600,Cabair College of Air Training
+1601,Cabo Verde Express
+1602,Caernarfon Airworld
+1603,Cairo Air Transport Company
+1604,Cal Gulf Aviation
+1605,Cal-West Aviation
+1606,California Air Shuttle
+1607,Calima Aviacion
+1608,Calm Air
+1609,Camai Air
+1610,Cambodia Airlines
+1611,Cameroon Airlines
+1612,Campania Helicopteros De Transporte
+1613,CanJet
+1614,Canada Jet Charters
+1615,Canadian Airlines
+1616,Canadian Coast Guard
+1617,Canadian Eagle Aviation
+1618,Canadian Forces
+1619,Canadian Global Air Ambulance
+1620,Canadian Helicopters
+1621,Canadian Interagency Forest Fire Centre
+1622,Canadian National Telecommunications
+1623,Canadian North
+1624,Canadian Regional Airlines
+1625,Canadian Warplane Heritage Museum
+1626,Canadian Western Airlines
+1627,Canair
+1628,Cancun Air
+1629,Cape Air
+1630,Cape Air Transport
+1631,Cape Central Airways
+1632,Cape Smythe Air
+1633,Capital Air Service
+1634,Capital Airlines
+1635,Capital Airlines Limited
+1636,Capital Cargo International Airlines
+1637,Capital City Air Carriers
+1638,Capital Trading Aviation
+1639,Capitol Air Express
+1640,Capitol Wings Airline
+1641,Caravan Air
+1642,Cardiff Wales Flying Club
+1643,Cardinal/Air Virginia
+1644,Cardolaar
+1645,Cards Air Services
+1646,Care Flight
+1647,Carga Aerea Dominicana
+1648,Carga Express Internacional
+1649,Cargo 360
+1650,Cargo Express
+1651,Cargo Ivoire
+1652,Cargo Link (Caribbean)
+1653,Cargo Three
+1654,Cargoitalia
+1655,Cargojet Airways
+1656,Cargolux
+1657,Cargoman
+1658,Carib Aviation
+1659,Carib Express
+1660,Caribair
+1661,Caribbean Air Cargo
+1662,Caribbean Air Transport
+1663,Caribbean Airlines
+1664,Caribbean Airways
+1665,Caribbean Express
+1666,Caribbean Star Airlines
+1667,Caribintair
+1668,Carill Aviation
+1669,Carpatair
+1670,Carranza
+1671,Carroll Air Service
+1672,Casement Aviation
+1673,Casino Airline
+1674,Casper Air Service
+1675,Caspian Airlines
+1676,Castle Aviation
+1677,Cat Aviation
+1678,Catalina Flying Boats
+1679,Catex
+1680,Cathay Pacific
+1681,Caverton Helicopters
+1682,Cayman Airways
+1683,Cebu Pacific
+1684,Cecil Aviation
+1685,Cega Aviation
+1686,Celtic Airways
+1687,Celtic West
+1688,Centavia
+1689,Cente D'Essais En Vol
+1690,Centennial Airlines
+1691,Centennial Flight Centre
+1692,Center Vol
+1693,Center-South
+1694,Centrafrican Airlines
+1695,Central Air Express
+1696,Central Airlines
+1697,Central Airways
+1698,Central American Airlines
+1699,Central Aviation
+1700,Central Connect Airlines
+1701,Central De Discos De Reynosa
+1702,Central European Airlines
+1703,Central Flying Service
+1704,Central Mongolia Airways
+1705,Central Mountain Air
+1706,Central Queensland Aviation College
+1707,Central Skyport
+1708,Centralwings
+1709,Centre Airlines
+1710,Centre of Applied Geodynamica
+1711,Centre-Avia
+1712,Centro De Helicopteros Corporativos
+1713,Centro de Formacion Aeronautica de Canarias
+1714,Centurion Air Cargo
+1715,Century Aviation
+1716,Century Aviation International
+1717,Certified Air Dispatch
+1718,Cetraca Aviation Service
+1719,Chabahar Airlines
+1720,Chalair Aviation
+1721,Chalk's Ocean Airways
+1722,Challenge Air Transport
+1723,Challenge Aviation
+1724,Challenge International Airlines
+1725,AC Challenge Aero
+1726,Champagne Airlines
+1727,Champion Air
+1728,Chanchangi Airlines
+1729,Changan Airlines
+1730,Channel Island Aviation
+1731,Chantilly Air
+1732,Chaparral Airlines
+1733,Chari Aviation Services
+1734,Charlan Air Charter
+1735,Charlie Hammonds Flying Service
+1736,Charlotte Air National Guard
+1737,Charter Air
+1738,Chartright Air
+1739,Chautauqua Airlines
+1740,Cheboksary Airenterprise JSC
+1741,Chemech Aviation
+1742,Cherline
+1743,Chernomor-Avia
+1744,Cherokee Express
+1745,Cherry Air
+1746,Chesapeake Air Service
+1747,Chevron U.S.A
+1748,Cheyenne Airways
+1749,Chicago Air
+1750,Chicago Express
+1751,Chief Rat Flight Services
+1752,Chilchota Taxi Aereo
+1753,Chilcotin Caribou Aviation
+1754,Chilliwack Aviation
+1755,Chim-Nir Aviation
+1756,China Airlines
+1757,China Cargo Airlines
+1758,China Eastern Airlines
+1759,China Express Airlines
+1760,China Flying Dragon Aviation
+1761,China General Aviation Corporation
+1762,China National Aviation Corporation
+1763,China Northern Airlines
+1764,China Northwest Airlines
+1765,China Ocean Helicopter Corporation
+1766,China Postal Airlines
+1767,China Southern Airlines
+1768,China Southwest Airlines
+1769,China United Airlines
+1770,China Xinhua Airlines
+1771,Yunnan Airlines
+1772,Chinguetti Airlines
+1773,Chipola Aviation
+1774,Chippewa Air Commuter
+1775,Chitaavia
+1776,Christman Air System
+1777,Christophorus Flugrettungsverein
+1778,Chrome Air Services
+1779,Church Aircraft
+1780,Cielos Airlines
+1781,Cimber Air
+1782,Cirrus
+1783,Cirrus Air
+1784,Cirrus Airlines
+1785,Cirrus Middle East
+1786,Citationshares
+1787,Citibank
+1788,Citic General Aviation
+1789,City Airline
+1790,City Connexion Airlines
+1791,City of Bangor
+1792,CityJet
+1793,Cityair (Chester) Limited
+1794,Cityfly
+1795,BA CityFlyer
+1796,Cityline Hungary
+1797,Citylink Airlines
+1798,Civair Airways
+1799,Civil Air Patrol South Carolina Wing
+1800,Civil Air Transport
+1801,Civil Aviation Authority
+1802,Civil Aviation Authority of New Zealand
+1803,Civil Aviation Inspectorate of the Czech Republic
+1804,Claessens International Limited
+1805,Clark Aviation
+1806,Clasair
+1807,Clay Lacy Aviation
+1808,Click Airways
+1809,Cloud 9 Air Charters
+1810,Clowes Estates Limited
+1811,Club 328
+1812,Club Air
+1813,Coast Air
+1814,Coastal Air
+1815,Coastal Air Transport
+1816,Coastal Airways
+1817,Coastal Travels
+1818,Cohlmia Aviation
+1819,Colaereos
+1820,Colemill Enterprises
+1821,Colgan Air
+1822,Colibri Aviation
+1823,Colt International
+1824,Columbia Airlines
+1825,Columbia Helicopters
+1826,Columbus Air Transport
+1827,Colvin Aviation
+1828,Comair
+1829,Comair
+1830,Comed Group
+1831,Comeravia
+1832,Comercial Aerea
+1833,Comet Airlines
+1834,Comfort Air
+1835,Comlux Aviation
+1836,Commair Aviation
+1837,Commandement Du Transport Aerien Militaire Francais
+1838,Commander Air Charter
+1839,Commander Mexicana
+1840,Commercial Aviation
+1841,Commodore Aviation
+1842,Commonwealth Jet Service
+1843,CommutAir
+1844,Comores Airlines
+1845,Compagnia Generale Ripreseaeree
+1846,Compagnie Aerienne du Mali
+1847,Compagnie Mauritanienne Des Transports
+1848,Compagnie de Bauxites de Guinee
+1849,Compania Aerea de Valencia
+1850,Compania Aerotecnicas Fotograficas
+1851,Compania Boliviana de Transporte Aereo Privado Aerosur
+1852,Compania De Actividades Y Servicios De Aviacion
+1853,Compania Ejecutiva
+1854,Compania Helicopteros Del Sureste
+1855,Compania Mexicana De Aeroplanos
+1856,Compania Mexicargo
+1857,Compania Transportes Aereos Del Sur
+1858,Compania de Servicios Aereos Tavisa
+1859,Company Flight
+1860,Compass Airlines
+1861,Compass International Airways
+1862,Compuflight Operations Service
+1863,Compuserve Incorporated
+1864,Conair Aviation
+1865,Concordavia
+1866,Condor Aero Services
+1867,Condor
+1868,Condor Flugdienst
+1869,Confort Air
+1870,Congo Air
+1871,Congressional Air
+1872,Conifair Aviation
+1873,Connectair Charters
+1874,Conquest Airlines
+1875,Conroe Aviation Services
+1876,Consorcio Aviaxsa
+1877,Consorcio Helitec
+1878,Constanta Airline
+1879,Contact Air
+1880,Contel ASC
+1881,Continental Airlines
+1882,Continental Airways
+1883,Continental Express
+1884,Continental Micronesia
+1885,Continental Oil
+1886,Conviasa
+1887,Cook Inlet Aviation
+1888,Cooper Aerial Surveys
+1889,Copa Airlines
+1890,Copenhagen Airtaxi
+1891,Copper State Air Service
+1892,Copterline
+1893,Coptrade Air Transport
+1894,Corendon Airlines
+1895,Coronado Aerolineas
+1896,Corpac Canada
+1897,Corporacion Aereo Cencor
+1898,Corporacion Aeroangeles
+1899,Corporacion Paraguaya De Aeronautica
+1900,Corporate Air
+1901,Corporate Air
+1902,Corporate Aircraft Company
+1903,Corporate Airlink
+1904,Corporate Aviation Services
+1905,Corporate Flight International
+1906,Corporate Flight Management
+1907,Corporate Jets
+1908,Corsairfly
+1909,Corse-Mediterranee
+1910,Cosmic Air
+1911,Cougar Helicopters
+1912,Coulson Flying Service
+1913,Country Connection Airlines
+1914,Country International Airlines
+1915,Courier Services
+1916,Court Helicopters
+1917,Coval Air
+1918,Cowi
+1919,Coyne Aviation
+1920,Cranfield University
+1921,Cree Airways
+1922,Crelam
+1923,Crest Aviation
+1924,Crimea Universal Avia
+1925,Croatia Airlines
+1926,Croatian Air Force
+1927,Cross Aviation
+1928,Crossair Europe
+1929,Crow Executive Air
+1930,Crown Air Systems
+1931,Crown Airways
+1932,Crownair
+1933,Cruiser Linhas Aereas
+1934,Cryderman Air Service
+1935,Crystal Shamrock
+1936,Cubana de Aviación
+1937,Cumberland Airways (Nicholson Air Service)
+1938,Custom Air Transport
+1939,Cygnus Air
+1940,Cyprair Tours
+1941,Cypress Airlines
+1942,Cyprus Airways
+1943,Cyprus Turkish Airlines
+1944,Czech Air Force
+1945,Czech Air Handling
+1946,Czech Airlines
+1947,Czech Government Flying Service
+1948,D & D Aviation
+1949,D&K Aviation
+1950,DAP Helicopteros
+1951,DFS UK Limited
+1952,DAS Air Cargo
+1953,DAS Airlines
+1954,DAT Danish Air Transport
+1955,DAT Enterprise Limited
+1956,DERA Boscombe Down
+1957,DESNA
+1958,DETA Air
+1959,DGO Jet
+1960,DHL Aero Expreso
+1961,DHL Air
+1962,DHL Aviation
+1963,DHL International
+1964,DHL de Guatemala
+1965,DSWA
+1966,Daallo Airlines
+1967,Dagestan Airlines
+1968,Dahla Airlines
+1969,Daimler Chrysler Aviation
+1970,Daimler-Chrysler
+1971,Daka
+1972,Dala Air Services
+1973,Dalavia
+1974,Dallas Express Airlines
+1975,Damascene Airways
+1976,Danbury Airways
+1977,Dancopter
+1978,Danish Air Force
+1979,Danish Army
+1980,Danish Navy
+1981,Danu Oro Transportas
+1982,Darta
+1983,Darwin Airline
+1984,Dasab Airlines
+1985,Dash Air Charter
+1986,Dash Aviation
+1987,Dasnair
+1988,Dassault Aviation
+1989,Dassault Falcon Jet Corporation
+1990,Dassault Falcon Service
+1991,Data International
+1992,Date Transformation Corp
+1993,Dauair
+1994,David Crawshaw Consultants Limited
+1995,Dawn Air
+1996,DayJet
+1997,Daya Aviation
+1998,De Havilland
+1999,Deadalos Flugtbetriebs
+2000,Decatur Aviation
+2001,Deccan Aviation
+2002,Deccan Aviation (Lanka)
+2003,Deer Jet
+2004,Deere and Company
+2005,Delaware Skyways
+2006,Delta Aerotaxi
+2007,Delta Air Charter
+2008,Delta Air Elite
+2009,Delta Air Lines
+2010,Delta Engineering Aviation
+2011,Delta Express International
+2012,Delta State University
+2013,Denim Air
+2014,Denver Express
+2015,Denver Jet
+2016,Departmento De Agricultura De La Generalitat De Cataluna
+2017,Deraya Air Taxi
+2018,Des R Cargo Express
+2019,Desarrollo Milaz
+2020,Destiny Air Services
+2021,Deutsche Bahn
+2022,Deutsche Rettungsflugwacht
+2023,Deutsches Zentrum fur Luft-und Raumfahrt EV
+2024,Di Air
+2025,Diamond Aviation
+2026,Didier Rousset Buy
+2027,Digital Equipment Corporation
+2028,Dinar
+2029,Diplomatic Freight Services
+2030,Direccion General de Aviacion Civil y Telecomunicasciones
+2031,Direct Air
+2032,Direct Air trading as Midway Connection
+2033,Direct Flight
+2034,Sky Express
+2035,Dirgantara Air Service
+2036,Discover Air
+2037,Discovery Airways
+2038,Dispatch Services
+2039,Dix Aviation
+2040,Dixie Airways
+2041,Djibouti Airlines
+2042,Dniproavia
+2043,Flying Dolphin Airlines
+2044,Dolphin Express Airlines
+2045,Dome Petroleum
+2046,Dominguez Toledo (Grupo Mayoral)
+2047,Dominicana de Aviaci
+2048,Domodedovo Airlines
+2049,Don Avia
+2050,Donair Flying Club
+2051,DonbassAero
+2052,Dorado Air
+2053,Dornier
+2054,Dornier Aviation Nigeria
+2055,Dos Mundos
+2056,Dragonair
+2057,Dreamcatcher Airways
+2058,Druk Air
+2059,Drummond Island Air
+2060,Dubai Airwing
+2061,Dubrovnik Air
+2062,Ducair
+2063,Duchess of Britany (Jersey) Limited
+2064,UK Royal/HRH Duke of York
+2065,Dun'Air
+2066,Duncan Aviation
+2067,Dunyaya Bakis Hava Tasimaciligi
+2068,Duo Airways
+2069,Durango Jet
+2070,Dutch Antilles Express
+2071,Dutch Caribbean Express
+2072,Dutchbird
+2073,Dwyer Aircraft Services
+2074,Dynair Services
+2075,Dynamair Aviation
+2076,Dynamic Air
+2077,dba
+2078,E H Darby Aviation
+2079,Electronic Data Systems
+2080,Electronic Data Systems
+2081,EAA Escola De Aviacao Aerocondor
+2082,Executive Airlines Services
+2083,EFAOS- Agencia De Viagens e Turismo
+2084,EFD Eisele Flugdienst
+2085,EFS-Flugservice
+2086,EIS Aircraft
+2087,EPAG Groupe Air France
+2088,ESI Eliservizi Italiani
+2089,EU Airways
+2090,EUjet
+2091,EVA Air
+2092,Eagle Aero
+2093,Eagle Air
+2094,Eagle Air
+2095,Eagle Air Company
+2096,Eagle Air Iceland
+2097,Eagle Aviation
+2098,Eagle Aviation
+2099,Eagle Aviation France
+2100,Eagle International
+2101,Eagle Jet Charter
+2102,Eaglemed (Ballard Aviation)
+2103,Earth Airlines Services
+2104,East African
+2105,East African Safari Air
+2106,East African Safari Air Express
+2107,East Asia Airlines
+2108,East Coast Airways
+2109,East Coast Jets
+2110,East Hampton Aire
+2111,East Kansas City Aviation
+2112,East Midlands Helicopters
+2113,East Star Airlines
+2114,East-West Airlines
+2115,Eastern Air
+2116,Eastern Air Executive
+2117,Eastern Airways
+2118,Eastern Australia Airlines
+2119,Eastern Carolina Aviation
+2120,Eastern Executive Air Charter
+2121,Eastern Express
+2122,Eastern Metro Express
+2123,Eastern Pacific Aviation
+2124,Eastern Sky Jets
+2125,Eastland Air
+2126,Eastwind Airlines
+2127,Easy Link Aviation Services
+2128,Eckles Aircraft
+2129,Eclipse Aviation
+2130,Eco Air
+2131,Ecoair
+2132,Ecomex Air Cargo
+2133,Ecotour
+2134,Ecoturistica de Xcalak
+2135,Ecuatoguineana De Aviacion (EGA)
+2136,Ecuatorial Cargo
+2137,Ecuavia
+2138,Edelweiss Air
+2139,Edgartown Air
+2140,Edinburgh Air Charter
+2141,Edwards Jet Center of Montana
+2142,Efata Papua Airlines
+2143,Egyptair
+2144,Egyptair Cargo
+2145,Egyptian Air Force
+2146,Egyptian Aviation
+2147,Egyptian Aviation Company
+2148,Ei Air Exports
+2149,Eirjet
+2150,El Al Israel Airlines
+2151,El Caminante Taxi Aereo
+2152,El Quilada International Aviation
+2153,El Sal Air
+2154,El Sol De America
+2155,El-Buraq Air Transport
+2156,Elan Express
+2157,Elbe Air Transport
+2158,Elbrus-Avia Air Enterprise
+2159,Eldinder Aviation
+2160,Elicar
+2161,Elidolomiti
+2162,Elieuro
+2163,Elifriulia
+2164,Elilario Italia
+2165,Elilombarda
+2166,Elimediterranea
+2167,Elios
+2168,Elipiu'
+2169,Elisra Airlines
+2170,Elite Air
+2171,Elite Jets
+2172,Elitellina
+2173,Elliott Aviation
+2174,Elmagal Aviation Services
+2175,Elrom Aviation and Investments
+2176,Embassy Airlines
+2177,Embassy Freight Company
+2178,Empresa Brasileira De Aeronautica
+2179,Embry-Riddle Aeronautical University
+2180,Emerald Airways
+2181,Emery Worldwide Airlines
+2182,Emetebe
+2183,Emirates
+2184,Emoyeni Air Charter
+2185,Empire Air Service
+2186,Empire Airlines
+2187,Empire Aviation Services
+2188,Empire Test Pilots' School
+2189,Empresa (Aero Uruguay)
+2190,Empresa Aero-Servicios Parrague
+2191,Empresa Aerocaribbean
+2192,Empresa Aviacion Interamericana
+2193,Empresa Ecuatoriana De Aviacion
+2194,Empresa Nacional De Servicios Aereos
+2195,Empresa Venezolana
+2196,Empresa de Aviacion Aerogaviota
+2197,Empressa Brasileira de Infra-Estrutura Aeroportuaria-Infraero
+2198,Endecots
+2199,Enimex
+2200,Enkor JSC
+2201,Enrique Gleisner Vivanco
+2202,Ensenada Vuelos Especiales
+2203,Entergy Services
+2204,Enterprise World Airways
+2205,Eos Airlines
+2206,Equaflight Service
+2207,Equatair Air Services (Zambia)
+2208,Equatorial Airlines
+2209,Era Helicopters
+2210,Eram Air
+2211,Erfoto
+2212,Erie Airways
+2213,Eritrean Airlines
+2214,Escuela De Pilotos Are Aviacion
+2215,Espace Aviation Services
+2216,Esso Resources Canada
+2217,Estafeta Carga Aerea
+2218,Estonian Air
+2219,Estrellas Del Aire
+2220,Ethiopian Airlines
+2221,Eti 2000
+2222,Etihad Airways
+2223,Etram Air Wing
+2224,Euraviation
+2225,Euro Continental AIE
+2226,Euro Exec Express
+2227,Euro Sun
+2228,Euro-Asia Air
+2229,Euro-Asia Air International
+2230,EuroAtlantic Airways
+2231,EuroJet Aviation
+2232,Euroair
+2233,Euroamerican Air
+2234,Euroceltic Airways
+2235,Eurocontrol
+2236,Eurocopter
+2237,Eurocypria Airlines
+2238,Eurofly
+2239,Eurofly Service
+2240,Euroguineana de Aviacion
+2241,Eurojet Italia
+2242,Eurojet Limited
+2243,Eurojet Romania
+2244,Eurojet Servis
+2245,Eurolot
+2246,Euromanx Airways
+2247,Europe Air Lines
+2248,Europe Airpost
+2249,European 2000 Airlines
+2250,European Aeronautical Group UK
+2251,European Air Express
+2252,European Air Transport
+2253,European Aviation Air Charter
+2254,European Business Jets
+2255,European Coastal Airlines
+2256,European Executive
+2257,European Executive Express
+2258,Eurosense
+2259,Euroskylink
+2260,Eurowings
+2261,Evergreen International Airlines
+2262,Everts Air Alaska/Everts Air Cargo
+2263,Examiner Training Agency
+2264,Excel Airways
+2265,Excel Charter
+2266,Excellent Air
+2267,Execair Aviation
+2268,Execujet Charter
+2269,Execujet Middle East
+2270,Execujet Scandinavia
+2271,Executive Aerospace
+2272,Executive Air
+2273,Executive Air Charter
+2274,Executive Air Fleet
+2275,Executive Aircraft Charter and Charter Services
+2276,Executive Aircraft Services
+2277,Executive Airlines
+2278,Executive Airlines
+2279,Executive Aviation Services
+2280,Executive Flight
+2281,Executive Flight Operations Ontario Government
+2282,Executive Jet Charter
+2283,Executive Jet Management
+2284,Executive Turbine Aviation
+2285,Eximflight
+2286,Exin
+2287,Expertos En Carga
+2288,Expo Aviation
+2289,Express Air
+2290,Express International Cargo
+2291,Express Line Aircompany
+2292,Express Net Airlines
+2293,Express One International
+2294,Express Tours
+2295,ExpressJet
+2296,Exxavia Limited
+2297,easyJet
+2298,NetJets
+2299,F.S. Air Service
+2300,FAI Airservice
+2301,FINFO Flight Inspection Aircraft
+2302,FLM Aviation Mohrdieck
+2303,FLTPLAN
+2304,FLowair Aviation
+2305,FMG Verkehrsfliegerschule Flughafen Paderborn-Lippstadt
+2306,FR Aviation
+2307,FSB Flugservice & Development
+2308,FSH Luftfahrtunternehmen
+2309,Fab Air
+2310,Facts Air
+2311,Fair Aviation
+2312,Fair Wind Air Charter
+2313,Fairlines
+2314,Fairoaks Flight Centre
+2315,Fairways Corporation
+2316,Falcon Air
+2317,Falcon Air
+2318,Falcon Air Express
+2319,Falcon Airline
+2320,Falcon Aviation
+2321,Falcon Aviation Services
+2322,Falcon Jet Centre
+2323,Falwell Aviation
+2324,Far Eastern Air Transport
+2325,Farmingdale State University
+2326,Farnair Hungary
+2327,Farnair Netherlands
+2328,Farnair Switzerland
+2329,Farnas Aviation Services
+2330,Faroecopter
+2331,Faroejet
+2332,Farwest Airlines
+2333,Faso Airways
+2334,Fast Helicopters
+2335,Fayban Air Services
+2336,Fayetteville Flying Service and Scheduled Skyways System
+2337,Federal Air
+2338,Federal Airlines
+2339,Federal Armed Forces
+2340,Federal Armored Service
+2341,Federal Aviation Administration
+2342,Federal Express
+2343,Feniks Airline
+2344,Feria Aviacion
+2345,Fika Salaama Airlines
+2346,Finalair Congo
+2347,Financial Airxpress
+2348,Fine Airlines
+2349,Finist'air
+2350,Finnair
+2351,Finncomm Airlines
+2352,Finnish Air Force
+2353,Firefly
+2354,First Air
+2355,First Air Transport
+2356,First Cambodia Airlines
+2357,First Choice Airways
+2358,First City Air
+2359,First Flying Squadron
+2360,First Line Air
+2361,First Sabre
+2362,Fischer Air
+2363,Fischer Air Polska
+2364,Flagship Express Services
+2365,Flair Airlines
+2366,Flamenco Airways
+2367,Flamingo Air
+2368,Flamingo Air-Line
+2369,Flash Airlines
+2370,Fleet Requirements Air Direction Unit
+2371,Fleetair
+2372,Flexair
+2373,Flexflight
+2374,Flight Alaska
+2375,Flight Calibration Service
+2376,Flight Centre Victoria
+2377,Flight Corporation
+2378,Flight Dispatch Services
+2379,Flight Express
+2380,Flight Inspection Center of the General Administration of Civil Aviation in China
+2381,Flight Inspections and Systems
+2382,Flight International
+2383,Flight Line
+2384,Flight Ops International
+2385,Flight Options
+2386,Flight Precision Limited
+2387,Flight Safety Limited
+2388,Flight Support Sweden
+2389,Flight Trac
+2390,Flight Training Europe
+2391,Flight West Airlines
+2392,Flight-Ops International
+2393,Flightcraft
+2394,Flightexec
+2395,Flightline
+2396,Flightpass Limited
+2397,Flightstar Corporation
+2398,Flightworks
+2399,Flint Aviation Services
+2400,Florida Air
+2401,Florida Coastal Airlines
+2402,Florida Department of Agriculture
+2403,Florida Jet Service
+2404,Florida West International Airways
+2405,Flugdienst Fehlhaber
+2406,Flugschule Basel
+2407,Flugschule Eichenberger
+2408,Flugwerkzeuge Aviation Software
+2409,Fly Air
+2410,Fly CI Limited
+2411,Fly Europa Limited
+2412,Fly Excellent
+2413,Fly International Airways
+2414,Fly Line
+2415,Fly Me Sweden
+2416,Fly Wex
+2417,AirAsia X
+2418,FlyLal
+2419,FlyNordic
+2420,Flybaboo
+2421,Flybe
+2422,Flycolumbia
+2423,Flycom
+2424,Flygaktiebolaget Gota Vingar
+2425,Flyglobespan
+2426,Flygprestanda
+2427,Flygtransporter I Nykoping
+2428,Flyguppdraget Backamo
+2429,Flyhy Cargo Airlines
+2430,Flying Carpet Company
+2431,Flying Service
+2432,Flying-Research Aerogeophysical Center
+2433,Flylink Express
+2434,Flyteam Aviation
+2435,Focus Air
+2436,Fokker
+2437,Fonnafly
+2438,Ford Motor Company
+2439,Formosa Airlines
+2440,Formula One Management
+2441,Forth and Clyde Helicopter Services
+2442,Fortunair Canada
+2443,Forward Air International Airlines
+2444,Foster Aviation
+2445,Foster Yeoman
+2446,Fotografia F3
+2447,Four Island Air
+2448,Four Star Aviation / Four Star Cargo
+2449,Four Winds Aviation
+2450,Foxair
+2451,France Douanes
+2452,Free Bird Airlines
+2453,Freedom Air
+2454,Freedom Air
+2455,Freedom Air Services
+2456,Freedom Airlines
+2457,Freedom Airways
+2458,Freeway Air
+2459,Freight Runners Express
+2460,Force Aerienne Francaise
+2461,Aviation Legere De L'Armee De Terre
+2462,France Marine Nationale
+2463,Fresh Air
+2464,Freshaer
+2465,Friendship Air Alaska
+2466,Friendship Airlines
+2467,Froggy Corporate Aviation
+2468,Frontier Airlines
+2469,Frontier Commuter
+2470,Frontier Flying Service
+2471,Frontier Guard
+2472,Fujairah Aviation Centre
+2473,Fujian Airlines
+2474,Full Express
+2475,Fumigacion Aerea Andaluza
+2476,Fun Flying Thai Air Service
+2477,Fundació Rego
+2478,Funtshi Aviation Service
+2479,Futura Gael
+2480,Futura International Airways
+2481,G & L Aviation
+2482,G5 Executive
+2483,GAK/Mitchell Aero
+2484,GATSA
+2485,GB Airlink
+2486,GB Airways
+2487,GCS Air Service
+2488,GEC Marconi Avionics
+2489,GECAS
+2490,GENSA
+2491,GETRA
+2492,GFW Aviation
+2493,GH Stansted Limited
+2494,GM Helicopters
+2495,GP Express Airlines
+2496,GPM Aeroservicio
+2497,GR-Avia
+2498,GST Aero Aircompany
+2499,GTA Air
+2500,Ga-Ma Helicoptere
+2501,Gabon Express
+2502,Gabon-Air-Transport
+2503,Gacela Air Cargo
+2504,Gail Force Express
+2505,Gain Jet Aviation
+2506,Galair International
+2507,Galaircervis
+2508,Galaxy Air
+2509,Galaxy Airlines
+2510,Galena Air Service
+2511,Galileo International
+2512,Gama Aviation
+2513,Gambia International Airlines
+2514,Gambia New Millennium Air
+2515,Gamisa Aviacion
+2516,Gandalf Airlines
+2517,Gander Aviation
+2518,Garden State Airlines
+2519,Garrison Aviation
+2520,Garuda Indonesia
+2521,Gatari Hutama Air Services
+2522,Gauteng Air Cargo
+2523,Gavina
+2524,Gazpromavia
+2525,Geesair
+2526,Gemini Air Cargo
+2527,Gendall Air
+2528,Gendarmerie Belge
+2529,Gendarmie Nationale
+2530,General Aerospace
+2531,General Airways
+2532,General Aviation
+2533,General Aviation Flying Services
+2534,General Aviation Terminal
+2535,General Motors
+2536,Genex
+2537,Geographic Air Surveys
+2538,Georgian Airways
+2539,Georgian Aviation Federation
+2540,Georgian Cargo Airlines Africa
+2541,Georgian National Airlines
+2542,DLR
+2543,German Air Force
+2544,German Army
+2545,German Navy
+2546,German Sky Airlines
+2547,Germania
+2548,Germanwings
+2549,Gerry's Dnata
+2550,Gesekkschaft Fur Flugzieldarstellung
+2551,Gestair
+2552,Gestar
+2553,Gestion Aerea Ajecutiva
+2554,Ghadames Air Transport
+2555,Ghana Airways
+2556,Ghana International Airlines
+2557,Gibson Aviation
+2558,Global Air Charter
+2559,Global Air Operations
+2560,Global Air Services Nigeria
+2561,Global Aircargo
+2562,Global Airways
+2563,Global Aviation Operations
+2564,Global Aviation and Services Group
+2565,Global Georgian Airways
+2566,Global Jet Austria
+2567,Global Jet Corporation
+2568,Global Jet Luxembourg
+2569,Global Sky Aircharter
+2570,Global Supply Systems
+2571,Global System
+2572,Global Weather Dynamics
+2573,Global Wings
+2574,Globe Jet
+2575,Go Air
+2576,Go One Airways
+2577,GoJet Airlines
+2578,Gobierno De Guinea Ecuatorial
+2579,Gof-Air
+2580,Gofir
+2581,Gol Transportes Aéreos
+2582,Gold Belt Air Transport
+2583,GoldAir
+2584,Goldeck-Flug
+2585,Golden Air
+2586,Golden Airlines
+2587,Golden Pacific Airlines
+2588,Golden Rule Airlines
+2589,Golden Star Air Cargo
+2590,Goldfields Air Services
+2591,Golfe Air Quebec
+2592,Goliaf Air
+2593,Gomel Airlines
+2594,Goodridge (UK) Limited
+2595,Gorkha Airlines
+2596,Gorlitsa Airlines
+2597,Government Flying Service
+2598,Government of Zambia Communications Flight
+2599,Grampian Flight Centre
+2600,Granada Aviacion
+2601,Grand Aire Express
+2602,Grand Airways
+2603,Grand Canyon Airlines
+2604,Grant Aviation
+2605,Grantex Aviation
+2606,Great American Airways
+2607,Great Lakes Airlines
+2608,Great Lakes Airways (Uganda)
+2609,Great Plains Airlines
+2610,Great Wall Airlines
+2611,Great Western Air
+2612,Hellenic Air Force
+2613,Greek Navy
+2614,Griffin Aviation
+2615,Grixona
+2616,Grizodubova Air Company
+2617,Grossmann Air Service
+2618,Grossmann Jet Service
+2619,Ground Handling Service de Mexico
+2620,Grup Air-Med
+2621,Grupo De Aviacion Ejecutiva
+2622,Grupo TACA
+2623,Grupo Vuelos Mediterraneo
+2624,Grupoaereo Monterrey
+2625,Guard Systems
+2626,Guine Bissaur Airlines
+2627,Guinea Airways
+2628,Guinea Cargo
+2629,Guinee Airlines
+2630,Guinea Ecuatorial Airlines
+2631,Guinee Paramount Airlines
+2632,Guizhou Airlines
+2633,Guja
+2634,Gujarat Airways
+2635,Gulf & Caribbean Cargo / Contract Air Cargo
+2636,Gulf African Airlines - Gambia
+2637,Gulf Air
+2638,Gulf Air Bahrain
+2639,Gulf Air Inc
+2640,Gulf Central Airlines
+2641,Gulf Flite Center
+2642,Gulf Pearl Air Lines
+2643,Gulfstream Aerospace
+2644,Gulfstream Airlines
+2645,Gulfstream International Airlines
+2646,Gull Air
+2647,Gum Air
+2648,Guneydogu Havacilik Isletmesi
+2649,Guyana Airways 2000
+2650,Gwyn Aviation
+2651,HC Airlines
+2652,HPM Investments
+2653,HT Helikoptertransport
+2654,HTA Helicopteros
+2656,Hadison Aviation
+2657,Hageland Aviation Services
+2658,Hagondale Limited
+2659,Hahn Air
+2660,Hainan Airlines
+2661,Hainan Phoenix Information Systems
+2662,Haiti Air Freight
+2663,Haiti Ambassador Airlines
+2664,Haiti International Air
+2665,Haiti International Airline
+2666,Haiti National Airlines (HANA)
+2667,Haiti North Airline
+2668,Haiti Trans Air
+2669,Haitian Aviation Line
+2670,Hajvairy Airlines
+2671,Hak Air
+2672,Hala Air
+2673,Halcyon Air/Bissau Airways
+2674,Hamburg International
+2675,Hamlin Jet
+2676,Hamra Air
+2677,Hand D Aviation
+2678,Hangar 8
+2679,Hangard Aviation
+2680,Hansung Airlines
+2681,TUIfly
+2682,Hapagfly
+2683,Harbor Airlines
+2684,Harmony Airways
+2685,Haughey Air
+2686,Haverfordwest Air Charter Services
+2687,Havilah Air Services
+2688,Hawaiian Airlines
+2689,Hawaiian Pacific Airlines
+2690,Hawk Air
+2691,Hawk De Mexico
+2692,Hawkair
+2693,Hawkaire
+2694,Hazelton Airlines
+2695,Heavylift Cargo Airlines
+2696,Heavylift International
+2697,Helcopteros De Cataluna
+2698,Helenair (Barbados)
+2699,Helenair Corporation
+2700,Helenia Helicopter Service
+2701,Heli Air Services
+2702,Heli Ambulance Team
+2703,Heli Bernina
+2704,Heli France
+2705,Heli Hungary
+2706,Heli Medwest De Mexico
+2707,Heli Securite
+2708,Heli Trip
+2709,Heli Union Heli Prestations
+2710,Heli-Air-Monaco
+2711,Heli-Holland
+2712,Heli-Iberica
+2713,Heli-Iberica Fotogrametria
+2714,Heli-Inter Guyane
+2715,Heli-Link
+2716,Heliamerica De Mexico
+2717,Heliavia-Transporte Aereo
+2718,Heliaviation Limited
+2719,Helibravo Aviacao
+2720,Helicap
+2721,Helicentre Coventry
+2722,Helicol
+2723,Helicopter
+2724,Helicopter & Aviation Services
+2725,Helicopter Training & Hire
+2726,Helicopteros Aero Personal
+2727,Helicopteros Agroforestal
+2728,Helicopteros Internacionales
+2729,Helicopteros Y Vehiculos Nacionales Aereos
+2730,Helicsa
+2731,Helijet
+2732,Helikopterdrift
+2733,Helikopterservice Euro Air
+2734,Heliocean
+2735,Helios Airways
+2736,Helipistas
+2737,Heliportugal
+2738,Heliservicio Campeche
+2739,Helisul
+2740,Heliswiss
+2741,Helitafe
+2742,Helitalia
+2743,Helitaxi Ofavi
+2744,Helitrans
+2745,Helitrans Air Service
+2746,Heliworks
+2747,Hellas Jet
+2748,Hello
+2749,Helog
+2750,Helvetic Airways
+2751,Hemus Air
+2752,Henebury Aviation
+2753,Heritiage Flight (Valley Air Services)
+2754,Herman's Markair Express
+2755,Herritage Aviation Developments
+2756,Hewa Bora Airways
+2757,Hex'Air
+2758,Hi-Jet Helicopter Services
+2759,Hi Fly
+2760,High-Line Airways
+2761,Highland Airways
+2762,Hispaniola Airways
+2763,Hogan Air
+2764,Hokkaido Air System
+2765,Hokkaido International Airlines
+2766,Hokuriki-Koukuu Company
+2767,Hola Airlines
+2768,Holding International Group
+2769,Holiday Airlines
+2770,Holstenair Lubeck
+2771,Homac Aviation
+2772,Honduras Airlines
+2773,Hong Kong Airlines
+2774,Hong Kong Express Airways
+2775,Honiara Cargo Express
+2776,Hop-A-Jet
+2777,Hope Air
+2778,Horizon Air
+2779,Horizon Air Service
+2780,Horizon Air for Transport and Training
+2781,Horizon Air-Taxi
+2782,Horizon Airlines
+2783,Horizon Plus
+2784,Horizons Unlimited
+2785,Horizontes Aereos
+2786,Hoteles Dinamicos
+2787,Houston Helicopters
+2788,Houston Jet Services
+2789,Hozu-Avia
+2790,Hub Airlines
+2791,Huessler Air Service
+2792,Hughes Aircraft Company
+2793,Hummingbird Helicopter Service
+2794,Hunair Hungarian Airlines
+2795,Hungarian Air Force
+2796,Hyack Air
+2797,Hydro Air Flight Operations
+2798,Hydro-Québec
+2799,Héli Sécurité Helicopter Airlines
+2800,International Air Carrier Association
+2801,IBC Airways
+2802,IBL Aviation
+2803,IBM Euroflight Operations
+2804,ICAO
+2805,ICAR Airlines
+2806,ICC Canada
+2807,IDG Technology Air
+2808,IFL Group
+2809,II Lione Alato Arl
+2810,IJM International Jet Management
+2811,IKI International Airlines
+2812,IKON FTO
+2813,IMP Aviation Services
+2814,IMP Group Aviation Services
+2815,INFINI Travel Information
+2816,IPEC Aviation
+2817,IPM Europe
+2818,IRS Airlines
+2819,ISD Avia
+2820,ITA Software
+2821,IVV Femida
+2822,Iberia Airlines
+2823,Ibertour Servicios Aereos
+2824,Ibertrans Aerea
+2825,Iberworld
+2826,Ibex Airlines
+2827,Ibicenca Air
+2828,Ibk-Petra
+2829,Icar Air
+2830,Icare Franche Compte
+2831,Icaro
+2832,Icaro
+2833,Icarus
+2834,Icejet
+2835,Icelandair
+2836,Icelandic Coast Guard
+2837,Ikaros DK
+2838,Il Ciocco International Travel Service
+2839,Il-Avia
+2840,Ildefonso Redriguez
+2841,Iliamna Air Taxi
+2842,Ilpo Aruba Cargo
+2843,Ilyich-Avia
+2844,Imaer
+2845,Imair Airlines
+2846,Imperial Airways
+2847,Imtrec Aviation
+2848,Independence Air
+2849,Independent Air Freighters
+2850,IndiGo Airlines
+2851,India International Airways
+2852,Indian Air Force
+2853,Indian Airlines
+2854,Indicator Company
+2855,Indigo
+2856,Indonesia Air Transport
+2857,Indonesia AirAsia
+2858,Indonesian Airlines
+2859,Industri Pesawat Terbang Nusantara
+2860,Industrias Titan
+2861,Infinit Air
+2862,Inflite The Jet Centre
+2863,Innotech Aviation
+2864,Insel Air International
+2865,Instituto Cartografico de Cataluna
+2866,Intair
+2867,Intal Avia
+2868,Intavia Limited
+2869,InteliJet Airways
+2870,Intensive Air
+2871,Inter Air
+2872,Inter Express
+2873,Inter Islands Airlines
+2874,Inter RCA
+2875,Inter Tropic Airlines
+2876,Inter-Air
+2877,Inter-Canadian
+2878,Inter-Island Air
+2879,Inter-Mountain Airways
+2880,Inter-State Aviation
+2881,Interair South Africa
+2882,Interaire
+2883,Interavia Airlines
+2884,Interaviatrans
+2885,Intercontinental de Aviaci
+2886,Intercopters
+2887,Interflight
+2888,Interflight (Learjet)
+2889,Interfly
+2890,Interfreight Forwarding
+2891,Interguide Air
+2892,Interisland Airlines
+2893,Interisland Airways Limited
+2894,Interjet
+2895,Interjet Helicopters
+2896,Interlink Airlines
+2897,International Air Cargo Corporation
+2898,International Air Corporation
+2899,International Air Service
+2900,International Air Services
+2901,International Business Air
+2902,International Business Aircraft
+2903,International Charter Services
+2904,International Charter Xpress
+2905,International Committee of the Red Cross
+2906,International Company for Transport
+2907,International Flight Training Academy
+2908,International Jet Aviation Services
+2909,International Jet Charter
+2910,International SOS WIndhoek
+2911,International Sabilisation Assistance Force
+2912,International Security Assistance Force
+2913,International Trans-Air
+2914,Interport Corporation
+2915,Intersky
+2916,Intersky
+2917,Interstate Airline
+2918,Intervuelos
+2919,Inversija
+2920,Iona National Airways
+2921,Iowa Airways
+2922,Iran Air
+2923,Iran Aseman Airlines
+2924,Iranair Tours
+2925,Naft Air Lines
+2926,Iraqi Airways
+2927,Irbis Air
+2928,Irish Air Corps
+2929,Irish Air Transport
+2930,Irish Aviation Authority
+2931,Irtysh Airlines
+2932,Irving Oil
+2933,Irving Oil Transport
+2934,Island Air
+2935,Island Air Charters
+2936,Island Air Express
+2937,Island Airlines
+2938,Island Aviation
+2939,Island Aviation Services
+2940,Island Aviation and Travel
+2941,Island Express
+2942,Cargo Plus Aviation
+2943,Island Helicopters
+2944,Island Link
+2945,Islandair Jersey
+2946,Islands Nationair
+2947,Icebird Airline
+2948,Islas Airways
+2949,Isle Grande Flying School
+2950,Islena De Inversiones
+2951,Isles of Scilly Skybus
+2952,Israel Aircraft Industries
+2953,Israeli Air Force
+2954,Israir
+2955,Istanbul Airlines
+2956,Itali Airlines
+2957,Italy First
+2958,Itek Air
+2959,Ivoire Aero Services
+2960,Ivoire Airways
+2961,Ivoire Jet Express
+2962,Iwamoto Crane Co Ltd
+2963,Ixair
+2964,Izair
+2965,Izhavia
+2966,J C Bamford (Excavators)
+2967,J P Hunt Air Carriers
+2968,J-Air
+2969,JAL Express
+2970,JALways
+2971,JDAviation
+2972,JDP Lux
+2973,JHM Cargo Expreso
+2974,JM Family Aviation
+2975,JMC Airlines
+2976,JSC Transport Automated Information Systems
+2977,JS Air
+2978,JS Aviation
+2979,Jackson Air Services
+2980,Jade Cargo International
+2981,Jamahiriya Airways
+2982,Jambo Africa Airlines
+2983,Jana-Arka
+2984,Janair
+2985,Japan Air Commuter
+2986,Japan Aircraft Service
+2987,Japan Airlines
+2988,Japan Airlines Domestic
+2989,Japan Asia Airways
+2990,Japan Transocean Air
+2991,Jat Airways
+2992,Jatayu Airlines
+2993,Jazeera Airways
+2994,Jeju Air
+2995,Jenney Beechcraft
+2996,Jeppesen Data Plan
+2997,Jeppesen UK
+2998,Jet Air
+2999,Jet Air Group
+3000,Jet Airways
+3001,Jet Airways
+3002,Jet Aspen Air Lines
+3003,Jet Aviation
+3004,Jet Aviation Business Jets
+3005,Jet Center Flight Training
+3006,Jet Charter
+3007,Jetclub
+3008,Jet Connection
+3009,Jet Courier Service
+3010,Jet East International
+3011,Jet Executive International Charter
+3012,Jet Fighter Flights
+3013,Jet Freighters
+3014,Jet G&D Aviation
+3015,Jet Line International
+3016,Jet Link
+3017,Jet Link Aviation
+3018,Jet Norte
+3019,Jet Rent
+3020,Jet Service
+3021,Jetstar Asia Airways
+3022,Jet Stream
+3023,Jet Trans Aviation
+3024,Jet-2000
+3025,Jet-Ops
+3026,Jet2.com
+3027,Jet4You
+3028,JetAfrica Swaziland
+3029,JetBlue Airways
+3030,JetConnect
+3031,JetMagic
+3032,Jetairfly
+3033,Jetall Holdings
+3034,Jetalliance
+3035,Jetclub
+3036,Jetcorp
+3037,Jetcraft Aviation
+3038,Jetex Aviation
+3039,Jetflite
+3040,Jetfly Airlines
+3041,Jetgo International
+3042,Jetlink Express
+3043,Jetlink Holland
+3044,Jetnova de Aviacion Ejecutiva
+3045,Jetpro
+3046,Jetran Air
+3047,Jetrider International
+3048,Jets Ejecutivos
+3049,Jets Personales
+3050,Jets Y Servicios Ejecutivos
+3051,JetsGo
+3052,Jetstar Airways
+3053,Jetstream Air
+3054,Jetstream Executive Travel
+3055,Jett Paqueteria
+3056,Jett8 Airlines Cargo
+3057,Jettime
+3058,Jettrain Corporation
+3059,Jetways of Iowa
+3060,Jetx Airlines
+3061,Jibair
+3062,Jigsaw Project
+3063,Jim Hankins Air Service
+3064,Jim Ratliff Air Service
+3065,Joanas Avialinijos
+3066,Job Air
+3067,Johnson Air
+3068,Johnsons Air
+3069,Johnston Airways
+3070,Joint Military Commission
+3071,Jomartaxi Aereo
+3072,Jonsson
+3073,Jordan Aviation
+3074,Jordan International Air Cargo
+3075,Jorvik
+3076,Ju-Air
+3077,Juanda Flying School
+3078,Juba Cargo Services & Aviation Company
+3079,Jubba Airways
+3080,Jubilee Airways
+3081,Juneyao Airlines
+3082,Justair Scandinavia
+3083,Justice Prisoner and Alien Transportation System
+3084,K D Air Corporation
+3085,K S Avia
+3086,K-Mile Air
+3087,KD Avia
+3088,KLM Cityhopper
+3089,KLM Helicopter
+3090,KLM Royal Dutch Airlines
+3091,Kabo Air
+3092,Kahama Mining Corporation
+3093,Kaiser Air
+3094,Kalitta Air
+3095,Kalitta Charters
+3096,Kallat El Saker Air Company
+3097,Kam Air
+3098,Kampuchea Airlines
+3099,Kanaf-Arkia Airlines
+3100,Kanfey Ha'emek Aviation
+3101,Kansas State University
+3102,Karat
+3103,Karibu Airways Company
+3104,Karlog Air Charter
+3105,Karthago Airlines
+3106,Kartika Airlines
+3107,Kata Transportation
+3108,Katekavia
+3109,Kato Airline
+3110,Kavminvodyavia
+3111,Kavouras Inc
+3112,Kaz Agros Avia
+3113,Kaz Air West
+3114,Kazan Aviation Production Association
+3115,Kazan Helicopters
+3116,Kazavia
+3117,Kazaviaspas
+3118,Keenair Charter -
+3119,Kelix Air
+3120,Kelner Airways
+3121,Kelowna Flightcraft Air Charter
+3122,Kendell Airlines
+3123,Kenmore Air
+3124,Kenn Borek Air
+3125,Kent Aviation
+3126,Kenya Airways
+3127,Kevis
+3128,Key Airlines
+3129,Key Lime Air
+3130,Keystone Aerial Surveys
+3131,Keystone Air Services
+3132,Khalifa Airways
+3133,Kharkov Aircraft Manufacturing Company
+3134,Khazar
+3135,Khoezestan Photros Air Lines
+3136,Khoriv-Avia
+3137,Khors Aircompany
+3138,Khyber Afghan Airlines
+3139,Kiev Aviation Plant
+3140,King Aviation
+3141,Kingfisher Air Services
+3142,Kingfisher Airlines
+3143,Knighthawk Air Express
+3144,Kingston Air Services
+3145,Kinnarps
+3146,Kinshasa Airways
+3147,Kirov Air Enterprise
+3148,Kish Air
+3149,Kitty Hawk Aircargo
+3150,Kitty Hawk Airways
+3151,Kiwi International Air Lines
+3152,Knight Air
+3153,Knighthawk Express
+3154,Knights Airlines
+3155,Koanda Avacion
+3156,Koda International
+3157,Kogalymavia Air Company
+3158,Kom Activity
+3159,Komiaviatrans State Air Enterprise
+3160,Komiinteravia
+3161,Komsomolsk-on-Amur Air Enterprise
+3162,Koob-Corp - 96 KFT
+3163,Korean Air
+3164,Kosmas Air
+3165,Kosmos
+3166,Kosova Airlines
+3167,Kovar Air
+3168,Krasnojarsky Airlines
+3169,Kremenchuk Flight College
+3170,Krimaviamontag
+3171,Kroonk Air Agency
+3172,Krylo Airlines
+3173,Krym
+3174,Krystel Air Charter
+3175,Kuban Airlines
+3176,Kunpeng Airlines
+3177,Kurzemes Avio
+3178,Kustbevakningen
+3179,Kuwait Airways
+3180,Kuzu Airlines Cargo
+3181,Kvadro Aero
+3182,Kwena Air
+3183,Kyrgyz Airlines
+3184,Kyrgyz Trans Avia
+3185,Kyrgyzstan
+3186,Kyrgyzstan Airlines
+3187,Kyrgyzstan Department of Aviation
+3188,Kyrgz General Aviation
+3189,Kibris T
+3190,L A Helicopter
+3191,L J Aviation
+3192,L R Airlines
+3193,L&L Flygbildteknik
+3194,L'Express
+3195,L-3 Communications Flight Internation Aviation
+3196,L.A.B. Flying Service
+3197,LACSA
+3198,LADE - Lineas Aereas Del Estado
+3199,LAI - Linea Aerea IAACA
+3200,LAN Airlines
+3201,LAN Argentina
+3202,LAN Cargo
+3203,LAN Dominica
+3204,LAN Express
+3205,LAN Peru
+3206,LANSA
+3207,LAP Colombia - Lineas Aereas Petroleras
+3208,LASTP
+3209,LC Busre
+3210,LOT Polish Airlines
+3211,LTE International Airways
+3212,LTU Austria
+3213,LTU International
+3214,LTV Jet Fleet Corporation
+3215,LUKoil-Avia
+3216,La Ronge Aviation Services
+3217,La Valenciana Taxi Aereo
+3218,Labcorp
+3219,Labrador Airways
+3220,Lagun Air
+3221,Lake Havasu Air Service
+3222,Lakeland Aviation
+3223,Laker Airways
+3224,Laker Airways (Bahamas)
+3225,Lamra
+3226,Lanaes Aereas Trans Costa Rica
+3227,Landsflug
+3228,Langtry Flying Group
+3229,Lankair
+3230,Lanza Air
+3231,Lanzarote Aerocargo
+3232,Lao Air Company
+3233,Lao Airlines
+3234,Lao Capricorn Air
+3235,Laoag International Airlines
+3236,Laredo Air
+3237,LatCharter
+3238,Latvian Air Force
+3239,Lauda Air
+3240,Lauda Air Italy
+3241,Laughlin Express
+3242,Laus
+3243,Lawrence Aviation
+3244,Layang-Layang Aerospace
+3245,Lease-a-Plane International
+3246,Lebanese Air Transport
+3247,Lebanese Air Transport (Charter)
+3248,Lebanon Airport Development Corporation
+3250,Leconte Airlines
+3251,Leeward Islands Air Transport
+3252,Legend Airlines
+3253,Leisure Air
+3254,Lentini Aviation
+3255,Leo-Air
+3256,Leonsa De Aviacion
+3257,Libyan Airlines
+3258,Libyan Arab Airlines
+3259,Libyan Arab Air Cargo
+3260,Lid Air
+3261,Lignes Aeriennes Congolaises
+3262,Lignes Aeriennes Du Tchad
+3263,Lignes Mauritaniennes Air Express
+3264,Lignes Nationales Aeriennes - Linacongo
+3265,Lincoln Air National Guard
+3266,Lincoln Airlines
+3267,Lindsay Aviation
+3268,Linea Aerea Costa Norte
+3269,Linea Aerea Mexicana de Carga
+3270,Linea Aerea SAPSA
+3271,Linea Aerea de Fumig Aguas Negras
+3272,Linea Aerea de Servicio Ejecutivo Regional
+3273,Linea De Aeroservicios
+3274,Linea Turistica Aerotuy
+3275,Lineas Aereas Alaire S.L.
+3276,Lineas Aereas Azteca
+3277,Lineas Aereas Canedo LAC
+3278,Lineas Aereas Comerciales
+3279,Lineas Aereas Ejectuivas De Durango
+3280,Lineas Aereas Eldorado
+3281,Lineas Aereas Federales
+3282,Lineas Aereas Monarca
+3283,Lineas Aereas San Jose
+3284,Lineas Aereas del Humaya
+3285,Linex
+3286,Linhas Aereas Santomenses
+3287,Linhas A
+3288,Link Airways of Australia
+3289,Lion Air Services
+3290,Lion Mentari Airlines
+3291,Lions-Air
+3292,Lithuanian Air Force
+3293,Little Red Air Service
+3294,Livingston
+3295,Lloyd Aereo Boliviano
+3296,Lnair Air Services
+3297,Lockheed Air Terminal
+3298,Lockeed Aircraft Corporation
+3299,Lockheed DUATS
+3300,Lockheed Martin Aeronautics
+3301,Lockheed Martin Aeronautics Company
+3302,Logan Air
+3303,Lom Praha Flying School
+3304,Lomas Helicopters
+3305,London City Airport Jet Centre
+3306,London Executive Aviation
+3307,London Flight Centre (Stansted)
+3308,London Helicopter Centres
+3309,Lone Star Airlines
+3310,Long Island Airlines
+3311,Longtail Aviation
+3312,Lorraine Aviation
+3313,Los Cedros Aviacion
+3314,Lotus Air
+3315,Luchtvaartmaatschappij Twente
+3316,Lucky Air
+3317,Luft Carago
+3318,Luftfahrt-Vermietungs-Dienst
+3319,Luftfahrtgesellschaft Walter
+3320,Lufthansa
+3321,Lufthansa Cargo
+3322,Lufthansa CityLine
+3323,Lufthansa Systems
+3324,Lufthansa Technik
+3325,Lufttaxi Fluggesellschaft
+3326,Lufttransport
+3327,Luhansk
+3328,Lund University School of Aviation
+3329,Luxair
+3330,Luxaviation
+3331,Luxembourg Air Rescue
+3332,Luxflight Executive
+3333,Luxor Air
+3334,Luzair
+3335,Lviv Airlines
+3336,Lydd Air
+3337,Lynch Flying Service
+3338,Lynden Air Cargo
+3339,Lynx Air International
+3340,Lynx Aviation
+3342,L
+3343,L
+3344,M & N Aviation
+3345,MAC Fotografica
+3346,MANAG'AIR
+3347,MAP-Management and Planung
+3348,MAS Airways
+3349,MasAir
+3350,MAT Macedonian Airlines
+3351,MCC Aviation
+3352,MG Aviacion
+3353,MIA Airlines
+3354,MIAT Mongolian Airlines
+3355,MIT Airlines
+3356,MK Airline
+3357,MNG Airlines
+3358,MSR Flug-Charter
+3359,MTC Aviacion
+3360,Mac Aviation
+3361,Mac Dan Aviation Corporation
+3362,MacKnight Airlines
+3363,Macair Airlines
+3364,Macedonian Airlines
+3365,Madina Air
+3366,Maersk
+3367,Magic Blue Airlines
+3368,Magna Air
+3369,Mahalo Air
+3370,Mahan Air
+3371,Mahfooz Aviation
+3372,Maine Aviation
+3373,Majestic Airlines
+3374,Mak Air
+3375,Malagasy Airlines
+3376,Malawi Express
+3377,Malaya Aviatsia Dona
+3378,Malaysia Airlines
+3379,Mali Air
+3380,Mali Air Express
+3381,Mali Airways
+3382,Malila Airlift
+3383,Mall Airways
+3384,Malmo Aviation
+3385,Malmoe Air Taxi
+3386,Malmö Aviation
+3387,Malta Air Charter
+3388,Malta Wings
+3389,Malév
+3390,Manaf International Airways
+3391,Mandala Airlines
+3392,Mandarin Airlines
+3393,Mango
+3394,Manhattan Air
+3395,Manitoulin Air Services
+3396,Mann Air
+3397,Mannion Air Charter
+3398,Mantrust Asahi Airways
+3399,Manx Airlines
+3400,Maple Air Services
+3401,March Helicopters
+3402,Marcopolo Airways
+3403,Marghi Air
+3404,Markair
+3405,Markoss Aviation
+3406,Mars RK
+3407,Marshall Aerospace
+3408,Marsland Aviation
+3409,Martin Aviation Services
+3410,Martin-Baker
+3411,Martinair
+3412,Martinaire
+3413,Martyn Fiddler Associates
+3414,Marvin Limited
+3415,Maryland State Police
+3416,Massachusetts Institute of Technology
+3417,Massey University School of Aviation
+3418,Master Airways
+3419,Master Planner
+3420,Masterjet
+3421,Mastertop Linhas Aereas
+3422,Mauria
+3423,Mauritanienne Aerienne Et Navale
+3424,Mauritanienne Air Fret
+3425,Mauritanienne Airways
+3426,Mauritanienne De Transport Aerien
+3427,Maverick Airways
+3428,Mavial Magadan Airlines
+3429,Max Avia
+3430,Max Sea Food
+3431,Max-Aviation
+3432,Maxair
+3433,Maximus Air Cargo
+3434,Maxjet Airways
+3435,Maxsus-Avia
+3436,May Air Xpress
+3437,Maya Island Air
+3438,Mayair
+3439,Mbach Air
+3440,McAlpine Helicopters
+3441,McCall Aviation
+3442,McDonnell Douglas
+3443,McNeely Charter Services
+3444,Med-Trans of Florida
+3445,Medavia Company
+3446,Medical Air Rescue Services
+3447,Medical Aviation Services
+3448,Mediterranean Air Freight
+3449,Mediterranean Airways
+3450,Medjet International
+3451,Mega
+3452,Mega Linhas Aereas
+3453,Mekong Airlines
+3454,Menajet
+3456,Merchant Express Aviation
+3457,Mercury Aircourier Service
+3458,Meridian
+3459,Meridian Air Cargo
+3460,Meridian Airlines
+3461,Meridian Aviation
+3462,Meridian Limited
+3463,Meridiana
+3464,Merlin Airways
+3465,Merpati Nusantara Airlines
+3466,Mesa Airlines
+3467,Mesaba Airlines
+3468,Meta Linhas A
+3469,Meteorological Research Flight
+3470,Methow Aviation
+3471,Metro Business Aviation
+3472,Metro Express
+3473,Metroflight
+3474,Metrojet
+3475,Metropix UK
+3476,Metroplis
+3477,Mex Blue
+3478,Mex-Jet
+3479,Mexicana de Aviaci
+3480,Mexico Transportes Aereos
+3481,Miami Air Charter
+3482,Miami Air International
+3483,Miami Valley Aviation
+3484,Miapet-Avia
+3485,Michelin Air Services
+3486,Micromatter Technology Solutions
+3487,Mid Airlines
+3488,Mid-Pacific Airlines
+3489,Midamerica Jet
+3490,Middle East Airlines
+3491,Midland Airport Services
+3492,Midline Air Freight
+3493,Midstate Airlines
+3494,Midway Airlines
+3495,Midway Express
+3496,Midwest Air Freighters
+3497,Midwest Airlines
+3498,Midwest Airlines (Egypt)
+3499,Midwest Aviation
+3500,Midwest Aviation Division
+3501,Midwest Helicopters De Mexico
+3502,Millardair
+3503,Millen Corporation
+3504,Millennium Air
+3505,Miller Flying Services
+3506,Million Air
+3507,Mimino
+3508,Mina Airline Company
+3509,Minair
+3510,Minebea Technologies
+3511,Mines Air Services Zambia
+3512,Miniliner
+3513,Ministic Air
+3514,Ministry of Agriculture
+3515,Minsk Aircraft Overhaul Plant
+3516,Miramichi Air Service
+3517,Miras
+3518,Misr Overseas Airways
+3519,Mission Aviation Fellowship
+3520,Missionair
+3521,Missions Gouvernemtales Francaises
+3522,Mississippi State University
+3523,Mississippi Valley Airways
+3524,Mistral Air
+3525,Mobil Oil
+3526,Mocambique Expresso
+3527,Mofaz Air
+3528,Moldaeroservice
+3529,Moldavian Airlines
+3530,Moldova
+3531,Mombasa Air Safari
+3532,Monarch Airlines
+3533,Monarch Airlines
+3534,Myway Airlines
+3535,Moncton Flying Club
+3536,Monde Air Charters
+3537,Monerrey Air Taxi
+3538,Monky Aerotaxis
+3539,Montenegro Airlines
+3540,Montserrat Airways
+3541,Mooney Aircraft Corporation
+3542,Morningstar Air Express
+3543,Morris Air Service
+3544,Morrison Flying Service
+3545,Moskovia Airlines
+3546,Mosphil Aero
+3547,Motor Sich
+3548,Mount Cook Airlines
+3549,Mountain Air Cargo
+3550,Mountain Air Company
+3551,Mountain Air Express
+3552,Mountain Air Service
+3553,Mountain Bird
+3554,Mountain High Aviation
+3555,Mountain Pacific Air
+3556,Mountain Valley Air Service
+3557,Mowhawk Airlines
+3558,Mudan Airlines
+3559,Mudanjiang General Aviation
+3560,Multi Taxi
+3561,Multi-Aero
+3562,Multiflight
+3563,Murmansk Aircompany
+3564,Murray Air
+3565,Musrata Air Transport
+3566,Mustique Airways
+3567,My Way Airlines
+3568,MyTravel Airways
+3569,Myanma Airways
+3570,Myanmar Airways International
+3571,Myflug
+3572,Mytravel Airways
+3573,NEL Cargo
+3574,NHT Lineas Aereas
+3575,NZ Warbirds Association
+3576,Nacoia Lda
+3577,Nada Air Service
+3578,Compangnie Nationale Naganagani
+3579,Nahanni Air Services Ltd
+3580,Nakheel Aviation
+3581,Namibia Commerical Aviation
+3582,Namibian Defence Force
+3583,Nanjing Airlines
+3584,Nantucket Airlines
+3585,Nanyah Aviation
+3586,Napier Air Service Inc
+3587,Nas Air
+3588,Nas Air
+3589,Nasair
+3590,Nashville Jet Charters
+3591,Natalco Air Lines
+3592,Natioanl Air Traffic Controllers Association
+3593,National Air Charter
+3594,National Air Traffic Services
+3595,National Airlines
+3596,National Airlines
+3597,National Airlines
+3598,National Airlines
+3599,National Airlines
+3600,National Airways Cameroon
+3601,National Airways Corporation
+3602,National Aviation Company
+3603,National Aviation Consultants
+3604,National Express
+3605,National Grid
+3606,National Jet Express
+3607,National Jet Service
+3608,National Jet Systems
+3609,National Oceanic and Atmospheric Administration
+3610,National Overseas Airlines Company
+3611,Nationale Luchtvaartschool
+3612,Nations Air Express Inc
+3613,Nationwide Airlines
+3614,Nationwide Airlines (Zambia)
+3615,Natural Environment Research Council
+3616,Natureair
+3617,Naturelink Charter
+3618,Nauru Air Corporation
+3619,NAV CANADA
+3620,Nav Flight Planning
+3621,Navegacao Aerea De Portugal
+3622,Navegacion Servicios Aereos Canarios SA
+3623,Navid
+3624,Naviera Mexicana
+3625,Navigator Airlines
+3626,Navinc Airlines Services
+3627,Navitaire
+3628,Navtech System Support
+3629,Nayzak Air Transport
+3630,State of Nebraska
+3631,Necon Air
+3632,Nederlandse Kustwacht
+3633,Nefteyugansk Aviation Division
+3634,Neiltown Air
+3635,Nelair Charters
+3636,Nelson Aviation College
+3637,Nepal Airlines
+3638,Neos
+3639,Neosiam Airways
+3640,Neric
+3641,NetJets
+3642,Network Aviation Services
+3643,New England Air Express
+3644,New England Airlines
+3645,New Heights 291
+3646,New World Jet Corporation
+3647,New York Helicopter
+3648,New York State Police
+3649,New Zealand Air Defence Force
+3650,Newair
+3651,Newfoundland Labrador Air Transport
+3652,NextJet
+3653,Nextflight Aviation
+3654,Nexus Aviation
+3655,Nicaraguense De Aviacion
+3656,Nicon Airways
+3657,Nigeria Airways
+3658,Nigerian Air Force
+3659,Nigerian Global
+3660,Night Express
+3661,Niki
+3662,Nikolaev-Air
+3663,Nile Safaris Aviation
+3664,Nile Valley Aviation Company
+3665,Nile Wings Aviation Services
+3666,Nimbus Aviation
+3667,Nippon Cargo Airlines
+3668,Nizhnevartovskavia
+3669,Search and Rescue 202
+3670,Search and Rescue 22
+3671,No. 32 (The Royal) Squadron RAF
+3672,84 Squadron Royal Air Force @ RAF Akrotiri
+3673,Nobil Air
+3674,Nok Air
+3675,Nolinor Aviation
+3676,Nomad Aviation
+3677,Norcopter
+3678,Nord-Flyg
+3679,Nordeste Linhas Aereas Regionais
+3680,Nordic Regional
+3681,Nordic Solutions
+3682,Nordstree (Australia)
+3683,Norestair
+3684,Norfolk County Flight College
+3685,Norontair
+3686,Norrlandsflyg
+3687,Norse Air Charter
+3688,Norsk Flyrjeneste
+3689,Norsk Helikopter
+3690,Norsk Luftambulanse
+3691,Nortavia
+3692,North Adria Aviation
+3693,North American Airlines
+3694,North American Charters
+3695,North American Jet Charter Group
+3696,North Atlantic Air Inc
+3697,North Atlantic Cargo
+3698,North British Airlines
+3699,North Caribou Flying Service Ltd
+3700,North Coast Air Services Ltd
+3701,North Coast Aviation
+3702,North Flying
+3703,North Sea Airways
+3704,North Star Air Cargo
+3705,North Vancouver Airlines
+3706,North West Airlines
+3707,North West Geomatics
+3708,North-East Airlines
+3709,North-West Air Transport Company - Vyborg
+3710,North-Wright Airways
+3711,Northafrican Air Transport
+3712,Northaire Feight Lines
+3713,Northamptonshire School of Flying
+3714,Northcoast Executive Airlines
+3715,Northeast Airlines
+3716,Northeast Aviation
+3717,Northern Air Cargo
+3718,Northern Airlines Sanya
+3719,Northern Airways
+3720,Northern Aviation Service
+3721,Northern Dene Airways
+3722,Northern Executive Aviation
+3723,Northern Illinois Commuter
+3724,Northern Jet Management
+3725,Northern Thunderbird Air
+3726,Northland Aviation
+3727,Northstar Aviation
+3728,Northumbria Helicopters
+3729,Northway Aviation Ltd
+3730,Northwest Aero Associates
+3731,Northwest Airlines
+3732,Northwest Regional Airlines
+3733,Northwest Territorial Airways
+3734,Northwestern Air
+3735,Northwinds Northern
+3736,Nortland Air Manitoba
+3737,Norwegian Air Shuttle
+3738,Norwegian Aviation College
+3739,Notams International
+3740,Nouvel Air Tunisie
+3741,Nova Airline
+3742,Nova Scotia Department of Lands and Forests
+3743,Novair
+3744,Novogorod Air Enterprise
+3745,Novosibirsk Aircraft Repairing Plant
+3746,Novosibirsk Aviaenterprise
+3747,Novosibirsk Aviation Production Association
+3748,Noy Aviation
+3749,Nuevo Continente
+3750,Nuevo Horizonte Internacional
+3751,Nunasi-Central Airlines
+3752,Nurman Avia Indopura
+3753,Nyasa Express
+3754,Nas Air
+3755,O Air
+3756,O'Connor Airlines
+3757,OAG
+3758,OSACOM
+3759,Oasis Hong Kong Airlines
+3760,Ocean Air
+3761,Ocean Airlines
+3762,Ocean Sky (UK)
+3763,Ocean Wings Commuter Service
+3764,Oceanair
+3765,Oceanic Airlines
+3766,Odessa Airlines
+3767,Odyssey International
+3768,Office Federal De'Aviation Civile
+3769,Ogooue Air Cargo
+3770,Okada Airlines
+3771,Okapi Airways
+3772,Okay Airways
+3773,Oklahoma Department of Public Safety
+3774,Olimex Aerotaxi
+3775,Olimp Air
+3776,Olympic Airlines
+3777,Olympic Aviation
+3778,Oman Air
+3779,Oman Royal Flight
+3780,Omni - Aviacao e Tecnologia
+3781,Omni Air International
+3782,Omniflys
+3783,Omskavia Airline
+3784,On Air Limited
+3785,One Two Go Airlines
+3786,Onetime Airlines Zambia
+3787,Ontario Ministry of Health
+3788,Onur Air
+3789,Opal Air
+3790,Open Sky Aviation
+3791,OpenSkies
+3792,Operadora Turistica Aurora
+3793,Operadora de Lineas Ejecutivas
+3794,Operadora de Transportes Aereos
+3795,Operadora de Veulos Ejectutivos
+3796,Operation Enduring Freedom
+3797,Operational Aviation Services
+3798,Orange Air Services
+3799,Orange Air Sierra Leone
+3800,Orange Aviation
+3801,Orbit Express Airlines
+3802,Orca Air
+3803,Orebro Aviation
+3804,Orel State Air Enterprise
+3805,Orenburg Airlines
+3806,Organizacion De Transportes Aereos
+3807,Organizacoes Mambra
+3808,Orient Air
+3809,Orient Airlines
+3810,Orient Airways
+3811,Orient Thai Airlines
+3812,Oriental Air Bridge
+3813,Oriental Airlines
+3814,Origin Pacific Airways
+3815,Orion Air Charter
+3816,Orion-x
+3817,Orlan-2000
+3818,Ornage Aircraft Leasing
+3819,Orscom Tourist Installations Company
+3820,Osh Avia
+3821,Ostend Air College
+3822,Ostfriesische Lufttransport
+3823,Oulun Tilauslento
+3824,Our Airline
+3825,Out Of The Blue Air Safaris
+3826,Overland Airways
+3827,Oxaero
+3828,Oxford Air Services
+3829,Oxley Aviation
+3830,Ozark Air Lines
+3831,Ozjet Airlines
+3832,P & P Floss Pick Manufacturers
+3833,PAC Air
+3834,PAN Air
+3835,PB Air
+3836,PDQ Air Charter
+3837,PHH Aviation System
+3838,PLM Dollar Group
+3839,PLUNA
+3840,PMTair
+3841,PRT Aviation
+3842,PSA Airlines
+3843,PTL Luftfahrtunternehemen
+3844,Paccair
+3845,Pace Airlines
+3846,Pacific Air Boats
+3847,Pacific Air Charter
+3848,Pacific Air Express
+3849,Pacific Air Transport
+3850,Jetstar Pacific
+3851,Pacific Alaska Airlines
+3852,Pacific Aviation (Australia)
+3853,Pacific Aviation (United States)
+3854,Pacific Blue
+3855,Pacific Coast Airlines
+3856,Pacific Coastal Airline
+3857,Pacific East Asia Cargo Airlines
+3858,Pacific Flight Services
+3859,Pacific International Airlines
+3860,Pacific Island Aviation
+3861,Pacific Jet
+3862,Pacific Pearl Airways
+3863,Pacific Rim Airways
+3864,Pacific Southwest Airlines
+3865,Pacific Wings
+3866,Pacificair
+3867,Pacificair Airlines
+3868,Package Express
+3869,Paisajes Espanoles
+3870,Pak West Airlines
+3871,Pakistan International Airlines
+3872,Pakker Avio
+3873,Pal Aerolineas
+3874,Palau Asia Pacific Airlines
+3875,Palau Trans Pacific Airline
+3876,Palestinian Airlines
+3877,Palmer Aviation
+3878,Pamir Airways
+3879,Pan African Air Services
+3880,Pan African Airways
+3881,Pan Air
+3882,Pan Am Weather Systems
+3883,Pan Am World Airways
+3885,Pan American Airways
+3886,Pan American World Airways
+3887,Pan Europeenne Air Service
+3888,Pan Havacilik Ve Ticaret
+3889,Pan Malaysian Air Transport
+3890,Pan-Air
+3891,Panafrican Airways
+3892,Panagra Airways
+3893,Panamedia
+3894,Panavia
+3895,Panh
+3896,Pannon Air Service
+3897,Panorama
+3898,Panorama Air Tour
+3899,Panorama Flight Service
+3900,Pantanal Linhas Aéreas
+3901,Papair Terminal
+3902,Paradise Airways
+3903,Paradise Island Airways
+3904,Paragon Air Express
+3905,Paragon Global Flight Support
+3906,Paramount Airlines
+3907,Paramount Airways
+3908,Parcel Express
+3909,Pariz Air
+3910,Pars Aviation Service
+3911,Parsa
+3912,Parsons Airways Northern
+3913,Pascan Aviation
+3914,Passaredo Transportes Aereos
+3915,Patria Cargas Aereas
+3916,Patriot Aviation Limited
+3917,Patterson Aviation Company
+3918,Pawan Hans
+3919,Payam Air
+3920,Peach Air
+3921,Pearl Air
+3922,Pearl Air Services
+3923,Pearl Airways
+3924,Peau Vava%Gʻ%@u
+3925,Pecotox Air
+3926,Pegasus Airlines
+3927,Pegasus Aviation
+3928,Pegasus Hava Tasimaciligi
+3929,Pegasus Helicopters
+3930,Pelican Air Services
+3931,Pelican Express
+3932,Pelita Air Service
+3933,Pem-Air
+3934,Pen-Avia
+3935,Peninsula Airways
+3936,Peninter Aerea
+3937,Penya De L'Aire
+3938,Peran
+3939,Perforadora Central
+3940,Perimeter Aviation
+3941,Perm Airlines
+3942,Personas Y Pasquetes Por Air
+3943,Peruvian Air Force
+3944,Peruvian Navy
+3945,Petroleos Mexicanos
+3946,Petroleum Helicopters
+3947,Petroleum Helicopters de Colombia
+3948,Petropavlovsk-Kamchatsk Air Enterprise
+3949,Petty Transport
+3950,Phenix Aviation
+3951,Phetchabun Airline
+3952,Philippine Airlines
+3953,Philips Aviation Services
+3954,Phillips Air
+3955,Phillips Alaska
+3956,Phillips Michigan City Flying Service
+3957,Phoebus Apollo Aviation
+3958,Phoebus Apolloa Zambia
+3959,Phoenix Air Group
+3960,Phoenix Air Lines
+3961,Phoenix Air Service
+3962,Phoenix Air Transport
+3963,Phoenix Airline Services
+3964,Phoenix Airways
+3965,Phoenix Avia
+3966,Phoenix Aviation
+3967,Phoenix Flight Operations
+3968,Phuket Air
+3969,Piedmont Airlines (1948-1989)
+3970,Pilatus Flugzeugwerke
+3971,Pilatus PC-12 Center De Mexico
+3972,Pimichikamac Air
+3973,Pineapple Air
+3974,Pinframat
+3975,Pinnacle Air Group
+3976,Pinnacle Airlines
+3977,Pioneer Airlines
+3978,Pioneers Limited
+3979,Pirinair Express
+3980,Planar
+3981,Planemaster Services
+3982,Planet Airways
+3983,Players Air
+3984,Ploizeihubschrauberstaffel Hamburg
+3985,Plymouth School of Flying
+3986,Pocono Air Lines
+3987,Podilia-Avia
+3988,Point Afrique Niger
+3989,Point Airlines
+3990,Pointair Burkina
+3991,Points of Call Airlines
+3992,Polar Air Cargo
+3993,Polar Airlines de Mexico
+3994,Polestar Aviation
+3995,Polet
+3996,Police Aux Frontiers
+3997,Police Aviation Services
+3998,Polish Air Force
+3999,Polish Navy
+4000,Polizeifliegerstaffel Nordrhein-Westfalen
+4001,Polizeihibschrauberstaffel Neidersachsen
+4002,Polizeihuberschrauberstaffel Sachsen-Anhalt
+4003,Polizeihubschrafterstaffel Rheinland-Pfalz
+4004,Polizeihubschrauberstaffel Baden-Wurtemberg
+4005,Polizeihubschrauberstaffel Bayern
+4006,Polizeihubschrauberstaffel Brandenburg
+4007,Polizeihubschrauberstaffel Hessen
+4008,Polizeihubschrauberstaffel Mecklenburg-Vorpommern
+4009,Polizeihubschrauberstaffel Sachsen
+4010,Polizeihubschrauberstaffel Thuringen
+4011,Polo Aviation
+4012,Polynesian Air-Ways
+4013,Polynesian Airlines
+4014,Polynesian Blue
+4015,Polyot Sirena
+4016,Pond Air Express
+4017,Pont International Airline Services
+4018,Pool Aviation
+4019,Port Townsend Airways
+4020,Porteadora De Cosola
+4021,Porter Airlines
+4022,Portugalia
+4023,Portuguese Air Force
+4024,Portuguese Army
+4025,Portuguese Navy
+4026,Potomac Air
+4027,Potosina Del Aire
+4028,Powell Air
+4029,Prairie Flying Service
+4030,Pratt and Whitney Canada
+4031,Precision Air
+4032,Precision Airlines
+4033,Premiair
+4034,Premiair Aviation Services
+4035,Premiair Fliyng Club
+4036,Premium Air Shuttle
+4037,Premium Aviation
+4038,Presidence Du Faso
+4039,Presidencia de La Republica de Guinea Ecuatorial
+4040,President Airlines
+4041,Presidential Aviation
+4042,Priester Aviation
+4043,Primair
+4044,Primaris Airlines
+4045,Primas Courier
+4046,Primavia Limited
+4047,Prime Air
+4048,Prime Aviation
+4049,Prince Edward Air
+4050,Princely Jets
+4051,Princess Air
+4052,Princeton Aviation Corporation
+4053,Priority Air Charter
+4054,Priority Air Transport
+4055,Priority Aviation Company
+4056,Privatair
+4057,Private Jet Expeditions
+4058,Private Jet Management
+4059,Private Wings Flugcharter
+4060,Privilege Style L
+4061,Pro Air
+4062,Pro Air Service
+4063,Probiz Guinee
+4064,Professional Express Courier Service
+4065,Professione VOlare
+4066,Proflight Commuter Services
+4067,Promotora Industria Totolapa
+4068,Propair
+4069,Propflight Air Services
+4070,Propheter Aviation
+4071,Proteus Helicopteres
+4072,Providence Airline
+4073,Providence Aviation Services
+4074,Provincial Airlines
+4075,Provincial Express
+4076,Pskovavia
+4077,Psudiklat Perhubungan Udara/PLP
+4078,Ptarmigan Airways
+4079,Publiservicios Aereos
+4080,Publivoo
+4081,Puerto Rico National Guard
+4082,Puerto Vallarta Taxi Aereo
+4083,Pulkovo Aircraft Services
+4084,Puma Linhas Aereas
+4085,Puntavia Air Services
+4086,Punto Fa
+4087,Pyramid Air Lines
+4088,Qanot Sharq
+4089,Qantas
+4090,Qatar Air Cargo
+4091,Qatar Airways
+4092,Qatar Amiri Flight
+4093,Qeshm Air
+4094,Quantex Environmental
+4095,Quebec Government Air Service
+4096,Queen Air
+4097,Quest Diagnostics
+4098,Quick Air Jet Charter
+4099,Quick Airways Holland
+4100,Quisqueya Airlines
+4101,Qurinea Air Service
+4102,Qwest Commuter Corporation
+4103,Qwestair
+4104,Qwila Air
+4105,RA Jet Aeroservicios
+4106,RACSA
+4107,RAF Barkston Heath
+4108,Church Fenton Flying Training Unit
+4109,Coltishall Flying Training Unit
+4110,Coningsby Flying Training Unit
+4111,Cottesmore Flying Training Unit
+4112,Cranwell Flying Training Unit
+4113,Kinloss Flying Training Unit
+4114,Leeming Flying Training Unit
+4115,RAF Leuchars
+4116,Linton-on-Ouse Flying Training Unit
+4117,Lossiemouth Flying Training Unit
+4118,Marham Flying Training Unit
+4119,Northwood Headquarters (RAF
+4120,RAF Scampton
+4121,RAF St Athan
+4122,RAF St Mawgan Search and Rescue
+4123,RAF Topcliffe Flying Training Unit
+4124,RAF Valley Flying Training Unit
+4125,RAF Valley SAR Training Unit
+4126,Waddington FTU
+4127,Wittering FTU
+4128,RAF-Avia
+4129,RAK Airways
+4130,RWL Luftfahrtgesellschaft
+4131,Rabbit-Air
+4132,Race Cargo Airlines
+4133,Rader Aviation
+4134,Radixx Solutions International
+4135,Raji Airlines
+4136,Raleigh Flying Service
+4137,Ram Air Freight
+4138,Ram Aircraft Corporation
+4139,Ramp 66
+4140,Rangemile Limited
+4141,Raslan Air Service
+4142,Rath Aviaton
+4143,Ratkhan Air
+4144,Raven Air
+4145,Raven Air
+4146,Ray Aviation
+4147,Raya Jet
+4148,Raytheon Aircraft Company
+4149,Raytheon Corporate Jets
+4150,Raytheon Travel Air
+4151,Real Aero Club De Baleares
+4152,Real Aero Club de Reus-Costa Dorado
+4153,Real Aeroclub De Ternerife
+4154,Real Aviation
+4155,Rebus
+4156,Red Aviation
+4157,Red Baron Aviation
+4158,Red Devils Parachute Display Team
+4159,Red Sea Aviation
+4160,Red Sky Ventures
+4161,Red Star
+4162,Redhill Aviation
+4163,Reed Aviation
+4164,Reef Air
+4165,Reem Air
+4166,Reeve Aleutian Airways
+4167,Regal Bahamas International Airways
+4168,Regency Airlines
+4169,Regent Air
+4170,Regio Air
+4171,Region Air
+4172,Regional 1
+4173,Regional Air
+4174,Regional Air Express
+4175,Regional Air Lines
+4176,Regional Air Services
+4177,Regional Airlines
+4178,Regional Express
+4179,Regional Geodata Air
+4180,RegionsAir
+4181,Reliance Aviation
+4182,Reliant Airlines
+4183,Relief Transport Services
+4184,Renan
+4185,Reno Air
+4186,Renown Aviation
+4187,Republic Airlines
+4188,Republic Express Airlines
+4189,Republicair
+4190,Resort Air
+4191,Rhoades Aviation
+4192,Riau Airlines
+4193,Rich International Airways
+4194,Richards Aviation
+4195,Richardson's Airway
+4196,Richland Aviation
+4197,Rick Lucas Helicopters
+4198,Rico Linhas A
+4199,Ridder Avia
+4200,Riga Airclub
+4201,Rijnmond Air Services
+4202,Rikspolisstyrelsen
+4203,Rimrock Airlines
+4204,Rio Air Express
+4205,Rio Airways
+4206,Rio Grande Air
+4207,Rio Sul Servi
+4208,River Ministries Air Charter
+4209,River State Government of Nigeria
+4210,Rivne Universal Avia
+4211,Roadair Lines
+4212,Robinton Aero
+4213,Roblex Aviation
+4214,Rockwell Collins Avionics
+4215,Rocky Mountain Airlines
+4216,Rocky Mountain Airways
+4217,Rocky Mountain Holdings
+4218,Rodze Air
+4219,Rog-Air
+4220,Rollright Aviation
+4221,Rolls-Royce Limited
+4222,Rolls-Royce plc
+4223,Romanian Air Force
+4224,Romavia
+4225,Ronso
+4226,Roraima Airways
+4227,Rosneft-Baltika
+4228,Ross Aviation
+4229,Rossair
+4230,Rossair
+4231,Rossair Europe
+4232,Rossiya
+4233,Roswell Airlines
+4234,Air Rarotonga
+4235,Rotatur
+4236,Rotormotion
+4237,Rotterdam Jet Center
+4238,Rover Airways International
+4239,Rovos Air
+4240,Royal Air Cargo
+4241,Royal Air Force
+4242,Royal Air Force of Oman
+4243,Royal Air Force
+4244,Royal Air Force
+4245,Royal Air Force
+4246,Royal Air Force
+4247,Royal Air Freight
+4248,Royal Air Maroc
+4249,Royal Airlines
+4250,Royal American Airways
+4251,Royal Aruban Airline
+4252,Royal Australian Air Force
+4253,Royal Aviation Express
+4254,Royal Bahrain Airlines
+4255,Royal Brunei Airlines
+4256,Royal Daisy Airlines
+4257,Royal Ghanaian Airlines
+4258,Royal Jet
+4259,Royal Jordanian
+4260,Royal Jordanian Air Force
+4261,Royal Khmer Airlines
+4262,Royal Malaysian Air Force
+4263,Royal Navy
+4264,Royal Nepal Airlines
+4265,Royal Netherland Navy
+4266,Royal Netherlands Air Force
+4267,Royal New Zealand Air Force
+4268,Royal Norwegian Air Force
+4269,Royal Oman Police
+4270,Royal Phnom Penh Airways
+4271,Royal Rwanda Airlines
+4272,Royal Saudi Air Force
+4273,Royal Sky
+4274,Royal Swazi National Airways
+4275,Royal Tongan Airlines
+4276,Royal West Airlines
+4277,Rubystar
+4278,Rumugu Air & Space Nigeria
+4279,Rusaero
+4280,Rusaero
+4281,Rusair JSAC
+4282,Rusich-T
+4283,Rusline
+4284,Russian Aircraft Corporation-MiG
+4285,Russian Federation Air Force
+4286,Russian Sky Airlines
+4287,Rusuertol
+4288,Rutas Aereas
+4289,Rutland Aviation
+4290,Rwanda Airlines
+4291,Rwanda Airways
+4292,Rwandair Express
+4293,Ryan Air Service
+4294,Ryan Air Services
+4295,Ryan International Airlines
+4296,Ryanair
+4297,Ryazan State Air Enterprise
+4298,Rynes Aviation
+4299,Régional
+4302,South Asian Airlines
+4303,State Air Company Berkut
+4304,SATA International
+4305,South African Airways
+4306,Sky Way Air
+4307,SASCO Airlines
+4308,Republic of Singapore Air Force
+4309,SOS Flygambulans
+4310,Sayakhat Airlines
+4311,Shaheen Air International
+4312,Golden Eagle Air Services (FAA)
+4313,Red Arrows Display Squadron
+4314,SAM Colombia
+4315,Servicios Aereos Nacionales (SAN)
+4316,Sahel Aviation Service
+4317,Secretaria de Marina
+4318,Springbank Aviation
+4319,Scandinavian Airlines System
+4320,Samal Air
+4321,Sham Wing Airlines
+4322,Sabah Air
+4323,ScotAirways
+4324,Swiss Air-Ambulance
+4325,STA-MALI
+4326,Steinman Aviation
+4327,Seven Bar Flying Service
+4328,Sabre Incorporated
+4329,S7 Airlines
+4330,Sobel Airlines of Ghana
+4331,Sky Bahamas
+4332,Stabo Air
+4333,Smithkline Beacham Clinical Labs
+4334,Saber Aviation
+4335,Seaborne Airlines
+4336,Saint Barth Commuter
+4337,Star Air
+4338,Scibe Airlift
+4339,Spanish Air Force
+4340,South Central Air
+4341,Seacoast Airlines
+4342,Scenic Airlines
+4343,Socofer
+4344,Servicios Aereos San Cristobal
+4345,Sky Cam
+4346,Switfair Cargo
+4347,South American Airlines
+4348,Servicios Aereos de Chihuahua Aerochisa
+4349,SriLankan Airlines
+4350,Sunbird Airlines
+4351,Scorpio
+4352,Si-Chang Flying Service
+4353,South African Non Scheduled Airways
+4354,SAAB-Aircraft
+4355,Servicios Aereos Del Centro
+4356,Sun Country Airlines
+4357,St. Andrews Airways
+4358,Sukhoi Design Bureau Company
+4359,Sunrise Airlines
+4360,Skymaster Air Taxi
+4361,Sundorph Aeronautical Corporation
+4362,Servicio De Helicopteros
+4363,SADELCA - Sociedad Aerea Del Caqueta
+4364,Skydrift
+4365,Spirit of Africa Airlines
+4366,Sud Airlines
+4367,Servicios Aereos Del Vaupes
+4368,Servicio Tecnico Aero De Mexico
+4369,Sudan Pezetel for Aviation
+4370,Southeast Air
+4371,Servicios Aereos Luce
+4372,Sedona Air Center
+4373,Shaheen Air Cargo
+4374,Sky Express
+4375,Spicejet
+4376,Skyjet
+4377,Sentel Corporation
+4378,Selcon Airlines
+4379,Sky Eyes
+4380,Servicio Aereo Saltillo
+4381,SAETA
+4382,Serair Transworld Press
+4383,SEFA
+4384,Shuswap Flight Centre
+4385,Sefofane Air Charters
+4386,Safewings Aviation Company
+4387,Sun Freight Logistics
+4388,Star Flyer
+4389,Southflight Aviation
+4390,Safiran Airlines
+4391,Safe Air
+4392,Safair
+4393,Southern Frontier Air Transport
+4394,Skyfreight
+4395,Solent Flight
+4396,S.K. Logistics
+4397,Sky King
+4398,Southern Right Air Charter
+4399,Sky Gate International Aviation
+4400,STAC Swiss Government Flights
+4401,Servisair
+4402,Servicios Aereos Agricolas
+4403,Skyward Aviation
+4404,Sky Aircraft Service
+4405,Siam GA
+4406,Sagolair Transportes Ejecutivos
+4407,Saskatchewan Government Executive Air Service
+4408,Skygate
+4409,Samgau
+4410,Saga Airlines
+4411,Skagway Air Service
+4412,Shabair
+4413,Sky Harbor Air Service
+4414,Sahara Airlines
+4415,Shell Aircraft
+4416,Shoprite Group
+4417,Seoul Air International
+4418,Sharjah Ruler's Flight
+4419,Shorouk Air
+4420,Samson Aviation
+4421,Sheltam Aviation
+4422,Shaheen Airport Services
+4423,Sheremetyevo-Cargo
+4424,Service Aerien Francais
+4425,Shanghai Airlines Cargo
+4426,Shooter Air Courier
+4427,Shura Air Transport Services
+4428,Sakhalinskie Aviatrassy (SAT)
+4429,SATA Air Acores
+4430,Scorpio Aviation
+4431,Shavano Air
+4432,Shawnee Airline
+4433,Slim Aviation Services
+4434,Sky Airlines
+4435,Singapore Airlines
+4436,Sibaviatrans
+4437,Sierra Express
+4438,Skynet Airlines
+4439,Seco International
+4440,Servicios Aeronauticos Integrales
+4441,Star Air
+4442,Sirio
+4443,Salair
+4444,Saber Airlines
+4445,SITA
+4446,Slovenian Armed Forces
+4447,Sirio Executive
+4448,Servicios Aereos Especiales De Jalisco
+4449,Servicios Ejecutivos Continental
+4450,Sunair 2001
+4451,Spirit Aviation
+4452,Servicios Especiales Del Pacifico Jalisco
+4453,Swiss Jet
+4454,Sriwijaya Air
+4455,Sama Airlines
+4456,Southern Jersey Airways
+4457,SPASA
+4458,Speed Aviation
+4459,Southeast Airmotive
+4460,Servicios Privados De Aviacion
+4461,Speedwings
+4462,Service People Gesselschaft fur Charter und Service
+4463,Slovak National Aeroclub
+4464,Singapore Airlines Cargo
+4465,Slovak Air Force
+4466,Servicos De Alquiler
+4467,Sair Aviation
+4468,Searca
+4469,Siem Reap Airways
+4470,Sky Work Airlines
+4471,Swedline Express
+4472,Servicios Aeronauticos Aero Personal
+4473,Sirair
+4474,Servicios Aereos Ejecutivos Saereo
+4475,South East Asian Airlines
+4476,Star Air
+4477,Selkirk Remote Sensing
+4478,Star Up
+4479,Sarit Airlines
+4480,Sierra Expressway Airlines
+4481,Strato Air Services
+4482,Sasair
+4483,Southern Seaplane
+4484,Star Service International
+4485,Servicios Aereos Sunset
+4486,Severstal
+4487,Slovak Government Flying Service
+4488,SwedJet Airways
+4489,Skystar International
+4490,Special Scope Limited
+4491,Starspeed
+4492,Sunstate Airlines
+4493,SAESA
+4494,Sunwest Airlines
+4495,SASCA
+4496,Skyservice Airlines
+4497,Streamline Aviation
+4498,Sky Aviation
+4499,Specsavers Aviation
+4500,Star Aviation
+4501,Status-Alpha Airline
+4502,Stadium City Limited
+4503,Servicios De Aerotransportacion De Aguascalientes
+4504,Semitool Europe
+4505,SFT-Sudanese Flight
+4506,Sedalia
+4507,South-Airlines
+4508,Sontair
+4509,Sella Aviation
+4510,Stapleford Flight Centre
+4511,Streamline Ops
+4512,Star Air
+4513,Servicios de Transportes A
+4514,Star African Air
+4515,Southern Aviation
+4516,South West Air Corporation
+4517,Stars Away Aviation
+4518,Styrian Airways
+4519,Silesia Air
+4520,Suburban Air Freight
+4521,Sudan Airways
+4522,Sun Air (Fiji)
+4523,Sunu Air
+4524,Sun Light
+4525,Swiss Air Force
+4526,Superior Aviation Services
+4527,State Unitary Air Enterprise
+4528,Sun Air
+4529,Sun Air of Scandinavia
+4530,Sistemas Aeronauuticos 2000
+4531,Star West Aviation
+4532,Sundance Air
+4533,Saudi Arabian Airlines
+4534,St. Vincent Grenadines Air (1990)
+4535,Swedish Armed Forces
+4536,Sahel Airlines
+4537,Sterling Helicopters
+4538,Servicios De Transporte Aereo
+4539,Sabre Pacific
+4540,Silver Air
+4541,Sevastopol-Avia
+4542,Savanair (Angola)
+4543,Servicios Aeronauticos De Oriente
+4544,Servicios Aereos Saar
+4545,Seven Four Eight Air Services
+4546,Security Aviation
+4547,Southwest Airlines
+4548,Swissboogie Parapro
+4549,South West Air
+4550,Southern Winds Airlines
+4551,Swedeways
+4552,Spurling Aviation
+4553,Sunwing Airlines
+4554,Sunworld Airlines
+4555,Stateswest Airlines
+4556,Surninam International Victory Airline
+4557,Star Work Sky
+4558,Swift Air (Interstate Equipment Leasing)
+4559,Swiss International Air Lines
+4560,Swissair
+4561,Sunwest Aviation (Lindquist Investment)
+4562,Swiftair
+4563,Swiss European Air Lines
+4564,Swe Fly
+4565,Shovkoviy Shlyah
+4566,Swazi Express Airways
+4567,Sky Jet
+4568,Servair
+4569,Southern Cross Aviation
+4570,Sky Exec Aviation Services
+4571,Southeast Express Airlines
+4572,Servicios Aereos Sepecializados Mexicanos
+4573,SunExpress
+4574,Servicios De Taxi Aereo
+4575,Satellite Aero
+4576,Safari Express Cargo
+4577,Skyways
+4578,Systec 2000
+4579,Sheba Aviation
+4580,Sky One Express Airlines
+4581,Synergy Aviation
+4582,Sonalysts
+4583,Slate Falls Airways
+4584,Satsair
+4585,Syncrude Canada
+4586,Syrian Arab Airlines
+4587,Shawbury Flying Training Unit
+4588,Special Aviation Systems
+4589,Skywalk Airlines
+4590,Silk Way Airlines
+4591,South African Historic Flight
+4592,Servicios Aeronauticos Z
+4593,Specavia Air Company
+4594,Starair
+4595,Sundance Air
+4596,Samara Airlines
+4597,Spark+ Joint-Stock Company
+4598,Swedish Civil Aviation Administration
+4599,Shandong Airlines
+4600,Spectrem Air
+4601,Servicios Aereos Centrales
+4602,Swedish Airlines
+4603,Seagle Air
+4604,Sirius-Aero
+4605,Sunwest Home Aviation
+4606,SAS Braathens
+4607,Spring Airlines
+4608,Sichuan Airlines
+4609,Shanghai Airlines
+4610,Shuangyang General Aviation
+4611,Shenzhen Airlines
+4612,Shanxi Airlines
+4613,Sioux Falls Aviation
+4614,Servicios Aereos Elite
+4615,Servicios Aereos Denim
+4616,Swiss Eagle
+4617,Skypower Express Airways
+4618,Scenic Air
+4619,Sun D'Or
+4620,SkyEurope
+4621,Sunshine Express Airlines
+4622,South African Express
+4623,Stuttgarter Flugdienst
+4624,Shalom Air Services
+4625,Silverjet
+4626,Sky Bus
+4627,South Coast Aviation
+4628,Servicios Aereos Gadel
+4629,S.P. Aviation
+4630,Seba Airlines
+4631,Servicios Aereos Gana
+4632,Sky Wings Airlines
+4633,Star XL German Airlines
+4634,Skyhaul
+4635,Starship
+4636,Servicios Ejecutivos Gosa
+4637,Superior Aviation
+4638,Samaritan Air Service
+4639,Skyraidybos Mokymo Centras
+4640,Sky Europe Airlines
+4641,Svenska Direktflyg
+4642,Sky Helicopteros
+4643,Skytaxi
+4644,Silvair
+4645,Servicios Aereos Ilsa
+4646,Sincom-Avia
+4647,Safat Airlines
+4648,Saha Airlines Services
+4649,Sunline Express
+4650,Secure Air Charter
+4651,Sark International Airways
+4652,Spanair
+4653,Salem
+4654,Servicios Aereos Copters
+4655,Servicios Aereos Expecializados En Transportes Petroleros
+4656,Skybridge Airops
+4657,Sky Aeronautical Services
+4658,Servicios Aereos Ejecutivos De La Laguna
+4659,Servico Leo Lopex
+4660,Servicios Aereos Estrella
+4661,South African Air Force
+4662,Sky Limo Corporation
+4663,SANSA
+4664,Spectrum Aviation Incorporated
+4665,SOS Helikoptern Gotland
+4666,Sundt Air
+4667,Servicios Aereos Milenio
+4668,SAAD (A320) Limited
+4669,Servicios Aereos Moritani
+4670,San Juan Airlines
+4671,Servico Aereo Regional
+4672,Servicio De Viglancia Aerea Del Ministerio De Seguridad Publica
+4673,Servicios Aereos MTT
+4674,Sabre Pacific
+4675,Sabre
+4676,Sierra Nevada Airlines
+4677,Siren-Travel
+4678,Sirena
+4679,Sky Trek International Airlines
+4680,Southern Cross Distribution
+4681,Sutra
+4682,SNCF
+4683,Star Equatorial Airlines
+4684,Seulawah Nad Air
+4685,Servicios Aereos del Nazas SA de CV
+4686,Simpson Air Ltd
+4687,Spirit Airlines
+4688,Servicios Aereos Latinoamericanos
+4689,Servicios Aereos Monarrez
+4690,Societe De Transport Aerien De Mauritanie
+4691,SATENA
+4692,Servicios Aereos Del Norte
+4693,Servicios Intergrales De Aviacion
+4694,Slok Air Gambia
+4695,Soko Aviation
+4696,Solar Cargo
+4697,Soloflight
+4698,Sonnig SA
+4699,Sosoliso Airlines
+4700,Servicios Aereos Noticiosos
+4701,South Airlines
+4702,Skywest Airlines
+4703,Sokol
+4704,South Carolina Aeronautics Commission
+4705,Servicios Aereos Premier
+4706,Survey Udara (Penas)
+4707,Servicios Aereos Poblanos
+4708,Servicios Aereos Profesionales
+4709,Southeastern Airways
+4710,Spurwing Airlines
+4711,Sky Trek International Airlines
+4712,Shandong Airlines Rainbow Jet
+4713,SA Airlink Regional
+4714,Servicio Aereo Regional Regair
+4715,Scoala Superioara De Aviatie Civila
+4716,Servicios Aereos Regiomontanos
+4717,S-Air
+4718,Servicios De Rampa Y Mostrador
+4719,SNAS Aviation
+4720,Skybus Airlines
+4721,Skymaster Air Lines
+4722,Sky Harbor Air Service
+4723,Sky Tours
+4724,Sakaviaservice
+4725,Skycraft
+4726,Skycraft Air Transport
+4727,Skyking
+4728,SkyKing Turks and Caicos Airways
+4729,Skylink Aviation
+4730,Skycharter (Malton)
+4731,Skyline Aviation Services
+4732,Scottish Airways Flyers
+4733,Skyscapes Air Charters
+4734,Sky Service
+4735,Santa Barbara Airlines
+4736,Skystar Airways
+4737,Sky Airline
+4738,SkyWest
+4739,Skyways Express
+4740,Skymark Airlines
+4741,Skyway Enterprises
+4742,Sierra National Airlines
+4743,Slok Air
+4744,Silver Air
+4745,Streamline
+4746,Starfly
+4747,Saskatchewan Government
+4748,Silverhawk Aviation
+4749,Servicios Aereos de Los Angeles
+4750,SilkAir
+4751,Slovak Airlines
+4752,Surinam Airways
+4753,Sloane Aviation
+4754,Salpa Aviation
+4755,Servicios Aereos Slainte
+4756,Stella Aviation
+4757,Salama Airlines Nigeria
+4758,Sete Linhas Aereas
+4759,Sky Line for Air Services
+4760,Super Luza
+4761,SMA Airlines
+4762,Sabang Merauke Raya Air Charter
+4763,Servicios Aereos La Marquesa
+4764,Servant Air
+4765,Semos
+4766,Smalandsflyg
+4767,Smithair
+4768,Semeyavia
+4769,Smith Air (1976)
+4770,Summit Airlines
+4771,Samar Air
+4772,Somon Air
+4773,Skyline
+4774,Servicios Aerecs Del Sol
+4775,Senator Aviation Charter
+4776,Sterling Airlines
+4777,Servicios Aereos De Nicaragua (SANSA)
+4778,Shans Air
+4779,Senair Services
+4780,Savanah Airlines
+4781,Skynet Asia Airways
+4782,Southeast Airlines (Sun Jet International)
+4783,Soonair Lines
+4784,Servizi Aerei
+4785,Sun Pacific International
+4786,Sun Quest Executive Air Charter
+4787,Societe Centrafricaine De Transport Aerien
+4788,Suncoast Aviation
+4789,Snunit Aviation
+4790,Sudanese States Aviation
+4791,Sun West Airlines
+4792,Sun Air Aviation Services
+4793,Stabo Freight
+4794,Southern Cargo Air Lines
+4795,Southern Ohio Aviation Sales
+4796,Southern Aviation
+4797,Solomon Airlines
+4798,Somali Airlines
+4799,Sunshine Air Tours
+4800,Southern Air
+4801,Solinair
+4802,Sonair Servico Aereo
+4803,Southeast Correct Craft
+4804,Southern Airways
+4805,Saratov Aviation Division
+4806,Sowind Air
+4807,Solid Air
+4808,Sat Airlines
+4809,Sierra Pacific Airlines
+4810,Springbok Classic Air
+4811,Skyworld Airlines
+4812,Sprague Electric Company
+4813,Space World Airline
+4814,Springdale Air Service
+4815,Sapphire Executive Air
+4816,South Pacific Island Airways
+4817,Servicios Corporativos Aereos De La Laguna
+4818,Skorpion Air
+4819,Sapphire Aviation
+4820,Servicios Aereos Palenque
+4821,Servicios Aereos Tribasa
+4822,Shuttle America
+4823,SAAB Nyge Aero
+4824,Spark Air
+4825,S C Ion Tiriac
+4826,Starlite Aviation
+4827,Servicios Aereos Corporativos
+4828,Societe Tout Tranport Mauritanien
+4829,Servicios Aereos Tamazula
+4830,Shar Ink
+4831,Second Sverdlovsk Air Enterprise
+4832,Servicios Aereos Universitarios
+4833,Skif-Air
+4834,Smarkand Aero Servise
+4835,Samarkand Airways
+4836,Servicios Aereos Avandaro
+4837,Stichting Vliegschool 16Hoven
+4838,Silverback Cargo Freighters
+4839,Sirvair
+4840,Scat Air
+4841,Sunset Aviation
+4842,Sport Air Travel
+4843,Swift Copters
+4844,Skyrover CC
+4845,Safarilink Aviation
+4846,SENEAM
+4847,Southport Air Service
+4848,Spectrum Air Service
+4849,Stephenville Aviation Services
+4850,Servicios Aereos Textra
+4851,Sector Airlines
+4852,Skyplan Services
+4853,Stewart Aviation Services
+4854,Sirin
+4855,Star Air
+4856,Servicios Aereos Integrales / Flyant
+4857,State Flight Academy of Ukraine
+4860,Trans Jet Airways
+4861,Turbot Air Cargo
+4862,Tranporte Aereo Dominicano
+4863,TAME
+4864,Trans International Express Aviation
+4865,TAG Aviation USA
+4866,Talair
+4867,TAM Brazilian Airlines
+4868,Transaustralian Air Express
+4869,TAP Portugal
+4870,Tunisair
+4871,Transportes Aereos Tauro
+4872,Travelair
+4873,TNT Airways
+4874,Transbrasil
+4875,Turbine Air Cargo UK
+4876,Thunderbird Tours
+4877,Tropical Airways
+4878,Trinity Air Bahamas
+4879,TAB Express International
+4880,Taban Air Lines
+4881,Teebah Airlines
+4882,Tubelair
+4883,Tobago Express
+4884,Tropican Air Services
+4885,Transporte del Caribe
+4886,Trans Continental Airlines
+4887,Tchad Airlines
+4888,Trans-Colorado Airlines
+4889,Thai Air Cargo
+4890,Transcontinental Air
+4891,Teledyne Continental Motors
+4892,Trans Continental Airlines
+4893,Transcorp Airways
+4894,Transcontinental Sur
+4895,Transglobal Airways Corporation
+4896,Thomas Cook Airlines
+4897,Thomas Cook Airlines
+4898,Twin Cities Air Service
+4899,Tadair
+4900,Tellavia / Flight One
+4901,Transportes Aereos de Ixtlan
+4902,Tandem Aero
+4903,TRADO
+4904,Trade Air
+4905,Taxi Aero Nacional Del Evora
+4906,Tradewinds Airlines
+4907,Tenir Airlines
+4908,Teamline Air
+4909,Tecnicas Fotograficas
+4910,Tempelhof Airways
+4911,Telford Aviation
+4912,Tech-Mont Helicopter Company
+4913,Tennessee Airways
+4914,Territorial Airlines
+4915,TAES Transportes Aereos de El Salvador
+4916,Transeuropean Airlines
+4917,Tepavia-Trans Airlines
+4918,Trans-Florida Airlines
+4919,Tair Airways
+4920,Talon Air
+4921,Trabajos Aereos Murcianos
+4922,Thai Flying Helicopter Service
+4923,Transport Facilitators
+4924,Transafrik International
+4925,Transportes Aereos del Pacifico
+4926,Thai Flying Service
+4927,Transportes Aereos San Rafael
+4928,Tayside Aviation
+4929,TG Aviation
+4930,Trabajos Aereos
+4931,Transportes Aereos Regionales
+4932,TAG Aviation Espana
+4933,Trigana Air Service
+4934,Titan Airways
+4935,Transport Canada
+4936,Tiger Airways
+4937,Tiger Airways Australia
+4938,Transair Gabon]
+4939,Trans Guyana Airways
+4940,Thai Airways International
+4941,Tar Heel Aviation
+4942,Toumai Air Tchad
+4943,Touraine Helicoptere
+4944,Thai Global Airline
+4945,Thai Jet Intergroup
+4946,Turk Hava Kurumu Hava Taksi Isletmesi
+4947,Thai AirAsia
+4948,TACA De Honduras
+4949,Tehran Airline
+4950,Thunder Airlines
+4951,Turkish Airlines
+4952,Trans Helicoptere Service
+4953,Trans International Airlines
+4954,Travel International Air Charters
+4955,Time Air
+4956,Tic Air
+4957,Tajikistan International Airlines
+4958,TEAM Transportes Aereos
+4959,Taino Tours
+4960,Tesis
+4961,Transcarga Intl Airways
+4962,Tajikair
+4963,Tien-Shan
+4964,Tyrolean Jet Service
+4965,Twin Jet
+4966,Tikal Jets Airlines
+4967,Take Air Line
+4968,Tropical International Airways
+4969,Thai Sky Airlines
+4970,Translift Airways
+4971,Transport Africa
+4972,Trans Atlantic Airlines
+4973,Eagle Canyon Airlines
+4974,Tulip Air
+4975,Tunisavia
+4976,TLC Air
+4977,Turtle Airways
+4978,Travelair
+4979,Telesis Transair
+4980,Top-Fly
+4981,Trans Mediterranean Airlines
+4982,Transmed Airlines
+4983,Tri-MG Intra Asia Airlines
+4984,Taxis Turisticos Marakame
+4985,Tamir Airways
+4986,Tomahawk Airways
+4987,TAM
+4988,TMC Airlines
+4989,TRAM
+4990,Timberline Air
+4991,Temsco Helicopters
+4992,Trans Midwest Airlines
+4993,Tramon Air
+4994,Transportes Aereos del Mundo Maya
+4995,Tranporte Amazonair
+4996,Trans Air-Benin
+4997,Taxis Aereos del Noroeste
+4998,Transafricaine
+4999,Tennessee Air National Guard 164th Airlift Group
+5000,Transair International Linhas Aereas
+5001,Tengeriyn Ulaach Shine
+5002,Tiara Air
+5003,Transped Aviation
+5004,Tanana Air Services
+5005,Trans North Turbo Air
+5006,Transnorthern
+5007,Trans Nation Airways
+5008,Trener Ltd
+5009,Twin Town Leasing Company
+5010,Tobruk Air
+5011,TOJ Airlines
+5012,Tol-Air Services
+5013,Thomsonfly
+5014,Top Air
+5015,Toronto Airways
+5016,Tropic Air
+5017,Totavia
+5018,Tower Air
+5019,Toyota Canada
+5020,TAMPA
+5021,Top Speed
+5022,Taxis Aereos del Pacifico
+5023,Transportes Aereos Pegaso
+5024,TAR Interpilot
+5025,Transpais Aereo
+5026,Transportacion Aerea del Norte
+5027,Transpac Express
+5028,Taxis Aereos De Parral
+5029,TAPSA Transportes Aereos Petroleros
+5030,Transportes Aereo del Sureste
+5031,Trans American Airlines (Trans Am)
+5032,Thai Pacific Airlines Business
+5033,Transportes Aereos De Xalapa
+5034,Trans-Provincial Airlines
+5035,Transportes La Paz
+5036,Taquan Air Services
+5037,Transportacion Aerea De Queretaro
+5038,TransAsia Airways
+5039,Transavia Holland
+5040,Trans Air Charter
+5041,TACV
+5042,Trans Island Air
+5043,Taxi Air Fret
+5044,TRAGSA (Medios Aereos)
+5045,Trans Euro Air
+5046,Transport Aerien de Mauritanie
+5047,Tropic Airlines-Air Molokai
+5048,Turdus Airways
+5049,Tramson Limited
+5050,Trans Arabian Air Transport
+5051,Triangle Airline (Uganda)
+5052,Transwestern Airlines of Utah
+5053,Tristar Airlines
+5054,TransMeridian Airlines
+5055,Transair France
+5056,TAF-Linhas Aereas
+5057,Transmile Air Services
+5058,Trans-Air-Congo
+5059,Transport'air
+5060,Trast Aero
+5061,Trast Aero
+5062,Thai Aviation Services
+5063,Taftan Airlines
+5064,Transwest Air
+5065,Trans Sayegh Airport Services
+5066,Trans-Air Services
+5067,Transaero Airlines
+5068,Transportes Aereos Inter
+5069,Trans Service Airlift
+5070,Tri-State Aero
+5071,TRAST
+5072,Tropair Airservices
+5073,Transwings
+5074,Thai Star Airlines
+5075,Tristar Air
+5076,TTA - Sociedade de Transporte e Trabalho Aereo
+5077,Transteco
+5078,Tarhan Tower Airlines
+5079,Total Linhas Aereas
+5080,Triple O Aviation
+5081,Transportaciones Y Servicios Aereos
+5082,Transporte Aereo Tecnico Ejecutivo
+5083,Turkmenistan Airlines
+5084,Turismo Aereo de Chile
+5085,Tuninter
+5086,Tulpar Air
+5087,Tyumenspecavia
+5088,Taxi Aereo Turistico
+5089,Tulpar Air Service
+5090,Tuna Aero
+5091,Trans America Airlines
+5092,Trabajos Aereos Vascongados
+5093,Tiramavia
+5094,Travel Service
+5095,Transavio
+5096,Tavrey Airlines
+5097,Travel Service
+5098,Trans World Airlines
+5099,Transwede Airways
+5100,Twinjet Aircraft Sales
+5101,Tradewinds Aviation
+5102,Transairways
+5103,Twente Airlines
+5104,Trans Air Welwitchia
+5105,Texair Charter
+5106,Transaviaexport
+5107,Transilvania Express
+5108,Taxi Aereo Cozatl
+5109,Taxi Aereo de Mexico
+5110,Texas National Airlines
+5111,Taxis Aereos de Sinaloa
+5112,Taxirey
+5113,Texas Airlines
+5114,Texas Air Charters
+5115,Tex Star Air Freight
+5116,Tayflite
+5117,Trygg-Flyg
+5118,Tyrol Air Ambulance
+5119,Transporte Aereo Ernesto Saenz
+5120,Tajikstan
+5121,Thyssen Krupp AG
+5122,TUIfly Nordic
+5123,Transportes Aereos Bolivianos
+5124,Tiphook PLC
+5125,Top Flight Air Service
+5126,Trans America
+5127,Triple Alpha
+5128,Tashkent Aircraft Production Corporation
+5129,Texas Airways
+5130,Transportes Aereos Don Carlos
+5131,Telnic Limited
+5132,Triton Airlines
+5133,TAAG Angola Airlines
+5134,Tassili Airlines
+5135,Transporte Ejecutivo Aereo
+5136,Transportes Aereos Nacionales De Selva Tans
+5137,TAG Farnborough Airport
+5138,Transaviaservice
+5139,TAG Aviation
+5140,The 955 Preservation Group
+5141,Trans-Air-Link
+5142,Tradewind Aviation
+5143,Trail Lake Flying Service
+5144,TAF Helicopters
+5145,Tango Bravo
+5146,Turkish Air Force
+5147,Thryluthjonustan
+5148,TA-Air Airline
+5149,Tara Air Line
+5150,Trading Air Cargo
+5151,Trans-Kiev
+5152,Tal Air Charters
+5153,Transcontinental Airlines
+5154,Transaviabaltika
+5155,Transair-Gyraintiee
+5156,TAM Mercosur
+5157,The Lancair Company
+5158,The Army Aviation Heritage Foundation
+5159,Top Sky International
+5160,Trans States Airlines
+5161,Trans Atlantis
+5162,Transportacion Aerea Del Mar De Cortes
+5163,Transporte Aero MGM
+5164,Tigerfly
+5165,Transportes Aereos Amparo
+5166,Trans Air
+5167,Transportes Aereos Mexiquenses
+5168,Travelsky Technology
+5169,Thalys
+5171,TNT International Aviation
+5172,Open Skies Consultative Commission
+5173,Trans-Pacific Orient Airways
+5174,Tauranga Aer Club
+5175,TSSKB-Progress
+5176,Trans World Express
+5177,Trans Reco
+5178,Tas Aviation
+5179,Tarom
+5180,Transportes Aereos I.R. Crusoe
+5181,Transportes Aereos Sierra
+5182,Tbilisi Aviation University
+5183,Trans Am Compania
+5184,Trans Sahara Air
+5185,Transportes Aereos Sierra Madre
+5186,Trans Asian Airlines
+5187,Turan Air
+5188,TRIP Linhas A
+5189,Tusheti
+5190,TAPC Aviatrans Aircompany
+5191,Trans-Ulgii
+5192,Transarabian Transportation Services
+5193,Transaven
+5194,Tag Aviation UK
+5195,Tbilaviamsheni
+5196,Taxi de Veracruz
+5197,Travel Express Aviation Services
+5198,Taxi Aero Del Norte
+5199,Transports et Travaux A
+5202,USAF Air Mobility Operations Control Center
+5203,U.S. Department of the Interior
+5204,United Kingdom Civil Aviation Authority
+5205,Union des Transports Africains de Guinee
+5206,US Army Parachute Team
+5207,USA3000 Airlines
+5208,United Arabian Airlines
+5209,United Airlines
+5210,United Air Charters
+5211,United Carriers Systems
+5212,United Eagle Airlines
+5213,United Feeder Service
+5214,United Kingdom Civil Aviation Authority
+5215,United Kingdom Royal VIP Flights
+5216,United Kingdom Royal VIP Flight
+5217,United Kingdom Civil Aviation Authority
+5218,United Kingdom Royal VIP Flights
+5219,United States Coast Guard Auxiliary
+5220,United States Department Of Agriculture
+5221,University Air Squadron
+5222,University Air Squadron
+5223,University Air Squadron
+5224,University Air Squadron
+5225,Universal Avia
+5226,UK HEMS
+5227,USA Jet Airlines
+5228,Unijet
+5229,US Marshals Service
+5230,University of North Dakota
+5231,Universal Airlines
+5232,Uganda Royal Airways
+5233,United Aviation Services
+5234,Ural Airlines
+5235,Ukraine Transavia
+5236,United Arab Emirates Air Force
+5237,Union Africaine des Transports
+5238,Uganda Air Cargo
+5239,US Airports Air Charter
+5240,Ucoaviacion
+5241,Ues-Avia Aircompany
+5242,UFS
+5243,Uganda Airlines
+5244,Urgemer Canarias
+5245,Ukrainian Helicopters
+5246,Ulyanovsk Higher Civil Aviation School
+5247,Universal Jet Rental de Mexico
+5248,Universal Jet Aviation
+5249,UK International Airlines
+5250,Ukraine Air Alliance
+5251,UM Airlines
+5252,Ukraine Air Enterprise
+5253,United Kingdom Home Office
+5254,Ukrainian Cargo Airways
+5255,Ultrair
+5256,Unitemp-M
+5257,Uni-Fly
+5258,Union Flights
+5259,Universal Jet
+5260,Unsped Paket Servisi
+5261,Unifly Servizi Aerei
+5262,Ukrainian Pilot School
+5263,United Parcel Service
+5264,Uraiavia
+5265,US Airways
+5266,US Check Airlines
+5267,USAfrica Airways
+5268,US Helicopter
+5269,US Jet
+5270,US Express
+5271,UTair Aviation
+5272,UTAGE
+5273,Utair South Africa
+5274,Ukrainian State Air Traffic Service Enterprise
+5275,Urartu-Air
+5276,Universal Airways
+5277,Universal Airlines
+5278,Uvavemex
+5279,United States Air Force
+5280,United Aviation
+5281,Uzbekistan Airways
+5282,Ukraine International Airlines
+5283,Universal Airlines
+5284,US Helicopter Corporation
+5288,V Australia Airlines
+5289,V Bird Airlines Netherlands
+5290,V-avia Airline
+5291,V-Berd-Avia
+5292,Vacationair
+5293,Valair AG (Helicoptere)
+5294,Valan International Cargo Charter
+5295,Valan Limited
+5296,Valfell-Verkflug
+5297,Valuair
+5298,Van Air Europe
+5299,Vanguardia en Aviacion en Colima
+5300,Vanguard Airlines
+5301,Vasco Air
+5302,Vega
+5303,Vega Air Company
+5304,Veles
+5305,Verataxis
+5306,Veritair Ltd
+5307,Voyageur Airways
+5308,Vernicos Aviation
+5309,Vietnam Airlines
+5310,Vozdushnaya Academy
+5311,VIM Airlines
+5312,VIM-Aviaservice
+5313,VIA Rail Canada
+5314,Victoria Aviation
+5315,Viscount Air Service
+5317,Vision Airlines
+5318,VIP Air Charter
+5319,VIP Avia
+5320,VIP Avia
+5321,Visionair
+5322,Viasa
+5323,VICA - Viacao Charter Aereos
+5324,Volare Air Charter Company
+5325,Volaris
+5326,Volga-Dnepr Airlines
+5327,Vega Airlines
+5328,Venescar Internacional
+5329,Victor Echo
+5330,Virgin Express Ireland
+5331,Virgin America
+5332,Vieques Air Link
+5333,Virgin Express
+5334,VZ Flights
+5335,Virgin Nigeria Airways
+5336,Vologda State Air Enterprise
+5337,VH-Air Industrie
+5338,VHM Schul-und-Charterflug
+5339,Vibroair Flugservice
+5340,VIP Servicios Aereos Ejecutivos
+5341,VIP Empresarial
+5342,VIF Luftahrt
+5343,Vega Aviation
+5344,Vichi
+5345,Viking Airlines
+5346,Vinair - Helicoptereos
+5347,Virgin Atlantic Airways
+5348,Viajes Ejecutivos Mexicanos
+5349,Vistajet
+5350,Viva Macau
+5351,Volare Airlines
+5352,Vueling Airlines
+5353,Vladivostok Air
+5354,Varig Log
+5355,Vertical-T Air Company
+5356,Vero Monmouth Airlines
+5357,Vipport Joint Stock Company
+5358,Viaggio Air
+5359,Voyager Airlines
+5360,Virgin Australia
+5361,Virgin Blue
+5362,VIP Air
+5363,Veteran Air
+5364,VIP-Avia
+5365,Vertair
+5366,Volare Airlines
+5367,Voar Lda
+5368,VRG Linhas Aereas
+5369,Vickers Limited
+5370,Visig Operaciones Aereas
+5371,Vision Airways Corporation
+5372,Voronezh Aircraft Manufacturing Society
+5373,VASP
+5374,Virign Islands Seaplane Shuttle
+5375,Vuelos Especializados Tollocan
+5376,Vuelos Corporativos de Tehuacan
+5377,Vostok Airlines
+5378,Victor Tagle Larrain
+5379,Vointeh
+5380,Vuelos Internos Privados VIP
+5381,Vuela Bus
+5382,Vzlyet
+5383,VLM Airlines
+5384,Viking Express
+5385,Victoria International Airways
+5386,Volga Aviaexpress
+5387,WDL Aviation
+5388,WRA Inc
+5389,WSI Corporation
+5390,Walmart Aviation
+5391,Walsten Air Services
+5392,Walter I Linkoping
+5393,Wapiti Aviation
+5394,Warbelow's Air Ventures
+5395,Warwickshire Aerocentre Ltd.
+5396,Wasaya Airways
+5397,Wayraper
+5398,Weasua Air Transport Company
+5399,WebJet Linhas A
+5400,Welch Aviation
+5401,Welcome Air
+5402,Wermlandsflyg AB
+5403,West Africa Airlines
+5404,West African Air Transport
+5405,West African Airlines
+5406,West African Cargo Airlines
+5407,West Air Luxembourg
+5408,West Air Sweden
+5409,West Caribbean Airways
+5410,West Caribbean Costa Rica
+5411,West Coast Air
+5412,West Coast Airlines
+5413,West Coast Airways
+5414,West Freugh DTEO
+5415,West Wind Aviation
+5416,WestJet
+5417,Westair Aviation
+5418,Westair Cargo Airlines
+5419,Westair Industries
+5420,Westcoast Energy
+5421,Western Air
+5422,Western Air Couriers
+5423,Western Air Express
+5424,Western Airlines
+5425,Western Arctic Air
+5426,Western Aviators
+5427,Western Express Air Lines
+5428,Western Pacific Airlines
+5429,Western Pacific Airservice
+5430,Westflight Aviation
+5431,Westgates Airlines
+5432,Westland Helicopters
+5433,Westpoint Air
+5434,Westward Airways
+5435,White
+5436,White Eagle Aviation
+5437,White River Air Services
+5438,Whyalla Airlines
+5439,Widerøe
+5440,Wiggins Airways
+5441,Wiking Helikopter Service
+5442,Wilbur's Flight Operations
+5443,Williams Air
+5444,Williams Grand Prix Engineering
+5445,Wimbi Dira Airways
+5446,Winair
+5447,Wind Jet
+5448,Wind Spirit Air
+5449,Windrose Air
+5450,Windward Islands Airways International
+5451,Wings Air
+5452,Wings Air Transport
+5453,Wings Airways
+5454,Wings Aviation
+5455,Wings Express
+5456,Wings of Alaska
+5457,Wings of Lebanon Aviation
+5458,Winlink
+5459,Wisconsin Air National Guard
+5460,Wisman Aviation
+5461,Wizz Air
+5462,Wizz Air Hungary
+5463,Wondair on Demand Aviation
+5464,Woodgate Executive Air Charter
+5465,World Airways
+5466,World Weatherwatch
+5467,World Wing Aviation
+5468,Worldspan
+5469,Worldwide Air Charter Systems
+5470,Worldwide Aviation Services
+5471,Worldwide Jet Charter
+5472,Wright Air Lines
+5473,Wright Air Service
+5474,Wuhan Airlines
+5475,Wycombe Air Centre
+5476,Wyoming Airlines
+5479,XL Airways France
+5480,XP Internation
+5481,Xabre Aerolineas
+5482,Xclusive Jet Charter Limited
+5483,Xerox Corporation
+5484,Xiamen Airlines
+5485,Xinjiang Airlines
+5486,Xjet Limited
+5487,Xtra Airways
+5490,Yak-Service
+5491,Yakolev
+5492,Yamal Airlines
+5493,Yana Airlines
+5494,Yangtze River Express
+5495,Yellow Wings Air Services
+5496,Yemenia
+5497,Yerevan-Avia
+5498,Young Flying Service
+5499,Yuhi Air Lines
+5500,Yuzhnaya Aircompany
+5501,Yuzhmashavia
+5504,Z-Avia
+5505,Zagros Airlines
+5506,Zaire Aero Service
+5507,Zairean Airlines
+5508,Zambian Airways
+5509,Zambezi Airlines
+5510,Zanair
+5511,Zantop International Airlines
+5512,ZAS Airlines of Egypt
+5513,Zenith Air
+5514,Zenmour Airlines
+5515,Zephyr Express
+5516,Zhejiang Airlines
+5517,Zhetysu
+5518,Zhez Air
+5519,Zhongfei General Aviation
+5520,Zhongyuan Aviation
+5521,Zip
+5522,Zimex Aviation
+5523,Zoom Airlines
+5524,Zoom Airways
+5525,Zorex
+5526,Zracno Pristaniste Mali Losinj
+5533,Tyrolean Airways
+5556,buzz
+5559,Maldivian Air Taxi
+5584,Sky Express
+5640,Yellow Air Taxi
+5651,Royal Air Cambodge
+5813,Air Mandalay
+5833,TEA Switzerland
+5905,TAN-SAHSA
+5982,Air Busan
+6002,TUI Airlines Belgium
+6182,Arctic Air
+6183,Braathens
+6196,Globus
+6222,Air Kazakhstan
+6557,Japan Air System
+6578,Annsett New Zealand (NZA)
+6855,EasyJet (DS)
+6856,Rheintalflug
+6860,Dan-Air London
+6862,Fred. Olsen
+8359,Star Peru (2I)
+8434,Robin Hood Aviation
+8461,Carnival Air Lines
+8463,United Airways
+8523,Inter European Airways
+8568,Trans Maldivian Airways
+8576,Fly540
+8745,Transavia France
+8809,Island Air (WP)
+9018,1-2-go
+9082,Uni Air
+9135,Gomelavia
+9225,NordWind Airlines
+9239,Red Wings
+9286,Hellenic Star Airways
+9287,BAE Systems Flight Training
+9335,TUIfly (X3)
+9343,Felix Airways
+9344,Kostromskie avialinii
+9373,Greenfly
+9531,Tajik Air
+9541,Air Mozambique
+9577,ELK Airways
+9620,Gabon Airlines
+9626,MCA Airlines
+9656,Maldivo Airlines
+9666,Virgin Pacific
+9764,Zest Air
+9784,Yangon Airways
+9793,Transport Aérien Transrégional
+9798,LÍO Flugmennt
+9808,Minerva Airlines
+9809,Eastar Jet
+9810,Jin Air
+9811,Wataniya Airways
+9814,Aéris (Priv)
+9818,Air Arabia Maroc
+9825,Baltic Air lines
+9828,Ciel Canadien
+9829,Canadian National Airways
+9833,Epic Holiday
+9838,Indochina Airlines
+9840,JetWind
+9851,Air Comet Chile
+9853,Nazca
+9859,German Air Force - FLB
+10069,City-Air Germany
+10094,Voronezhskie Airlanes
+10114,Line Blue
+10117,FlyLAL Charters
+10118,Blue Sky America
+10119,Texas Spirit
+10121,Illinois Airways
+10122,Salzburg arrows
+10123,Texas Wings
+10124,California Western
+10128,Dennis Sky
+10224,Zz
+10226,Atifly
+10318,Air UK
+10334,Suckling Airways
+10367,Reno Sky
+10371,Aerolineas heredas santa maria
+10372,Ciao Air
+10642,Jc royal.britannica
+10646,Birmingham European
+10650,Pal airlines
+10673,CanXpress
+10674,Danube Wings (V5)
+10675,Sharp Airlines
+10683,CanXplorer
+10715,Click (Mexicana)
+10735,World Experience Airline
+10737,ALAK
+10738,AJT Air International
+10739,Air Choice One
+10740,Tianjin Airlines
+10741,China United
+10748,Locair
+10758,Safi Airlines
+10765,SeaPort Airlines
+10776,Salmon Air
+10796,Fly Illi
+10798,Bobb Air Freight
+10800,Star1 Airlines
+10845,Pelita
+10902,Alpi Eagles (E8)
+10912,Alaska Seaplane Service
+10929,TAN
+10945,Enerjet
+10955,MexicanaLink
+10960,Island Spirit
+10969,TACA Peru
+11700,Orbest
+11719,Southern Air Charter
+11724,SVG Air
+11726,Air Century
+11731,Pan Am World Airways Dominicana
+11732,Primera Air
+11741,Air Antilles Express
+11751,Sol Lineas Aereas
+11755,Regional Paraguaya
+11761,VIP Ecuador
+11762,Transportes Aereos Cielos Andinos
+11763,Peruvian Airlines
+11765,EasyFly
+11767,Polar Airlines
+11794,Catovair
+11795,Andalus Lineas Aereas
+11798,Air 26
+11800,Mauritania Airways
+11802,CEIBA Intercontinental
+11804,Halcyonair
+11805,Business Aviation
+11806,Compagnie Africaine d\\'Aviation
+11808,Zambia Skyways
+11811,AlMasria Universal Airlines
+11813,EgyptAir Express
+11814,SmartLynx Airlines
+11815,Air Italy Egypt
+11816,KoralBlue Airlines
+11820,Wind Rose Aviation
+11823,Elysian Airlines
+11833,Sevenair
+11834,Hellenic Imperial Airways
+11836,Amsterdam Airlines
+11838,Arik Niger
+11839,Dana Air
+11840,STP Airways
+11843,Med Airways
+11850,Skyjet Airlines
+11855,Air Volga
+11856,Transavia Denmark
+11857,Royal Falcon
+11873,Euroline
+11922,Worldways
+11943,Turkuaz Airlines
+11947,Athens Airways
+11948,Viking Hellas
+11949,Norlandair
+11950,Flugfelag Vestmannaeyja
+11963,Starline.kz
+11995,Euro Harmony
+12960,Lugansk Airlines
+12961,Gryphon Airlines
+12962,Gadair European Airlines
+12965,Spirit of Manila Airlines
+12975,Chongqing Airlines
+12976,Grand China Air
+12978,West Air China
+12990,Falcon Air (IH)
+12997,QatXpress
+13076,OneChina
+13088,NordStar Airlines
+13089,Joy Air
+13105,Air India Regional
+13106,MDLR Airlines
+13107,Jagson Airlines
+13108,Maldivian
+13130,Xpressair
+13178,Strategic Airlines
+13181,Fars Air Qeshm
+13187,Eastok Avia
+13188,Jupiter Airlines
+13189,Vision Air International
+13190,Al-Naser Airlines
+13200,Fuji Dream Airlines
+13202,Korea Express Air
+13209,Eznis Airways
+13211,Pacific Flier
+13217,Syrian Pearl Airlines
+13218,SGA Airlines
+13242,Air2there
+13254,Avianova (Russia)
+13303,Parmiss Airlines (IPV)
+13304,EuropeSky
+13306,BRAZIL AIR
+13335,Homer Air
+13388,Court Line
+13389,South West Africa Territory Force
+13390,Lombards Air
+13391,U.S. Air
+13392,Flitestar
+13394,Jayrow
+13395,Llloyd Helicopters
+13397,Wilderness Air
+13398,Whitaker Air
+13633,PanAm World Airways
+13690,Virginwings
+13704,KSY
+13732,Buquebus Líneas Aéreas
+13734,SOCHI AIR
+13757,Wizz Air Ukraine
+13781,88
+13815,LCM AIRLINES
+13838,Aero Brazil
+13899,Cambodia Angkor Air (K6)
+13905,Skyline nepc
+13923,THREE
+13936,Royal European Airlines
+13947,Tom\\'s & co airliners
+13983,Azul
+14061,LSM Airlines
+14069,Zapolyarie Airlines
+14073,Finlandian
+14094,LionXpress
+14109,Nik Airways
+14118,Genesis
+14388,Congo Express
+14485,Fly Dubai
+14620,Domenican Airlines
+14679,ConneX European Airline
+14725,Air Atlantic
+14728,Air Ops
+14849,Aereonautica militare
+14858,Kal Star Aviation
+14881,LSM AIRLINES 
+14921,Aero Lloyd (YP)
+15814,UTair-Express
+15837,Huaxia
+15867,Zabaykalskii Airlines
+15887,CBM America
+15893,Marysya Airlines
+15897,N1
+15930,Airlink (SAA)
+15939,Westfalia Express VA
+15953,JobAir
+15970,Zuliana de Aviacion
+15975,Black Stallion Airways
+15984,German International Air Lines
+15985,TrasBrasil
+15989,TransBrasil Airlines
+15999,China SSS
+16025,Nihon.jet
+16084,AIR INDOCHINE
+16093,Transportes Aéreos Nacionales de Selva
+16100,Happy Air
+16101,Solar Air
+16103,Air Mekong
+16110,Harbour Air (Priv)
+16116,Air Hamburg (AHO)
+16120,ZABAIKAL AIRLINES
+16127,TransHolding
+16130,SUR Lineas Aereas
+16131,Aerolineas Africanas
+16133,Yeti Airways
+16134,Georgian Airlines
+16135,Yellowstone Club Private Shuttle
+16136,Caucasus Airlines
+16139,Serbian Airlines
+16149,Windward Islands Airways
+16150,TransHolding System
+16151,CCML Airlines
+16197,Air Charter International
+16198,Small Planet Airlines
+16234,Fly Brasil
+16260,AUOS
+16261,CB Airways UK ( Interliging Flights )
+16262,Fly Colombia ( Interliging Flights )
+16264,Trans Pas Air
+16273,KMV
+16323,Himalayan Airlines
+16327,Indya Airline Group
+16329,Sunwing
+16358,Turkish Wings Domestic
+16359,Japan Regio
+16362,OCEAN AIR CARGO
+16363,Norte Lineas Aereas
+16364,Austral Brasil
+16373,PEGASUS AIRLINES-
+16399,AirLiberté
+16409,Nihon.jet connect
+16415,Camair-co
+16437,Aerocontinente (Priv)
+16459,Sky Regional
+16475,TUR Avrupa Hava YollarÄ±
+16487,Cruzeiro do Sul Servicos Aereos
+16507,LSM International 
+16508,Baikotovitchestrian Airlines 
+16511,Luchsh Airlines 
+16556,ENTERair
+16570,Zimbabwean Airlines
+16585,Air Cargo Germany
+16615,Mongolian International Air Lines 
+16616,Alaniya Airlines
+16624,Tway Airlines
+16625,Papillon Grand Canyon Helicopters
+16628,Jusur airways
+16645,NEXT Brasil
+16660,AeroWorld 
+16671,Cook Island Air
+16675,US Africa Airways
+16695,GNB Linhas Aereas
+16702,Usa Sky Cargo
+16707,Hankook Airline
+16715,Red Jet America
+16717,REDjet
+16719,Hellenic Airways
+16720,Red Jet Andes
+16721,Red Jet Canada
+16723,Sprintair
+16724,Red Jet Mexico
+16725,Marusya Airways
+16726,Era Alaska
+16728,AirRussia
+16735,Hankook Air US
+16738,NEPC Airlines
+16753,Canadian World
+16760,Pim Air
+16794,Carpatair Flight Training
+16796,I-Fly
+16798,T.A.T
+16804,Compania de Aviacion Faucett
+16808,Kar-Air
+16811,Alinord
+16825,Pacific Express
+16826,Whitejets
+16837,VickJet
+16844,BVI Airways
+16858,Hamburg Airways
+16860,Salsa d\\'Haiti
+16867,Zambezi Airlines (ZMA)
+16868,Kan Air
+16881,Air Cudlua
+16882,Polet Airlines (Priv)
+16895,Air Explore
+16900,TROPICAL LINHAS AEREAS
+16901,12 North
+16919,Holidays Czech Airlines
+16921,Comtel Air
+16926,Mint Airways
+16932,Orbit Airlines
+16939,Air Bucharest
+16940,AlbaStar
+16942,Mauritania Airlines International
+16956,MAT Airways
+16960,Asian Wings Airways
+16963,Air Arabia Egypt
+16967,Eagles Airlines
+16973,YES Airways
+16975,Alitalia Cityliner
+16983,Direct Aero Services
+16985,Medallion Air
+17022,Orchid Airlines
+17023,Asia Wings
+17026,Georgian International Airlines
+17027,Air Batumi
+17082,Skywest Australia
+17083,Nile Air
+17086,Feeder Airlines
+17094,Senegal Airlines
+17095,Fly 6ix
+17099,Starbow Airlines
+17115,Copenhagen Express
+17408,BusinessAir
+17519,SENIC AIRLINES
+17557,Compass Airlines (Australia)
+17563,XOJET
+17568,Dexter (DXT)
+17571,Sky Wing Pacific
+17572,Bateleur Air
+17574,Air Indus
+17575,Samurai Airlines
+17614,AirOne Continental
+17618,AirOne Polska
+17628,Orbit International Airlines
+17629,Orbit Regional Airlines
+17630,Orbit Atlantic Airways
+17658,Volotea
+17666,Go Fly (United Kingdom)
+17675,Peach Aviation
+17694,Helitt Líneas Aéreas
+17695,Russia State Transport
+17726,Malaysia Wings
+17750,Aviabus
+17780,Michael Airlines
+17786,Korongo Airlines
+17794,Indonesia Sky
+17822,Pelangi 
+17841,Aws express
+17859,Southjet
+17860,Southjet connect
+17861,Air Cape
+17862,Southjet cargo
+17881,Iberia Express
+17885,Interjet (ABC Aerolineas)
+17889,AirOnix
+17890,Nordic Global Airlines
+17891,Scoot
+17893,Starling Airlines Spain
+17909,Hi Fly (5K)
+17911,China Northwest Airlines (WH)
+17935,Zenith International Airline
+17936,Orbit Airlines Azerbaijan
+17955,Air Engiadina-BRN
+17963,VG Airlines (IV)
+17989,Air Alps Aviation (A6)
+18011,Austrian Airtransport
+18076,Flying kangaroo Airline
+18083,RusJet
+18118,VietJet Air
+18140,Spantax S.A.
+18169,Patriot Airways
+18178,Vision Airlines (V2)
+18228,Chicago Express (C8)
+18232,BQB Lineas Aereas
+18237,AirAsia Japan
+18239,Yellowtail
+18241,Royal Airways
+18252,FlyHigh Airlines Ireland (FH)
+18257,Executive AirShare
+18475,Hebei Airlines
+18476,Air KBZ
+18477,Aero VIP (2D)
+18497,Yangon Airways Ltd.
+18529,T.J. Air
+18543,SkyWork Airlines 
+18545,ValueJet
+18553,Maastricht Airlines
+18592,CheapFlyingInternational
+18616,Aviaexpresscruise
+18617,Euro Jet
+18621,Ukraine Atlantic
+18637,AirOne Atlantic
+18643,HQ- Business Express
+18668,Nesma Airlines
+18672,East Horizon
+18673,Royal Southern Airlines.
+18676,Air Majoro
+18681,Fly Zoom
+18692,Rotana Jet
+18700,SOCHI AIR CHATER
+18702,Denim Air 
+18722,WestAir
+18723,WestAir Airlines
+18724,WestAir Airlines 
+18727,North Pacific Airlines
+18732,Malindo Air
+18749,Tramm Airlines
+18762,Lina Congo
+18781,Hermes Airlines
+18825,Flightlink Tanzania
+18828,IzAvia
+18860,Катэкавиа
+18863,Псковавиа
+18896,3 Valleys Airlines
+18930,Maryland Air
+18944,Insel Air (7I/INC) (Priv)
+18946,VivaColombia
+18952,Flybe Finland Oy
+18959,Bingo Airways
+19007,Bluebird Airways (BZ)
+19016,Apache Air
+19025,Taunus Air Gmbh
+19026,MHS Aviation GmbH
+19030,Jettor Airlines
+19204,Eastern Atlantic Charters
+19208,GoDutch
+19215,Flyme (VP)
+19225,Thai Lion Air
+19231,Deutsche Luftverkehrsgesellschaft
+19232,Nürnberger Flugdienst
+19244,Golden Myanmar Airlines
+19262,ViznAir
+19276,Canaryfly
+19280,Sunrise Airways
+19287,National Air Cargo
+19290,Eastern Atlantic Virtual Airlines
+19305,Citilink Indonesia
+19317,Gulisano airways
+19337,Transair
+19350,Comfort Express Virtual Charters Albany
+19351,Comfort Express Virtual Charters
+19358,Caribbean Wings
+19359,FLYJET
+19361,Snowbird Airlines
+19363,Russkie Krylya
+19367,Kharkiv Airlines
+19423,Key Air
+19433,XAIR USA
+19451,Air Costa
+19459,Simrik Airlines
+19465,Global Freightways
+19473,XPTO
+19474,Royal Flight
+19525,BBN-Airways
+19531,Tomsk-Avia
+19538,Vintage Props and Jets
+19541,Malawian Airlines
+19548,Yeti Airlines 
+19567,Avilu
+19582,Air Serbia
+19599,Skyline Ulasim Ticaret A.S.
+19610,Air Lituanica
+19619,Envoy Air
+19651,CARICOM AIRWAYS (BARBADOS) INC.
+19674,Rainbow Air (RAI)
+19675,Rainbow Air Canada
+19676,Rainbow Air Polynesia
+19677,Rainbow Air Euro
+19678,Rainbow Air US
+19745,Transilvania
+19751,Dobrolet
+19774,Spike Airlines
+19776,Grand Cru Airlines
+19785,Go2Sky
+19803,All Argentina
+19804,All America
+19805,All Asia
+19806,All Africa
+19807,Regionalia México
+19808,All Europe
+19809,All Spain
+19810,Regional Air Iceland
+19811,British Air Ferries
+19812,Voestar
+19813,All Colombia
+19814,Regionalia Uruguay
+19815,Regionalia Venezuela
+19827,Regionalia Chile
+19828,Vuela Cuba
+19830,All Australia
+19831,Fly Europa
+19834,FlyPortugal
+19845,FTI Fluggesellschaft
+19886,Spring Airlines Japan
+19890,Dense Airways
+19891,Dense Connection
+19908,Vuola Italia
+19917,Jet Suite
+19923,Fly Jamaica Airways
+19927,Island Express Air
+19928,All Argentina Express
+19930,Thai Smile Airways
+19944,International AirLink
+19963,Real Tonga
+19970,All America AR
+19971,All America CL
+19974,SOCHI AIR EXPRESS
+19977,All America BR
+19979,FRA Air
+19983,Royal
+19986,GREAT LAKES (GX)
+20004,Volotea Costa Rica
+20017,Fly Romania
+20047,Eagle Atlantic Airlines
+20051,Fly Africa Zimbabwe
+20060,San Dima Air
+20073,All America CO
+20074,All America MX
+20110,FOX Linhas Aereas
+20124,Wings of England
+20127,Air Kenya (Priv)
+20144,Via Conectia Airlines
+20155,Hebradran Air Services
+20158,Pobeda
+20160,City Airways
+20170,Norwegian Long Haul AS
+20186,BA101
+20207,TransNusa Air
+20218,Tomp Airlines
+20220,Fuzhou Airlines
+20221,Sky Angkor Airlines (ZA)
+20222,OneJet
+20224,Global Airlines
+20225,Mann Yadanarpon Airlines
+20261,International Flying Service
+20264,Air Vistara
+20268,TransRussiaAirlines
+20270,Severstal Air Company
+20282,REXAIR VIRTUEL
+20285,WestJet Encore
+20286,Air Pegasus
+20288,International Europe
+20293,Sky Regional Airlines
+20401,V Air
+20415,Cello Aviation
+20438,Naka Nihon Airlines Service
+20478,Pouya Air
+20548,Islands Express
+20549,Atlantic Air Services
+20565,Boutique Air (Priv)
+20566,FlyEgypt
+20577,VOLOTEA Airways
+20580,Aguilar Connect
+20589,ROYAL BRITAIN
+20599,INAVIA Internacional
+20607,Liberty Airways
+20608,Аэросервис
+20653,Aeronautica Militare
+20657,Bassaka airlines
+20675,Jetstar Japan 
+20686,SkyBahamas Airlines
+20695,UVT Aero
+20698,First Flying
+20710,Silver Airways (3M)
+20716,AtlasGlobal Ukraine
+20725,Boliviana de Aviacion (OB)
+20726,US-Bangla Airlines
+20729,Norwegian Air International (D8)
+20752,ATA Airlines (Iran)
+20769,VIA Líneas Aéreas
+20777,Palair Macedonia
+20788,Palair Macedonia (3D)
+20802,GermanXL
+20808,Alghanim
+20824,Indonesa Air Aisa X
+20827,Fly France
+20875,Jota Aviation
+20881,Europe Jet
+20923,COBALT
+20931,Southern Airways Express
+20961,Deutsche Luftverkehrsgesellschaft (DLT)
+20962,Orenburzhie
+20963,Atlantic Air Cargo
+20976,World Scale Airlines
+20978,All America US
+20986,University of Birmingham Air Squadron (RAF)
+20991,Choice Airways
+20994,Aruba Airlines
+20995,BudgetAir
+20996,Dynamic Airways
+21012,Fly One
+21021,Nordica
+21036,Tez Jet Airlines
+21043,Kush Air
+21056,Dummy
+21124,ViaAir
+21131,All America BOPY
+21179,Thai Vietjet Air
+21181,Air Andaman (2Y)
+21240,TDA Toa Domestic Airlines
+21248,GX Airlines
+21251,Lynx Aviation (L3/SSX)
+21268,Jetgo Australia
+21270,Air Carnival
+21317,Svyaz Rossiya
