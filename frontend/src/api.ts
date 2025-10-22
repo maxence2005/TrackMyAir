@@ -1,10 +1,6 @@
 import axios from 'axios';
 
 const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:5000/api';
-
-/* =========================================================
-   ✈️ Interfaces
-========================================================= */
 export interface Airport {
   airport_id: number;
   name: string;
@@ -43,10 +39,6 @@ export interface RouteWithVia {
   distance?: number;
 }
 
-/* =========================================================
-   🅰️ SECTION A — Airports & Airlines (ExploreController)
-   /api/explore/...
-========================================================= */
 export const getAirports = () =>
   axios.get<Airport[]>(`${API_URL}/explore/airports`);
 
@@ -62,10 +54,8 @@ export const updateAirline = (airline_id: number, newName: string) =>
 export const deleteAirport = (airport_id: number) =>
   axios.delete(`${API_URL}/explore/airports/${airport_id}`);
 
-/* =========================================================
-   🅱️ SECTION B — Routes (RouteController)
-   /api/routes/...
-========================================================= */
+
+
 export const getRoutesFromAirport = (airport_id: number) =>
   axios.get<Route[]>(`${API_URL}/routes/airport/${airport_id}`);
 
@@ -90,16 +80,13 @@ export const deleteIsolatedAirport = () =>
 export const getAverageDistance = () =>
   axios.get<{ avgStops: number }>(`${API_URL}/routes/avg-distance`);
 
-/* =========================================================
-   🅲 SECTION C — Airlines (AirlineController)
-   /api/airlines/...
-========================================================= */
+
+
 export const getAllAirlines = () =>
   axios.get<Airline[]>(`${API_URL}/airlines`);
 
 export const compareAirlinesNetworks = (id1: number, id2: number) =>
   axios.get(`${API_URL}/airlines/compare/${id1}/${id2}`);
-
 
 export const getTopAirlinesByCoverage = () =>
   axios.get<{ airline: string; coverage: number }[]>(`${API_URL}/airlines/top-coverage`);
@@ -113,10 +100,8 @@ export const getRoutesByAirline = (airline_id: number) =>
 export const getExclusiveRoutes = (airline_id: number) =>
   axios.get<Route[]>(`${API_URL}/airlines/${airline_id}/exclusive`);
 
-/* =========================================================
-   🅳 SECTION D — Hubs & Centrality (HubController)
-   /api/hubs/...
-========================================================= */
+
+
 export const getTop10Hubs = () =>
   axios.get<{ airport: string; lat: number; lon: number; degree: number }[]>(`${API_URL}/hubs/top`);
 

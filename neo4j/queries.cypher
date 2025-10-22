@@ -36,7 +36,7 @@ MATCH (:Airport)-[r:Route]->(:Airport)
 RETURN avg(r.stops) AS avg_stops;
 
 // 9. Chemin le plus court (en nombre d’escales) entre A et B
-MATCH p = (start:Airport {airport_id:1})-[:HAS_ROUTE*1..4]-(end:Airport {airport_id:100})
+MATCH p = (start:Airport {airport_id:1})-[:HAS_ROUTE*1..6]-(end:Airport {airport_id:100})
 WITH p, length(p) AS stops, start, end
 ORDER BY stops ASC
 LIMIT 1
@@ -51,7 +51,7 @@ RETURN
   stops;
 
 // 10. Chemin le plus long (en nombre d’escales) entre A et B
-MATCH p = (start:Airport {airport_id:1})-[:HAS_ROUTE*1..4]-(end:Airport {airport_id:100})
+MATCH p = (start:Airport {airport_id:1})-[:HAS_ROUTE*1..6]-(end:Airport {airport_id:100})
 WITH p, length(p) AS stops, start, end
 ORDER BY stops DESC
 LIMIT 1
@@ -67,7 +67,7 @@ RETURN
 
 // 11. Chemin le plus court (en km, distance totale) entre A et B
 MATCH p = (start:Airport {airport_id:1})-[:HAS_ROUTE*1..4]-(end:Airport {airport_id:100})
-WITH p, start, end, reduce(totalDistance = 0, r IN relationships(p) | totalDistance + r.distance) AS distance
+WITH p, start, end, reduce(totalDistance = 0, r IN [n IN nodes(p) WHERE n:Route] | totalDistance + r.distance) AS distance
 ORDER BY distance ASC
 LIMIT 1
 RETURN
@@ -83,7 +83,7 @@ RETURN
 
 // 12. Chemin le plus long (en km, distance totale) entre A et B
 MATCH p = (start:Airport {airport_id:1})-[:HAS_ROUTE*1..4]-(end:Airport {airport_id:100})
-WITH p, start, end, reduce(totalDistance = 0, r IN relationships(p) | totalDistance + r.distance) AS distance
+WITH p, start, end, reduce(totalDistance = 0, r IN [n IN nodes(p) WHERE n:Route] | totalDistance + r.distance) AS distance
 ORDER BY distance DESC
 LIMIT 1
 RETURN
@@ -102,6 +102,10 @@ MATCH (a:Airport)
 WHERE NOT (a)--()
 DELETE a;
 
+// 14. la moyenne des distance des routes
+MATCH (r:Route)
+RETURN avg(r.distance) AS avg_distance
+
 // 14. Identifier les hubs (degré des aéroports)
 MATCH (a:Airport)
 OPTIONAL MATCH (a)--()
@@ -110,7 +114,6 @@ ORDER BY degree DESC
 LIMIT 20;
 
 // 15. Centralité de proximité (closeness)
-CALL gds.graph.project('airlineGraphCloseness','Airport',{HAS_ROUTE:{orientation:'UNDIRECTED'}});
 CALL gds.closeness.stream('airlineGraphCloseness')
 YIELD nodeId, score
 RETURN gds.util.asNode(nodeId).airport_id AS id,
@@ -120,7 +123,6 @@ ORDER BY centrality DESC
 LIMIT 20;
 
 // 16. Centralité d’intermédiarité (betweenness)
-CALL gds.graph.project('airlineGraphBetweenness','Airport',{HAS_ROUTE:{orientation:'UNDIRECTED'}});
 CALL gds.betweenness.stream('airlineGraphBetweenness')
 YIELD nodeId, score
 RETURN gds.util.asNode(nodeId).airport_id AS id,
@@ -130,7 +132,6 @@ ORDER BY centrality DESC
 LIMIT 20;
 
 // 17. Détection des communautés (Louvain)
-CALL gds.graph.project('airlineGraphLouvain','Airport',{HAS_ROUTE:{orientation:'UNDIRECTED'}});
 CALL gds.louvain.stream('airlineGraphLouvain')
 YIELD nodeId, communityId
 RETURN gds.util.asNode(nodeId).airport_id AS id,
@@ -139,17 +140,22 @@ RETURN gds.util.asNode(nodeId).airport_id AS id,
 ORDER BY communityId
 LIMIT 20;
 
-// 18. Routes couvertes pour une compagnie
-MATCH (al:Airline {airline_id:1})-[:OPERATES]->(r:Route)
+// 19. Toutes les rotues pour une compagnie
+MATCH (al:Airline {airline_id: 24})-[:OPERATES]->(r:Route)
 MATCH (src:Airport)-[:HAS_ROUTE]->(r)<-[:HAS_ROUTE]-(dst:Airport)
-RETURN al.name AS airline,
-       src.name AS from,
-       dst.name AS to,
-       r.stops AS stops,
-       r.distance AS distance
-ORDER BY from, to;
+        RETURN 
+          al.name AS airline,
+          src.name AS from,
+          src.latitude AS fromLatitude,
+          src.longitude AS fromLongitude,
+          dst.name AS to,
+          dst.latitude AS toLatitude,
+          dst.longitude AS toLongitude,
+          r.stops AS stops,
+          r.distance AS distance
+        ORDER BY from, to
 
-// 19. Comparer réseaux de deux compagnies
+// 20. Comparer réseaux de deux compagnies
 MATCH (a1:Airline {airline_id:1})
 OPTIONAL MATCH (a1)-[:OPERATES]->(r1:Route)
 OPTIONAL MATCH (src1:Airport {airport_id: r1.source_airport_id})
@@ -166,26 +172,47 @@ RETURN a1.name AS airline1,
        [r IN routes1 WHERE NOT r IN routes2] AS unique_to_airline1,
        [r IN routes2 WHERE NOT r IN routes1] AS unique_to_airline2;
 
-// 20. Routes exclusives à une compagnie
-MATCH (al:Airline {airline_id:1})-[:OPERATES]->(r:Route)
+// 21. Routes exclusives à une compagnie
+MATCH (al:Airline {airline_id: 24})-[:OPERATES]->(r:Route)
 MATCH (src:Airport {airport_id: r.source_airport_id})
 MATCH (dst:Airport {airport_id: r.destination_airport_id})
-OPTIONAL MATCH (other:Airline)-[:OPERATES]->(r)
-WITH al, r, src, dst, COUNT(DISTINCT other) AS nb_airlines
-WHERE nb_airlines = 1
-RETURN al.name AS airline,
-       src.name AS from,
-       dst.name AS to
-ORDER BY from, to;
+        WITH al, r, src, dst
+        OPTIONAL MATCH (other:Airline)-[:OPERATES]->(r)
+        WITH al, r, src, dst, COUNT(DISTINCT other) AS nb_airlines
+        WHERE nb_airlines = 1
+        RETURN 
+          al.name AS airline, 
+          src.name AS from, 
+          dst.name AS to,
+          src.latitude AS fromLatitude,
+          src.longitude AS fromLongitude,
+          dst.latitude AS toLatitude,
+          dst.longitude AS toLongitude
+        ORDER BY from, to;
 
-// 21. Nombre total de routes par compagnie
+// 21. Top 10 compagnies par couverture géographique
 MATCH (al:Airline)-[:OPERATES]->(r:Route)
-RETURN al.name AS airline, count(DISTINCT r) AS total_routes
-ORDER BY total_routes DESC;
+MATCH (a:Airport)-[:HAS_ROUTE]->(r)
+RETURN al.name AS airline, count(DISTINCT a) AS airports_covered
+ORDER BY airports_covered DESC
+LIMIT 10
 
-// 22. Supprimer un hub et mesurer l’impact sur la connectivité
-MATCH (hub:Airport {airport_id:1})
-DETACH DELETE hub;
+// 22. Simulation d'une fusion de compagnies aériennes
+MATCH (a1:Airline {airline_id: 24})
+MATCH (a2:Airline {airline_id: 25})
+WITH a1, a2,
+     coalesce("yy", a1.name + '-' + a2.name) AS mergedName,
+     a1.airline_id + a2.airline_id +10000 AS newId
+CREATE (merged:Airline {airline_id: newId})
+SET merged.name = mergedName
+WITH merged, a1, a2
+MATCH (a1)-[:OPERATES]->(r:Route)
+MERGE (merged)-[:OPERATES]->(r)
+WITH merged, a2
+MATCH (a2)-[:OPERATES]->(r2:Route)
+MERGE (merged)-[:OPERATES]->(r2)
+RETURN merged.name AS merged_airline,
+       merged.airline_id AS merged_id;
 
 // 23. Ajouter une route hypothétique et mesurer l’effet
 MATCH (a1:Airport {airport_id:1}), (a2:Airport {airport_id:2})
@@ -194,19 +221,12 @@ RETURN a1.name AS from, a1.latitude AS fromLatitude, a1.longitude AS fromLongitu
        a2.name AS to, a2.latitude AS toLatitude, a2.longitude AS toLongitude,
        500 AS distance, 0 AS stops;
 
-// 24. Simulation de panne partielle : désactiver temporairement les hubs les plus connectés
-MATCH (hub:Airport)
-WITH hub, size((hub)--()) AS connections
-ORDER BY connections DESC
-LIMIT 3
-SET hub.status = 'inactive'
-RETURN hub.name AS hub, hub.status AS status, connections AS nb_connections;
+// 24. Simulation de panne : désactiver les hubs les plus connectés
+MATCH (a:Airport)
+OPTIONAL MATCH (a)--()
+WITH COUNT(*) AS degree
+ORDER BY degree DESC
+LIMIT $limit
+DETACH DELETE hub
+RETURN count(hub) AS deleted_hubs
 
-// 25. Création de routes “alternatives” pour tester la redondance du réseau
-MATCH (a:Airport), (b:Airport)
-WHERE a.airport_id < b.airport_id AND a.status <> 'inactive' AND b.status <> 'inactive'
-WITH a, b LIMIT 5
-CREATE (a)-[:Route {stops:1, distance: rand() * 1000 + 200}]->(b)
-RETURN a.name AS from, a.latitude AS fromLatitude, a.longitude AS fromLongitude,
-       b.name AS to, b.latitude AS toLatitude, b.longitude AS toLongitude,
-       1 AS stops, rand() * 1000 + 200 AS distance;

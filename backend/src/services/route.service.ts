@@ -58,7 +58,7 @@ export class RouteService {
     try {
       const result = await session.run(
         `
-        MATCH p = (start:Airport {airport_id: $start_id})-[:HAS_ROUTE*1..4]-(end:Airport {airport_id: $end_id})
+        MATCH p = (start:Airport {airport_id: $start_id})-[:HAS_ROUTE*1..6]-(end:Airport {airport_id: $end_id})
         WITH p, start, end, length(p) AS stops
         ORDER BY stops ASC
         LIMIT 1
@@ -96,7 +96,7 @@ export class RouteService {
     try {
       const result = await session.run(
         `
-        MATCH p = (start:Airport {airport_id: $start_id})-[:HAS_ROUTE*1..4]-(end:Airport {airport_id: $end_id})
+        MATCH p = (start:Airport {airport_id: $start_id})-[:HAS_ROUTE*1..6]-(end:Airport {airport_id: $end_id})
         WITH p, start, end, length(p) AS stops
         ORDER BY stops DESC
         LIMIT 1
@@ -129,13 +129,14 @@ export class RouteService {
   }
 
   // Chemin le plus court (distance totale) → multi-étapes
+  // [n IN nodes(p) WHERE n:Route] c'est pour ne prendre que les relations de type Route, car routes contient distance
   static async getShortestPathDistance(start_id: number, end_id: number) {
     const session = driver.session();
     try {
       const result = await session.run(
         `
-        MATCH p = (start:Airport {airport_id: $start_id})-[:HAS_ROUTE*1..4]-(end:Airport {airport_id: $end_id})
-        WITH p, start, end, reduce(totalDistance = 0, r IN relationships(p) | totalDistance + r.distance) AS distance
+        MATCH p = (start:Airport {airport_id: $start_id})-[:HAS_ROUTE*1..6]-(end:Airport {airport_id: $end_id})
+        WITH p, start, end, reduce(totalDistance = 0, r IN [n IN nodes(p) WHERE n:Route] | totalDistance + r.distance) AS distance
         ORDER BY distance ASC
         LIMIT 1
         RETURN
@@ -174,8 +175,8 @@ export class RouteService {
     try {
       const result = await session.run(
         `
-        MATCH p = (start:Airport {airport_id: $start_id})-[:HAS_ROUTE*1..4]-(end:Airport {airport_id: $end_id})
-        WITH p, start, end, reduce(totalDistance = 0, r IN relationships(p) | totalDistance + r.distance) AS distance
+        MATCH p = (start:Airport {airport_id: $start_id})-[:HAS_ROUTE*1..6]-(end:Airport {airport_id: $end_id})
+        WITH p, start, end, reduce(totalDistance = 0, r IN [n IN nodes(p) WHERE n:Route] | totalDistance + r.distance) AS distance
         ORDER BY distance DESC
         LIMIT 1
         RETURN

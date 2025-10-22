@@ -2,15 +2,24 @@ import { Request, Response } from 'express';
 import { ScenarioService } from '../services/senario.service';
 
 export class ScenarioController {
-  // 22. Supprimer un hub
-  static async deleteHub(req: Request, res: Response) {
+  static async mergeAirlines(req: Request, res: Response) {
     try {
-      const { airport_id } = req.params;
-      const result = await ScenarioService .deleteHub(Number(airport_id));
-      res.json({ message: `Hub ${airport_id} supprimé`, ...result });
+      const { airlineId1, airlineId2, newAirlineName } = req.body;
+
+      if (!airlineId1 || !airlineId2) {
+        return res.status(400).json({ error: 'Les identifiants des deux compagnies sont requis.' });
+      }
+
+      const result = await ScenarioService.mergeAirlines(
+        Number(airlineId1),
+        Number(airlineId2),
+        newAirlineName
+      );
+
+      res.status(201).json(result);
     } catch (err) {
       console.error(err);
-      res.status(500).json({ error: 'Erreur lors de la suppression du hub' });
+      res.status(500).json({ error: 'Erreur lors de la fusion des compagnies.' });
     }
   }
 
@@ -43,15 +52,4 @@ export class ScenarioController {
     }
   }
 
-  // 25. Créer des routes alternatives pour tester la redondance
-  static async createAlternativeRoutes(req: Request, res: Response) {
-    try {
-      const { limit } = req.query;
-      const routes = await ScenarioService .createAlternativeRoutes(Number(limit) || 5);
-      res.status(201).json(routes);
-    } catch (err) {
-      console.error(err);
-      res.status(500).json({ error: 'Erreur lors de la création des routes alternatives' });
-    }
-  }
 }

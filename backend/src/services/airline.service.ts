@@ -124,7 +124,6 @@ export class AirlineService {
         MATCH (src:Airport {airport_id: r.source_airport_id})
         MATCH (dst:Airport {airport_id: r.destination_airport_id})
         WITH al, r, src, dst
-        // Vérifie si une autre compagnie opère aussi cette route
         OPTIONAL MATCH (other:Airline)-[:OPERATES]->(r)
         WITH al, r, src, dst, COUNT(DISTINCT other) AS nb_airlines
         WHERE nb_airlines = 1

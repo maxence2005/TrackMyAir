@@ -54,7 +54,7 @@ const operations: Operation[] = [
   { title: "Chemin le plus long (escales) entre deux aéroports", section: "B", index: 3 },
   { title: "Chemin le plus court (distance) entre deux aéroports", section: "B", index: 4 },
   { title: "Chemin le plus long (distance) entre deux aéroports", section: "B", index: 5 },
-  { title: "Supprimer un aéroport isolé", section: "B", index: 6 },
+  { title: "Supprimer les aéroports isolés", section: "B", index: 6 },
   { title: "Moyenne des distances des routes", section: "B", index: 7 },
 
   // Section C - Airlines
@@ -73,7 +73,7 @@ const operations: Operation[] = [
 ];
 
 const App: React.FC = () => {
-  const [markers, setMarkers] = useState<Array<{ position: [number, number]; label?: string }>>([]);
+  const [markers, setMarkers] = useState<Array<{ position: [number, number]; label?: string; degree?: number}>>([]);
   const [lines, setLines] = useState<Array<{ positions: [number, number][]; color?: string }>>([]);
   const [rawOutput, setRawOutput] = useState<string>('');
 
@@ -91,10 +91,8 @@ const App: React.FC = () => {
   const [airlineId, setAirlineId] = useState<number>(0);
   const [airportQueryId, setAirportQueryId] = useState<number>(0);
 
-  // ...imports inchangés
   const handleOperationClick = async (operation: Operation) => {
     try {
-      // === SECTION A ===
       if (operation.section === 'A') {
         let res;
         switch (operation.index) {
@@ -148,7 +146,6 @@ const App: React.FC = () => {
         }
       }
 
-      // === SECTION B ===
     if (operation.section === 'B') {
       let res;
       let newMarkers: typeof markers = [];
@@ -196,13 +193,13 @@ const App: React.FC = () => {
 
         case 4: // Chemin le plus court (distance)
           res = await getShortestPathDistance(startAirportId, endAirportId);
-          setRawOutput(JSON.stringify(res, null, 2));
+          setRawOutput(JSON.stringify(res.data, null, 2));
           drawPathOnMapLigne(res.data);
           return;
 
         case 5: // Chemin le plus long (distance)
           res = await getLongestPathDistance(startAirportId, endAirportId);
-          setRawOutput(JSON.stringify(res, null, 2));
+          setRawOutput(JSON.stringify(res.data, null, 2));
           drawPathOnMapLigne(res.data);
           return;
 
@@ -223,7 +220,6 @@ const App: React.FC = () => {
       }
     }
 
-  // === SECTION C ===
   if (operation.section === 'C') {
     let res;
     let newMarkers: typeof markers = [];
@@ -277,7 +273,6 @@ const App: React.FC = () => {
   }
 
 
-      // === SECTION D ===
       if (operation.section === 'D') {
         let res;
         let newMarkers: typeof markers = [];
@@ -287,7 +282,7 @@ const App: React.FC = () => {
           case 0: // Top hubs par degré
             res = await getTop10Hubs();
             setRawOutput(JSON.stringify(res.data, null, 2));
-            res.data.forEach((h: any) => newMarkers.push({ position: [h.lat, h.lon], label: h.airport }));
+            res.data.forEach((h: any) => newMarkers.push({ position: [h.lat, h.lon], label: h.airport, degree: (h.degree/40) }));
             setMarkers(newMarkers);
             setLines([]);
             return;
@@ -429,7 +424,7 @@ const App: React.FC = () => {
                 <div style={{ marginTop: '1rem' }}>
                   <h4>Airline operations</h4>
                   <input type="number" placeholder="ID compagnie" onChange={e => setAirlineId(Number(e.target.value))} />
-                  <input type="number" placeholder="ID aéroport" onChange={e => setAirportQueryId(Number(e.target.value))} />
+                  <input type="number" placeholder="ID aéroport / ID compagnie(2)" onChange={e => setAirportQueryId(Number(e.target.value))} />
                 </div>
               )}
 

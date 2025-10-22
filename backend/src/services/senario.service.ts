@@ -1,19 +1,42 @@
 import driver from '../config/neo4j';
 export class ScenarioService {
-  // 22. Supprimer un hub
-  static async deleteHub(airport_id: number) {
+  // 22. Simulation d'une fusion de compagnies aériennes
+    static async mergeAirlines(airlineId1: number, airlineId2: number, newAirlineName?: string) {
     const session = driver.session();
     try {
-      await session.run(
-        `MATCH (hub:Airport {airport_id: $airport_id})
-         DETACH DELETE hub`,
-        { airport_id }
-      );
-      return { success: true };
+        const result = await session.run(
+        `
+            MATCH (a1:Airline {airline_id: $airlineId1})
+            MATCH (a2:Airline {airline_id: $airlineId2})
+            WITH a1, a2,
+                coalesce($newAirlineName, a1.name + '-' + a2.name) AS mergedName,
+                a1.airline_id + a2.airline_id + 10000 AS newId
+            CREATE (merged:Airline {airline_id: newId})
+            SET merged.name = mergedName
+            WITH merged, a1, a2
+            MATCH (a1)-[:OPERATES]->(r:Route)
+            MERGE (merged)-[:OPERATES]->(r)
+            WITH merged, a2
+            MATCH (a2)-[:OPERATES]->(r2:Route)
+            MERGE (merged)-[:OPERATES]->(r2)
+            RETURN merged.name AS merged_airline,
+                merged.airline_id AS merged_id;
+            `,
+            { airlineId1, airlineId2, newAirlineName }
+        );
+
+        const record = result.records[0].toObject();
+        return {
+            success: true,
+            message: `Fusion réussie : ${record.merged_airline}`,
+            details: record,
+        };
+    } catch (error) {
+        console.error('Erreur lors de la fusion des compagnies :', error);
     } finally {
-      await session.close();
+        await session.close();
     }
-  }
+    }
 
   // 23. Ajouter une route hypothétique
   static async createHypotheticalRoute(fromId: number, toId: number, distance = 500, stops = 0) {
@@ -38,12 +61,15 @@ export class ScenarioService {
     const session = driver.session();
     try {
       const result = await session.run(
-        `MATCH (hub:Airport)
-         WITH hub, size((hub)--()) AS connections
-         ORDER BY connections DESC
-         LIMIT $limit
-         SET hub.status = 'inactive'
-         RETURN hub.name AS hub, hub.status AS status, connections AS nb_connections`,
+        `
+        MATCH (a:Airport)
+        OPTIONAL MATCH (a)--()
+        WITH COUNT(*) AS degree
+        ORDER BY degree DESC
+        LIMIT $limit
+        DETACH DELETE hub
+        RETURN count(hub) AS deleted_hubs
+        `,
         { limit }
       );
       return result.records.map(r => r.toObject());
@@ -52,23 +78,4 @@ export class ScenarioService {
     }
   }
 
-  // 25. Création de routes alternatives pour tester la redondance
-  static async createAlternativeRoutes(limit = 5) {
-    const session = driver.session();
-    try {
-      const result = await session.run(
-        `MATCH (a:Airport), (b:Airport)
-         WHERE a.airport_id < b.airport_id AND a.status <> 'inactive' AND b.status <> 'inactive'
-         WITH a, b LIMIT $limit
-         CREATE (a)-[:Route {stops:1, distance: rand() * 1000 + 200}]->(b)
-         RETURN a.name AS from, a.latitude AS fromLatitude, a.longitude AS fromLongitude,
-                b.name AS to, b.latitude AS toLatitude, b.longitude AS toLongitude,
-                1 AS stops, rand() * 1000 + 200 AS distance`,
-        { limit }
-      );
-      return result.records.map(r => r.toObject());
-    } finally {
-      await session.close();
-    }
-  }
 }

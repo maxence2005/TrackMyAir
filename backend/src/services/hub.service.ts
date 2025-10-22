@@ -32,65 +32,52 @@ export class HubService {
       await session.close();
     }
   }
-
-  // Fonction utilitaire pour supprimer un graphe si existant (sans conflit de variable)
-  private static async dropGraphIfExists(session: any, graphName: string) {
+  private static async IfExists(session: any, graphName: string) {
     const existsResult = await session.run(
       `CALL gds.graph.exists($graphName) YIELD exists RETURN exists`,
       { graphName }
     );
-    const exists = existsResult.records[0].get('exists');
-
-    if (exists) {
-      await session.run(
-        `
-        CALL apoc.do.when(
-          true,
-          'CALL gds.graph.drop($g) YIELD graphName RETURN graphName',
-          '',
-          { g: $graphName }
-        ) YIELD value
-        RETURN value
-        `,
-        { graphName }
-      );
-    }
+    return existsResult.records[0]?.get('exists') ?? false;
   }
 
-  // Centralité de proximité (closeness)
+  private static async createGraphIfNotExists(session: any, graphName: string) {
+    const exists = await this.IfExists(session, graphName);
+    if (!exists) {
+      await session.run(
+        `
+        CALL gds.graph.project.cypher(
+          $graphName,
+          'MATCH (a:Airport) RETURN id(a) AS id',
+          'MATCH (a1:Airport)-[:HAS_ROUTE]->(r:Route)<-[:HAS_ROUTE]-(a2:Airport)
+          RETURN id(a1) AS source, id(a2) AS target, toFloat(r.distance) AS distance'
+        )
+        `,
+        { graphName }
+      )
+    };
+  }
+
+  // Centralité de proximité (Closeness)
   static async getClosenessCentrality(limit = 20) {
     const session = driver.session();
     const graphName = 'airlineGraphCloseness';
     try {
-      await HubService.dropGraphIfExists(session, graphName);
-
-      await session.run(
-        `
-        CALL gds.graph.project(
-          $graphName,
-          'Airport',
-          { HAS_ROUTE: { orientation: 'UNDIRECTED' } }
-        )
-        `,
-        { graphName }
-      );
+      await HubService.createGraphIfNotExists(session, graphName);
 
       const result = await session.run(
         `
         CALL gds.closeness.stream($graphName)
         YIELD nodeId, score
         RETURN gds.util.asNode(nodeId).airport_id AS id,
-               gds.util.asNode(nodeId).name AS airport,
-               gds.util.asNode(nodeId).latitude AS lat,
-               gds.util.asNode(nodeId).longitude AS lon,
-               score AS centrality
+              gds.util.asNode(nodeId).name AS airport,
+              gds.util.asNode(nodeId).latitude AS lat,
+              gds.util.asNode(nodeId).longitude AS lon,
+              score AS centrality
         ORDER BY centrality DESC
-        LIMIT 20
+        LIMIT 100
         `,
         { graphName, limit: Number(limit) }
       );
-
-      await HubService.dropGraphIfExists(session, graphName);
 
       return result.records.map(r => ({
         id: r.get('id'),
@@ -104,40 +91,27 @@ export class HubService {
     }
   }
 
-  // Centralité d'intermédiarité (betweenness)
+  // Même logique pour Betweenness
   static async getBetweennessCentrality(limit = 20) {
     const session = driver.session();
     const graphName = 'airlineGraphBetweenness';
     try {
-      await HubService.dropGraphIfExists(session, graphName);
-
-      await session.run(
-        `
-        CALL gds.graph.project(
-          $graphName,
-          'Airport',
-          { HAS_ROUTE: { orientation: 'UNDIRECTED' } }
-        )
-        `,
-        { graphName }
-      );
+      await HubService.createGraphIfNotExists(session, graphName);
 
       const result = await session.run(
         `
         CALL gds.betweenness.stream($graphName)
         YIELD nodeId, score
         RETURN gds.util.asNode(nodeId).airport_id AS id,
-               gds.util.asNode(nodeId).name AS airport,
-               gds.util.asNode(nodeId).latitude AS lat,
-               gds.util.asNode(nodeId).longitude AS lon,
-               score AS centrality
+              gds.util.asNode(nodeId).name AS airport,
+              gds.util.asNode(nodeId).latitude AS lat,
+              gds.util.asNode(nodeId).longitude AS lon,
+              score AS centrality
         ORDER BY centrality DESC
-        LIMIT 20
+        LIMIT 100
         `,
         { graphName, limit: Number(limit) }
       );
-
-      await HubService.dropGraphIfExists(session, graphName);
 
       return result.records.map(r => ({
         id: r.get('id'),
@@ -151,47 +125,36 @@ export class HubService {
     }
   }
 
-  // Détection des communautés (Louvain)
-  static async getLouvainCommunities(limit = 20) {
+  // Et Louvain
+  static async getLouvainCommunities() {
     const session = driver.session();
     const graphName = 'airlineGraphLouvain';
     try {
-      await HubService.dropGraphIfExists(session, graphName);
-
-      await session.run(
-        `
-        CALL gds.graph.project(
-          $graphName,
-          'Airport',
-          { HAS_ROUTE: { orientation: 'UNDIRECTED' } }
-        )
-        `,
-        { graphName }
-      );
+      await HubService.createGraphIfNotExists(session, graphName);
 
       const result = await session.run(
         `
         CALL gds.louvain.stream($graphName)
         YIELD nodeId, communityId
         RETURN gds.util.asNode(nodeId).airport_id AS id,
-               gds.util.asNode(nodeId).name AS airport,
-               gds.util.asNode(nodeId).latitude AS lat,
-               gds.util.asNode(nodeId).longitude AS lon,
-               communityId
+              gds.util.asNode(nodeId).name AS airport,
+              gds.util.asNode(nodeId).latitude AS lat,
+              gds.util.asNode(nodeId).longitude AS lon,
+              communityId
         ORDER BY communityId
-        LIMIT 20
+        LIMIT 100
         `,
-        { graphName, limit: Number(limit) }
+        { graphName }
       );
-
-      await HubService.dropGraphIfExists(session, graphName);
 
       return result.records.map(r => ({
         id: r.get('id'),
         airport: r.get('airport'),
         lat: r.get('lat'),
         lon: r.get('lon'),
-        communityId: r.get('communityId').toNumber ? r.get('communityId').toNumber() : r.get('communityId')
+        communityId: r.get('communityId').toNumber
+          ? r.get('communityId').toNumber()
+          : r.get('communityId')
       }));
     } finally {
       await session.close();

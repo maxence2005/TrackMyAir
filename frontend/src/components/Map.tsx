@@ -6,6 +6,7 @@ interface MapProps {
   markers: Array<{
     position: [number, number];
     label?: string;
+    degree?: number;
   }>;
   lines?: Array<{
     positions: [number, number][];
@@ -29,7 +30,7 @@ const Map: React.FC<MapProps> = ({ markers = [], lines = [] }) => {
         <CircleMarker
           key={idx}
           center={marker.position}
-          radius={5}
+          radius={marker.degree || 5}
           color="#ff5722"
         >
           {marker.label && <Popup>{marker.label}</Popup>}
