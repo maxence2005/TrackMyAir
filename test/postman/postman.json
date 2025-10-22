@@ -1,0 +1,73 @@
+{
+  "info": {
+    "name": "NeoAir API Test",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_postman_id": "neoair-api-tests"
+  },
+  "item": [
+    {
+      "name": "Section A — Explore",
+      "item": [
+        {
+          "name": "Get all airports",
+          "request": { "method": "GET", "url": "http://localhost:5000/api/explore/airports" }
+        },
+        {
+          "name": "Get airport by ID",
+          "request": { "method": "GET", "url": "http://localhost:5000/api/explore/airports/24" }
+        },
+        {
+          "name": "Add new airport",
+          "request": {
+            "method": "POST",
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "body": {
+              "mode": "raw",
+              "raw": "{\"airport_id\":9999,\"name\":\"Test Airport\",\"iata\":\"TST\",\"icao\":\"TSTA\",\"latitude\":0.0,\"longitude\":0.0}"
+            },
+            "url": "http://localhost:5000/api/explore/airports"
+          }
+        },
+        {
+          "name": "Update airline name",
+          "request": {
+            "method": "PUT",
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "body": { "mode": "raw", "raw": "{\"airline_id\":1,\"name\":\"Nouvelle Compagnie\"}" },
+            "url": "http://localhost:5000/api/explore/airlines"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Section B — Routes",
+      "item": [
+        { "name": "Get routes from airport", "request": { "method": "GET", "url": "http://localhost:5000/api/routes/airport/24" } },
+        { "name": "Average stops", "request": { "method": "GET", "url": "http://localhost:5000/api/routes/avg-stops" } },
+        { "name": "Shortest path (stops)", "request": { "method": "GET", "url": "http://localhost:5000/api/routes/shortest-stops/24/189" } },
+        { "name": "Shortest path (distance)", "request": { "method": "GET", "url": "http://localhost:5000/api/routes/shortest-distance/24/189" } },
+        { "name": "Longest path (distance)", "request": { "method": "GET", "url": "http://localhost:5000/api/routes/longest-distance/24/189" } },
+        { "name": "Delete isolated airports", "request": { "method": "DELETE", "url": "http://localhost:5000/api/routes/isolated" } }
+      ]
+    },
+    {
+      "name": "Section C — Airlines",
+      "item": [
+        { "name": "Get all airlines", "request": { "method": "GET", "url": "http://localhost:5000/api/airlines" } },
+        { "name": "Get airline route counts", "request": { "method": "GET", "url": "http://localhost:5000/api/airlines/counts" } },
+        { "name": "Get routes by airline", "request": { "method": "GET", "url": "http://localhost:5000/api/airlines/1/routes" } },
+        { "name": "Exclusive routes", "request": { "method": "GET", "url": "http://localhost:5000/api/airlines/1/exclusive" } }
+      ]
+    },
+    {
+      "name": "Section D — Hubs & Centrality",
+      "item": [
+        { "name": "Top 10 hubs", "request": { "method": "GET", "url": "http://localhost:5000/api/hubs/top" } },
+        { "name": "Closeness centrality", "request": { "method": "GET", "url": "http://localhost:5000/api/hubs/closeness" } },
+        { "name": "Betweenness centrality", "request": { "method": "GET", "url": "http://localhost:5000/api/hubs/betweenness" } },
+        { "name": "Louvain communities", "request": { "method": "GET", "url": "http://localhost:5000/api/hubs/communities" } }
+      ]
+    }
+  ]
+}
+

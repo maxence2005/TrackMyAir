@@ -1,0 +1,2 @@
+artillery run test/load-test.yml --output report.json
+artillery report --output report.html report.json

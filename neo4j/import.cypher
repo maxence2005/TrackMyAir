@@ -1,17 +1,8 @@
-// ===========================
-// 0. Supprimer tous les nœuds et relations
-// ===========================
 MATCH (n) DETACH DELETE n;
 
-// ===========================
-// 1. Supprimer les anciens index conflictuels
-// ===========================
 DROP INDEX airport_id_index IF EXISTS;
 DROP INDEX airline_id_index IF EXISTS;
 
-// ===========================
-// 2. Création des contraintes et index
-// ===========================
 CREATE CONSTRAINT airport_id_unique IF NOT EXISTS
 FOR (a:Airport) REQUIRE a.airport_id IS UNIQUE;
 
@@ -21,9 +12,6 @@ FOR (al:Airline) REQUIRE al.airline_id IS UNIQUE;
 CREATE INDEX route_index IF NOT EXISTS
 FOR (r:Route) ON (r.source_airport_id, r.destination_airport_id);
 
-// ===========================
-// 3. Import des aéroports
-// ===========================
 CALL {
     LOAD CSV WITH HEADERS FROM 'file:///airports.csv' AS row
     MERGE (a:Airport {airport_id: toInteger(row.airport_id)})
@@ -34,18 +22,12 @@ CALL {
         a.longitude = toFloat(row.longitude)
 } IN TRANSACTIONS OF 1000 ROWS;
 
-// ===========================
-// 4. Import des compagnies aériennes
-// ===========================
 CALL {
     LOAD CSV WITH HEADERS FROM 'file:///airlines.csv' AS row
     MERGE (al:Airline {airline_id: toInteger(row.airline_id)})
     SET al.name = row.name
 } IN TRANSACTIONS OF 1000 ROWS;
 
-// ===========================
-// 5. Import des routes et création des relations
-// ===========================
 CALL {
     LOAD CSV WITH HEADERS FROM 'file:///routes.csv' AS row
     MATCH (src:Airport {airport_id: toInteger(row.source_airport_id)})

@@ -1,0 +1,43 @@
+config:
+  target: "http://localhost:5000/api"
+  phases:
+    - duration: 60
+      arrivalRate: 10
+      name: "Test de charge stable"
+    - duration: 60
+      arrivalRate: 30
+      name: "Montée progressive"
+    - duration: 60
+      arrivalRate: 60
+      name: "Stress test maximum"
+  defaults:
+    headers:
+      Content-Type: "application/json"
+
+scenarios:
+  - name: "Routes principales"
+    flow:
+      - get:
+          url: "/routes/shortest-distance/24/189"
+      - get:
+          url: "/routes/longest-distance/24/189"
+      - get:
+          url: "/routes/avg-stops"
+
+  - name: "Compagnies & exclusivités"
+    flow:
+      - get:
+          url: "/airlines"
+      - get:
+          url: "/airlines/1/routes"
+      - get:
+          url: "/airlines/1/exclusive"
+
+  - name: "Centralité et hubs"
+    flow:
+      - get:
+          url: "/hubs/top"
+      - get:
+          url: "/hubs/betweenness"
+      - get:
+          url: "/hubs/closeness"
