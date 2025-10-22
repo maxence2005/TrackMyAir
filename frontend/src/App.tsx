@@ -24,6 +24,7 @@ import {
   getBetweennessCentrality,
   getLouvainCommunities,
   Airport,
+  RouteWithVia,
   Airline,
   Route,
   compareAirlinesNetworks,
@@ -183,26 +184,26 @@ const App: React.FC = () => {
 
         case 2: // Chemin le plus court (escales)
           res = await getShortestPathStops(startAirportId, endAirportId);
-          setRawOutput(JSON.stringify(res, null, 2));
-          drawPathOnMap(res.data);
+          setRawOutput(JSON.stringify(res.data, null, 2));
+          drawPathOnMapLigne(res.data);
           return;
 
         case 3: // Chemin le plus long (escales)
           res = await getLongestPathStops(startAirportId, endAirportId);
-          setRawOutput(JSON.stringify(res, null, 2));
-          drawPathOnMap(res.data);
+          setRawOutput(JSON.stringify(res.data, null, 2));
+          drawPathOnMapLigne(res.data);
           return;
 
         case 4: // Chemin le plus court (distance)
           res = await getShortestPathDistance(startAirportId, endAirportId);
           setRawOutput(JSON.stringify(res, null, 2));
-          drawPathOnMap(res.data);
+          drawPathOnMapLigne(res.data);
           return;
 
         case 5: // Chemin le plus long (distance)
           res = await getLongestPathDistance(startAirportId, endAirportId);
           setRawOutput(JSON.stringify(res, null, 2));
-          drawPathOnMap(res.data);
+          drawPathOnMapLigne(res.data);
           return;
 
         case 6: // Supprimer un aéroport isolé
@@ -335,6 +336,38 @@ const App: React.FC = () => {
         newMarkers.push({ position: [step.fromLatitude, step.fromLongitude], label: step.from });
         newMarkers.push({ position: [step.toLatitude, step.toLongitude], label: step.to });
         newLines.push({ positions: [[step.fromLatitude, step.fromLongitude], [step.toLatitude, step.toLongitude]], color: '#ff5722' });
+      }
+    });
+
+    setMarkers(newMarkers);
+    setLines(newLines);
+  };
+
+  const drawPathOnMapLigne = (data: RouteWithVia[]) => {
+    const newMarkers: typeof markers = [];
+    const newLines: typeof lines = [];
+
+    data.forEach((step: RouteWithVia) => {
+      const pathNodes = [
+        { name: step.from, latitude: step.fromLatitude, longitude: step.fromLongitude },
+        ...(step.via || []), // via peut être undefined
+        { name: step.to, latitude: step.toLatitude, longitude: step.toLongitude },
+      ].filter(n => n.name && n.latitude != null && n.longitude != null);
+
+      // Ajouter les markers pour tous les nœuds
+      pathNodes.forEach(node => {
+        newMarkers.push({ position: [node.latitude, node.longitude], label: node.name });
+      });
+
+      // Ajouter les segments entre les nœuds
+      for (let i = 0; i < pathNodes.length - 1; i++) {
+        newLines.push({
+          positions: [
+            [pathNodes[i].latitude, pathNodes[i].longitude],
+            [pathNodes[i + 1].latitude, pathNodes[i + 1].longitude],
+          ],
+          color: '#ff5722',
+        });
       }
     });
 

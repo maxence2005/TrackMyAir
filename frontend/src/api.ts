@@ -31,6 +31,18 @@ export interface Route {
   airlines?: string[];
 }
 
+export interface RouteWithVia {
+  from: string;
+  fromLatitude: number;
+  fromLongitude: number;
+  via: { name: string; latitude: number; longitude: number }[];
+  to: string;
+  toLatitude: number;
+  toLongitude: number;
+  stops: number;
+  distance?: number;
+}
+
 /* =========================================================
    🅰️ SECTION A — Airports & Airlines (ExploreController)
    /api/explore/...
@@ -61,16 +73,16 @@ export const getAverageStops = () =>
   axios.get<{ avgStops: number }>(`${API_URL}/routes/avg-stops`);
 
 export const getShortestPathStops = (startId: number, endId: number) =>
-  axios.get<Route[]>(`${API_URL}/routes/shortest-stops/${startId}/${endId}`);
+  axios.get<RouteWithVia[]>(`${API_URL}/routes/shortest-stops/${startId}/${endId}`);
 
 export const getLongestPathStops = (startId: number, endId: number) =>
-  axios.get<Route[]>(`${API_URL}/routes/longest-stops/${startId}/${endId}`);
+  axios.get<RouteWithVia[]>(`${API_URL}/routes/longest-stops/${startId}/${endId}`);
 
 export const getShortestPathDistance = (startId: number, endId: number) =>
-  axios.get<Route[]>(`${API_URL}/routes/shortest-distance/${startId}/${endId}`);
+  axios.get<RouteWithVia[]>(`${API_URL}/routes/shortest-distance/${startId}/${endId}`);
 
 export const getLongestPathDistance = (startId: number, endId: number) =>
-  axios.get<Route[]>(`${API_URL}/routes/longest-distance/${startId}/${endId}`);
+  axios.get<RouteWithVia[]>(`${API_URL}/routes/longest-distance/${startId}/${endId}`);
 
 export const deleteIsolatedAirport = () =>
   axios.delete(`${API_URL}/routes/isolated`);
