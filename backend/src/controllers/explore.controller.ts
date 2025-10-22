@@ -46,6 +46,18 @@ export class ExploreController {
     }
   }
 
+  static async updateAirport(req: Request, res: Response) {
+    try {
+      const { airport_id, name } = req.body;
+      const updated = await ExploreService.updateAirportName(airport_id, name);
+      if (!updated) return res.status(404).json({ message: 'Compagnie non trouvée' });
+      res.json(updated);
+    } catch (err) {
+      console.error(err);
+      res.status(500).json({ error: 'Erreur lors de la mise à jour de la compagnie' });
+    }
+  }
+
   static async deleteAirport(req: Request, res: Response) {
     try {
       const { id } = req.params;

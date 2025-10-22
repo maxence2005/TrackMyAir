@@ -73,6 +73,21 @@ export class ExploreService {
     }
   }
 
+  static async updateAirportName(airport_id: number, name: string) {
+    const session = driver.session();
+    try {
+      const result = await session.run(
+        `MATCH (a:Airport {airport_id: $airport_id})
+        SET a.name = $name
+        RETURN a`,
+        { airport_id, name }
+      );
+      return result.records[0]?.get('a')?.properties || null;
+    } finally {
+      await session.close();
+    }
+  }
+
   // 5. Supprimer un aéroport par ID
   static async deleteAirportById(airport_id: number) {
     const session = driver.session();
