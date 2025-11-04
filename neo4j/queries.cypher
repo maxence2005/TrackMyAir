@@ -66,7 +66,7 @@ RETURN
   stops;
 
 // 11. Chemin le plus court (en km, distance totale) entre A et B
-MATCH p = (start:Airport {airport_id:1})-[:HAS_ROUTE*1..4]-(end:Airport {airport_id:100})
+MATCH p = (start:Airport {airport_id:1})-[:HAS_ROUTE*1..6]-(end:Airport {airport_id:100})
 WITH p, start, end, reduce(totalDistance = 0, r IN [n IN nodes(p) WHERE n:Route] | totalDistance + r.distance) AS distance
 ORDER BY distance ASC
 LIMIT 1
@@ -82,7 +82,7 @@ RETURN
   length(p) AS stops;
 
 // 12. Chemin le plus long (en km, distance totale) entre A et B
-MATCH p = (start:Airport {airport_id:1})-[:HAS_ROUTE*1..4]-(end:Airport {airport_id:100})
+MATCH p = (start:Airport {airport_id:1})-[:HAS_ROUTE*1..6]-(end:Airport {airport_id:100})
 WITH p, start, end, reduce(totalDistance = 0, r IN [n IN nodes(p) WHERE n:Route] | totalDistance + r.distance) AS distance
 ORDER BY distance DESC
 LIMIT 1

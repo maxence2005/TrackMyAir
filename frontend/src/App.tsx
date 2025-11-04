@@ -321,7 +321,6 @@ const App: React.FC = () => {
     }
   };
 
-  // Modifie également drawPathOnMap pour utiliser data[] directement
   const drawPathOnMap = (data: Route[]) => {
     const newMarkers: typeof markers = [];
     const newLines: typeof lines = [];
@@ -345,16 +344,14 @@ const App: React.FC = () => {
     data.forEach((step: RouteWithVia) => {
       const pathNodes = [
         { name: step.from, latitude: step.fromLatitude, longitude: step.fromLongitude },
-        ...(step.via || []), // via peut être undefined
+        ...(step.via || []),
         { name: step.to, latitude: step.toLatitude, longitude: step.toLongitude },
       ].filter(n => n.name && n.latitude != null && n.longitude != null);
 
-      // Ajouter les markers pour tous les nœuds
       pathNodes.forEach(node => {
         newMarkers.push({ position: [node.latitude, node.longitude], label: node.name });
       });
 
-      // Ajouter les segments entre les nœuds
       for (let i = 0; i < pathNodes.length - 1; i++) {
         newLines.push({
           positions: [
