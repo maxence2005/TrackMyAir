@@ -85,7 +85,7 @@ for file_name, expected_cols in FILES.items():
     file_path = os.path.join(INPUT_DIR, file_name)
     print(f"🔹 Nettoyage de {file_name}...")
     if not os.path.exists(file_path):
-        print(f"⚠️  Fichier introuvable, on passe: {file_path}")
+        print(f" Fichier introuvable, on passe: {file_path}")
         continue
 
     # Lecture prudente : tenter header=0 si les en-têtes correspondent, sinon relire sans en-tête
